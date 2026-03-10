@@ -129,7 +129,7 @@ ${JSON.stringify(items.map(i => ({ title: i.title, url: i.url, source: i.source,
         .trim();
       parsed = JSON.parse(cleaned);
     } catch (parseErr1) {
-      console.warn(`  ⚠️  ${categoryId}: JSON parse failed (attempt 1), raw response:`);
+      console.warn(`  [WARN] ${categoryId}: JSON parse failed (attempt 1), raw response:`);
       console.warn(`     ${rawText.slice(0, 200)}...`);
 
       // Attempt 2: ask Claude to fix the JSON
@@ -149,9 +149,9 @@ ${JSON.stringify(items.map(i => ({ title: i.title, url: i.url, source: i.source,
           .replace(/,\s*([\]}])/g, '$1')
           .trim();
         parsed = JSON.parse(fixedText);
-        console.log(`  ✅ ${categoryId}: JSON repair succeeded on retry`);
+        console.log(`  [OK] ${categoryId}: JSON repair succeeded on retry`);
       } catch (parseErr2) {
-        console.error(`  ❌ ${categoryId}: JSON repair failed, using excerpt fallback`);
+        console.error(`  [FAIL] ${categoryId}: JSON repair failed, using excerpt fallback`);
         return fallback();
       }
     }
@@ -162,7 +162,7 @@ ${JSON.stringify(items.map(i => ({ title: i.title, url: i.url, source: i.source,
       ...s,
     }));
   } catch (err) {
-    console.error(`  ❌ Claude API error for ${categoryId}:`, err.message);
+    console.error(`  [FAIL] Claude API error for ${categoryId}:`, err.message);
     return fallback();
   }
 }
@@ -228,7 +228,7 @@ Return ONLY valid JSON. No markdown, no preamble.`;
 
     return parsed;
   } catch (err) {
-    console.warn(`  ⚠️  Briefing generation failed: ${err.message}`);
+    console.warn(`  [WARN] Briefing generation failed: ${err.message}`);
     return null;
   }
 }
@@ -236,7 +236,7 @@ Return ONLY valid JSON. No markdown, no preamble.`;
 // --- Step 3: Build digest data structure ---
 async function buildDigest() {
   // Fetch all feeds in parallel
-  console.log('📡 Fetching feeds...');
+  console.log('Fetching feeds...');
   const activeFeeds = subscriptions.filter(s => s.active);
   const fetchResults = await Promise.allSettled(activeFeeds.map(fetchFeed));
   
@@ -265,7 +265,7 @@ async function buildDigest() {
   }
 
   // Summarize each category
-  console.log('🤖 Summarizing with Claude...');
+  console.log('Summarizing with Claude...');
   for (const [catId, group] of Object.entries(grouped)) {
     console.log(`   • ${group.category.label} (${group.items.length} articles)`);
     group.items = await summarizeCategory(catId, group.items);
@@ -279,7 +279,7 @@ async function buildDigest() {
     || allSummarized.sort((a, b) => (b.relevanceScore || 0) - (a.relevanceScore || 0))[0];
 
   // Generate daily briefing
-  console.log('\n📋 Generating daily briefing...');
+  console.log('\nGenerating daily briefing...');
   const briefing = await generateBriefing(grouped, categories);
 
   return { meta, categories, grouped, featured, briefing, dateStr, generatedAt: new Date().toISOString() };
@@ -332,7 +332,7 @@ function renderHtml(digest) {
   const featuredHtml = featured ? `
     <section class="featured-story">
       <div class="featured-eyebrow">
-        <span class="featured-label">⭐ Editor's Pick</span>
+        <span class="featured-label">Editor's Pick</span>
         <span class="featured-source">${escHtml(featured.source)}</span>
       </div>
       <h2 class="featured-title">
@@ -844,7 +844,7 @@ function formatDate(dateStr) {
     fs.writeFileSync(htmlPath, html);
     fs.writeFileSync(latestPath, html);
 
-    console.log(`\n✅ Digest generated:`);
+    console.log(`\nDigest generated:`);
     console.log(`   HTML: output/digest-${dateStr}.html`);
     console.log(`   JSON: output/digest-${dateStr}.json`);
     console.log(`   Latest: output/digest-latest.html\n`);
