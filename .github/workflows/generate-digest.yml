@@ -1,8 +1,6 @@
 ﻿name: Generate Daily Digest
 
 on:
-  schedule:
-    - cron: '0 11 * * *'
   workflow_dispatch:
 
 permissions:
@@ -35,7 +33,7 @@ jobs:
       - name: Commit and push generated files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "ðŸ“° Daily digest â€” $(date +%Y-%m-%d)"
+          commit_message: “Daily digest - $(date +%Y-%m-%d)”
           file_pattern: "output/ index.html"
           commit_user_name: "Digest Bot"
           commit_user_email: "digest@ourhomeschool.app"
