@@ -38,7 +38,7 @@ const dateStr = targetDate.toISOString().split('T')[0]; // YYYY-MM-DD
 const lookbackMs = (meta.lookback_hours || 24) * 60 * 60 * 1000;
 const cutoff = new Date(targetDate.getTime() - lookbackMs);
 
-console.log(`\n📰 Andrews Family Digest — ${dateStr}`);
+console.log(`\nAndrews Family Digest -- ${dateStr}`);
 console.log(`   Lookback: ${meta.lookback_hours}h (since ${cutoff.toISOString()})`);
 console.log(`   Feeds: ${subscriptions.filter(s => s.active).length} active\n`);
 
@@ -61,7 +61,7 @@ async function fetchFeed(sub) {
       excerpt: stripHtml(item.contentSnippet || item.content || item.summary || '').slice(0, 400),
     }));
   } catch (err) {
-    console.warn(`  ⚠️  ${sub.name}: ${err.message}`);
+    console.warn(`  [WARN] ${sub.name}: ${err.message}`);
     return [];
   }
 }
@@ -167,6 +167,72 @@ ${JSON.stringify(items.map(i => ({ title: i.title, url: i.url, source: i.source,
   }
 }
 
+// --- Step 2b: Generate daily briefing ---
+async function generateBriefing(grouped, categories) {
+  if (isDryRun) {
+    return {
+      editorsNote: '[DRY RUN] Editor\'s note skipped.',
+      bullets: Object.keys(grouped).map(catId => ({
+        category: catId,
+        icon: grouped[catId].category.icon,
+        text: '[DRY RUN] Briefing bullet skipped.'
+      }))
+    };
+  }
+
+  // Collect top article per category (highest relevanceScore)
+  const topArticles = Object.entries(grouped).map(([catId, group]) => {
+    const top = [...group.items].sort((a, b) => (b.relevanceScore || 0) - (a.relevanceScore || 0))[0];
+    return {
+      category: group.category.label,
+      categoryId: catId,
+      icon: group.category.icon,
+      title: top.title,
+      summary: top.summary,
+      relevanceScore: top.relevanceScore
+    };
+  });
+
+  const prompt = `You are the editor of The Andrews Family Digest, a daily newspaper for a homeschooling family in Texas.
+
+Here are today's top stories by category:
+${JSON.stringify(topArticles, null, 2)}
+
+Write a daily briefing with:
+1. "editorsNote": A single sentence (15-25 words) capturing today's overall theme or mood across all categories. Written in a warm, intelligent editorial voice. No cliches.
+2. "bullets": An array with one object per category above. Each object has:
+   - "category": the categoryId (unchanged)
+   - "text": A single punchy sentence (12-20 words) about that category's top story. Be specific and actionable, not vague.
+
+Return ONLY valid JSON. No markdown, no preamble.`;
+
+  try {
+    const response = await client.messages.create({
+      model: meta.model || 'claude-sonnet-4-20250514',
+      max_tokens: 800,
+      messages: [{ role: 'user', content: prompt }],
+    });
+
+    let rawText = response.content[0].text;
+    const cleaned = rawText
+      .replace(/```json\s*/g, '').replace(/```\s*/g, '')
+      .replace(/,\s*([\]}])/g, '$1')
+      .trim();
+    const parsed = JSON.parse(cleaned);
+
+    // Attach icons from category data
+    parsed.bullets = parsed.bullets.map(b => ({
+      ...b,
+      icon: grouped[b.category]?.category.icon || ''
+    }));
+
+    return parsed;
+  } catch (err) {
+    console.warn(`  ⚠️  Briefing generation failed: ${err.message}`);
+    return null;
+  }
+}
+
 // --- Step 3: Build digest data structure ---
 async function buildDigest() {
   // Fetch all feeds in parallel
@@ -212,12 +278,16 @@ async function buildDigest() {
     .sort((a, b) => (b.relevanceScore || 0) - (a.relevanceScore || 0))[0]
     || allSummarized.sort((a, b) => (b.relevanceScore || 0) - (a.relevanceScore || 0))[0];
 
-  return { meta, categories, grouped, featured, dateStr, generatedAt: new Date().toISOString() };
+  // Generate daily briefing
+  console.log('\n📋 Generating daily briefing...');
+  const briefing = await generateBriefing(grouped, categories);
+
+  return { meta, categories, grouped, featured, briefing, dateStr, generatedAt: new Date().toISOString() };
 }
 
 // --- Step 4: Render HTML ---
 function renderHtml(digest) {
-  const { meta: m, grouped, featured, dateStr } = digest;
+  const { meta: m, grouped, featured, briefing, dateStr } = digest;
   const displayDate = new Date(dateStr + 'T12:00:00').toLocaleDateString('en-US', {
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
   });
@@ -396,6 +466,61 @@ function renderHtml(digest) {
 
     .nav-link:last-child { border-right: none; }
     .nav-link:hover { background: rgba(255,255,255,0.12); color: var(--newsprint); text-decoration: none; }
+
+    /* --- DAILY BRIEFING --- */
+    .daily-briefing {
+      background: var(--ink);
+      color: var(--newsprint);
+      padding: 1.25rem 2rem;
+    }
+
+    .briefing-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    .briefing-header {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(245,240,232,0.5);
+      margin-bottom: 0.6rem;
+    }
+
+    .briefing-editors-note {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-style: italic;
+      font-size: 1.05rem;
+      line-height: 1.5;
+      color: var(--newsprint);
+      border-bottom: 1px solid rgba(245,240,232,0.15);
+      padding-bottom: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .briefing-bullets {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 0.4rem 2rem;
+    }
+
+    .briefing-bullet {
+      font-size: 0.82rem;
+      line-height: 1.5;
+      color: rgba(245,240,232,0.85);
+      padding: 0.25rem 0;
+    }
+
+    .briefing-bullet-icon {
+      margin-right: 0.4rem;
+    }
+
+    @media (max-width: 600px) {
+      .daily-briefing { padding: 1rem; }
+      .briefing-bullets { grid-template-columns: 1fr; }
+    }
 
     /* --- MAIN CONTENT --- */
     .digest-body {
@@ -651,6 +776,23 @@ function renderHtml(digest) {
   </header>
 
   <nav class="section-nav">${navHtml}</nav>
+
+  ${briefing ? `
+  <section class="daily-briefing">
+    <div class="briefing-inner">
+      <div class="briefing-header">Daily Briefing</div>
+      ${briefing.editorsNote ? `<div class="briefing-editors-note">${escHtml(briefing.editorsNote)}</div>` : ''}
+      <ul class="briefing-bullets">
+        ${(briefing.bullets || []).map(b => `
+          <li class="briefing-bullet">
+            <span class="briefing-bullet-icon">${b.icon || ''}</span>
+            ${escHtml(b.text)}
+          </li>
+        `).join('')}
+      </ul>
+    </div>
+  </section>
+  ` : ''}
 
   <main class="digest-body">
     ${featuredHtml}

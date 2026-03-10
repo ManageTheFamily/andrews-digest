@@ -113,6 +113,61 @@
     .nav-link:last-child { border-right: none; }
     .nav-link:hover { background: rgba(255,255,255,0.12); color: var(--newsprint); text-decoration: none; }
 
+    /* --- DAILY BRIEFING --- */
+    .daily-briefing {
+      background: var(--ink);
+      color: var(--newsprint);
+      padding: 1.25rem 2rem;
+    }
+
+    .briefing-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    .briefing-header {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(245,240,232,0.5);
+      margin-bottom: 0.6rem;
+    }
+
+    .briefing-editors-note {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-style: italic;
+      font-size: 1.05rem;
+      line-height: 1.5;
+      color: var(--newsprint);
+      border-bottom: 1px solid rgba(245,240,232,0.15);
+      padding-bottom: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .briefing-bullets {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 0.4rem 2rem;
+    }
+
+    .briefing-bullet {
+      font-size: 0.82rem;
+      line-height: 1.5;
+      color: rgba(245,240,232,0.85);
+      padding: 0.25rem 0;
+    }
+
+    .briefing-bullet-icon {
+      margin-right: 0.4rem;
+    }
+
+    @media (max-width: 600px) {
+      .daily-briefing { padding: 1rem; }
+      .briefing-bullets { grid-template-columns: 1fr; }
+    }
+
     /* --- MAIN CONTENT --- */
     .digest-body {
       max-width: var(--max-width);
@@ -362,11 +417,48 @@
     <p class="digest-tagline">Curated knowledge for family, learning, and development</p>
     <hr class="masthead-rule">
     <p style="font-family: 'DM Mono', monospace; font-size: 0.62rem; letter-spacing: 0.05em; text-transform: uppercase; color: #666; margin-top: 0.4rem;">
-      16 articles across 4 sections
+      19 articles across 5 sections
     </p>
   </header>
 
-  <nav class="section-nav"><a href="#section-baseball" class="nav-link">⚾ Baseball & Player Development</a><a href="#section-tech" class="nav-link">🛠️ Technology & Tools</a><a href="#section-politics" class="nav-link">🗳️ Politics & Current Events</a><a href="#section-finance" class="nav-link">📈 Finance & Markets</a></nav>
+  <nav class="section-nav"><a href="#section-education" class="nav-link">📚 Education & Learning</a><a href="#section-baseball" class="nav-link">⚾ Baseball & Player Development</a><a href="#section-tech" class="nav-link">🛠️ Technology & Tools</a><a href="#section-politics" class="nav-link">🗳️ Politics & Current Events</a><a href="#section-finance" class="nav-link">📈 Finance & Markets</a></nav>
+
+  
+  <section class="daily-briefing">
+    <div class="briefing-inner">
+      <div class="briefing-header">Daily Briefing</div>
+      <div class="briefing-editors-note">Today's digest balances practical productivity tools with strategic thinking across education, sports, and financial landscapes.</div>
+      <ul class="briefing-bullets">
+        
+          <li class="briefing-bullet">
+            <span class="briefing-bullet-icon">📚</span>
+            Claude AI can automate your morning briefings, planning sessions, and evening reviews with specific prompts.
+          </li>
+        
+          <li class="briefing-bullet">
+            <span class="briefing-bullet-icon">⚾</span>
+            Baseball America explains how to distinguish genuine prospect improvement from temporary performance fluctuations.
+          </li>
+        
+          <li class="briefing-bullet">
+            <span class="briefing-bullet-icon">🛠️</span>
+            Small business owners get practical criteria for evaluating AI tools beyond the marketing hype.
+          </li>
+        
+          <li class="briefing-bullet">
+            <span class="briefing-bullet-icon">🗳️</span>
+            Project Hail Mary earns praise as exceptionally entertaining film with perfect crowd-pleasing balance.
+          </li>
+        
+          <li class="briefing-bullet">
+            <span class="briefing-bullet-icon">📈</span>
+            Bitcoin lending products emerge amid oil volatility and Fed leadership changes creating market uncertainty.
+          </li>
+        
+      </ul>
+    </div>
+  </section>
+  
 
   <main class="digest-body">
     
@@ -378,8 +470,8 @@
       <h2 class="featured-title">
         <a href="https://www.baseballamerica.com/stories/how-to-know-when-a-prospect-change-is-real-more-mailbag-questions-future-projection/" target="_blank" rel="noopener">How To Know When A Prospect Change Is Real &amp; More Mailbag Questions | Future Projection</a>
       </h2>
-      <blockquote class="featured-quote">evaluating genuine prospect development versus temporary performance fluctuations</blockquote>
-      <p class="featured-summary">Baseball America experts Ben and Carlos address listener questions about evaluating genuine prospect development versus temporary performance fluctuations. The mailbag format covers methods for distinguishing sustainable player improvements from short-term statistical noise.</p>
+      <blockquote class="featured-quote">Methods for evaluating genuine prospect development versus temporary performance changes</blockquote>
+      <p class="featured-summary">Baseball America experts address listener questions about evaluating whether prospect development changes represent genuine improvement or temporary fluctuations. The discussion covers methods for assessing sustained player development versus short-term performance variations.</p>
       <div class="featured-footer">
         <span class="relevance-badge score-7">7/10 relevance</span>
         <span class="pub-date"></span>
@@ -387,6 +479,56 @@
       </div>
     </section>
   
+    
+      <section class="digest-section" id="section-education">
+        <header class="section-header" style="--section-color: #2c5f8a">
+          <span class="section-icon">📚</span>
+          <h2 class="section-title">Education &amp; Learning</h2>
+          <span class="section-count">3 articles</span>
+        </header>
+        <div class="articles-grid">
+          
+        <article class="article-card" data-score="6">
+          <div class="article-source">Excellent AI Prompts</div>
+          <h3 class="article-title">
+            <a href="https://excellentprompts.substack.com/p/claude-cowork-scheduled-tasks-daily-system" target="_blank" rel="noopener">3 Intelligent Claude Cowork Scheduled Tasks to Set Up Today</a>
+          </h3>
+          <div class="pull-quote">"Automate morning briefings and curriculum planning with structured AI workflows"</div>
+          <p class="article-summary">A productivity system using Claude AI to automate three daily workflows: morning intelligence briefings, afternoon strategic planning, and evening review sessions. The article provides specific prompts for homeschooling parents to streamline administrative tasks and curriculum planning.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-6">6/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
+        <article class="article-card" data-score="2">
+          <div class="article-source">Excellent AI Prompts</div>
+          <h3 class="article-title">
+            <a href="https://excellentprompts.substack.com/p/build-a-top-tier-marketing-system-ai" target="_blank" rel="noopener">5 AI Prompts to Build a Top-Tier Marketing System for YOUR Business</a>
+          </h3>
+          <div class="pull-quote">"Eight-layer prompting technique builds customized strategies versus copying playbooks"</div>
+          <p class="article-summary">An AI-powered approach to developing customized marketing strategies using an 8-layer prompting technique rather than copying existing frameworks. The methodology focuses on building systems tailored to specific business contexts and goals.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-2">2/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
+        <article class="article-card" data-score="4">
+          <div class="article-source">Books Worth Reading</div>
+          <h3 class="article-title">
+            <a href="https://booksworthreading.substack.com/p/3-books-that-have-absolutely-no-connection" target="_blank" rel="noopener">3 books that have absolutely no connection to each other whatsoever</a>
+          </h3>
+          <div class="pull-quote">"Three unrelated book recommendations spanning different genres and subjects"</div>
+          <p class="article-summary">A weekly book recommendation roundup featuring three unrelated titles across different genres and subjects. The selection appears to emphasize diverse reading choices without thematic connection.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-4">4/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
+        </div>
+      </section>
     
       <section class="digest-section" id="section-baseball">
         <header class="section-header" style="--section-color: #1a6b3a">
@@ -396,13 +538,39 @@
         </header>
         <div class="articles-grid">
           
+        <article class="article-card" data-score="4">
+          <div class="article-source">Baseball America</div>
+          <h3 class="article-title">
+            <a href="https://www.baseballamerica.com/stories/brendan-lawson-eric-nachtsheim-more-college-baseball-data-standouts-from-week-4/" target="_blank" rel="noopener">Brendan Lawson, Eric Nachtsheim &amp; More College Baseball Data Standouts From Week 4</a>
+          </h3>
+          <div class="pull-quote">"Analytics identify most impressive college baseball performances through data points"</div>
+          <p class="article-summary">Baseball America highlights college players who delivered exceptional analytics-based performances in week 4 of the season. The analysis focuses on data-driven metrics to identify standout performances across various statistical categories.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-4">4/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
+        <article class="article-card" data-score="2">
+          <div class="article-source">Baseball America</div>
+          <h3 class="article-title">
+            <a href="https://www.baseballamerica.com/stories/2026-world-baseball-classic-schedule-scores/" target="_blank" rel="noopener">2026 World Baseball Classic Schedule &amp; Scores</a>
+          </h3>
+          <div class="pull-quote">"Complete World Baseball Classic schedule and scores tracking resource"</div>
+          <p class="article-summary">Baseball America provides comprehensive scheduling and scoring information for the 2026 World Baseball Classic tournament. The resource offers complete tracking of international baseball competition results and upcoming matchups.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-2">2/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
         <article class="article-card" data-score="2">
           <div class="article-source">Baseball America</div>
           <h3 class="article-title">
             <a href="https://www.baseballamerica.com/stories/which-mlb-team-will-be-the-biggest-surprise-of-2026/" target="_blank" rel="noopener">Which MLB Team Will Be The Biggest Surprise Of 2026?</a>
           </h3>
-          <div class="pull-quote">"teams positioned to outperform current projections based on organizational development"</div>
-          <p class="article-summary">Baseball America staff writers predict which MLB organizations could exceed expectations in the 2026 season. The analysis focuses on teams positioned to outperform current projections based on organizational development and talent pipeline assessments.</p>
+          <div class="pull-quote">"Staff predictions identify MLB teams positioned to exceed expectations"</div>
+          <p class="article-summary">Baseball America staff analysts predict which MLB teams are positioned to exceed expectations in the 2026 season. The predictions examine roster construction, player development, and organizational factors that could drive unexpected success.</p>
           <div class="article-meta">
             <span class="relevance-badge score-2">2/10</span>
             <span class="pub-date"></span>
@@ -414,36 +582,10 @@
           <h3 class="article-title">
             <a href="https://www.baseballamerica.com/stories/baseball-america-2026-week-4-college-team-of-the-week/" target="_blank" rel="noopener">Baseball America 2026 Week 4 College Team Of The Week</a>
           </h3>
-          <div class="pull-quote">"top-performing college baseball players from the fourth week"</div>
-          <p class="article-summary">Baseball America highlights the top-performing college baseball players from the fourth week of the 2026 season. The weekly recognition spotlights standout performances across all positions from universities nationwide.</p>
+          <div class="pull-quote">"National recognition spotlights top college baseball performers across positions"</div>
+          <p class="article-summary">Baseball America recognizes the top-performing college baseball players from across the nation during week 4 of the season. The selections highlight exceptional individual performances in various positions and statistical categories.</p>
           <div class="article-meta">
             <span class="relevance-badge score-3">3/10</span>
-            <span class="pub-date"></span>
-          </div>
-        </article>
-      
-        <article class="article-card" data-score="5">
-          <div class="article-source">Baseball America</div>
-          <h3 class="article-title">
-            <a href="https://www.baseballamerica.com/stories/scouting-derek-curiel-a-polished-pure-hitter-with-power-questions/" target="_blank" rel="noopener">Scouting Derek Curiel: A Polished Pure Hitter With Power Questions</a>
-          </h3>
-          <div class="pull-quote">"refined contact skills while questioning his ability to generate consistent power"</div>
-          <p class="article-summary">Draft expert Carlos Collazo provides detailed scouting analysis of LSU outfielder Derek Curiel's hitting mechanics and MLB draft projection. The evaluation examines Curiel's refined contact skills while questioning his ability to generate consistent power at higher levels.</p>
-          <div class="article-meta">
-            <span class="relevance-badge score-5">5/10</span>
-            <span class="pub-date"></span>
-          </div>
-        </article>
-      
-        <article class="article-card" data-score="2">
-          <div class="article-source">Baseball America</div>
-          <h3 class="article-title">
-            <a href="https://www.baseballamerica.com/stories/2026-world-baseball-classic-schedule-scores/" target="_blank" rel="noopener">2026 World Baseball Classic Schedule &amp; Scores</a>
-          </h3>
-          <div class="pull-quote">"comprehensive scheduling and scoring information for international competition tracking"</div>
-          <p class="article-summary">Baseball America provides comprehensive scheduling and scoring information for the 2026 World Baseball Classic tournament. The resource offers complete game results and upcoming matchup details for international competition tracking.</p>
-          <div class="article-meta">
-            <span class="relevance-badge score-2">2/10</span>
             <span class="pub-date"></span>
           </div>
         </article>
@@ -464,62 +606,62 @@
           <h3 class="article-title">
             <a href="https://newsletter.doomberg.com/p/90-of-the-law-00d" target="_blank" rel="noopener">90% of the Law</a>
           </h3>
-          <div class="pull-quote">"energy dominoes are beginning to fall amid geopolitical tensions"</div>
-          <p class="article-summary">The article discusses geopolitical tensions and their impact on energy markets amid conflict with Iran. Energy supply chain disruptions are creating cascading effects across global markets.</p>
+          <div class="pull-quote">"energy dominoes are beginning to fall with Iran conflict"</div>
+          <p class="article-summary">This article discusses geopolitical tensions with Iran and their potential impact on global energy markets. The analysis focuses on how escalating conflicts could trigger cascading effects across energy supply chains.</p>
           <div class="article-meta">
             <span class="relevance-badge score-2">2/10</span>
             <span class="pub-date"></span>
           </div>
         </article>
       
-        <article class="article-card" data-score="7">
-          <div class="article-source">Hacker News</div>
-          <h3 class="article-title">
-            <a href="https://www.cnbc.com/2026/03/08/social-media-child-safety-internet-ai-surveillance.html" target="_blank" rel="noopener">Online age-verification tools for child safety are surveilling adults</a>
-          </h3>
-          <div class="pull-quote">"child safety tools creating extensive adult surveillance infrastructure"</div>
-          <p class="article-summary">Age verification systems designed to protect children online are creating extensive surveillance infrastructure that monitors adult users. The technology raises privacy concerns as companies collect biometric and personal data to verify ages across platforms.</p>
-          <div class="article-meta">
-            <span class="relevance-badge score-7">7/10</span>
-            <span class="pub-date"></span>
-          </div>
-        </article>
-      
-        <article class="article-card" data-score="3">
-          <div class="article-source">Hacker News</div>
-          <h3 class="article-title">
-            <a href="https://news.ycombinator.com/item?id=47321760" target="_blank" rel="noopener">Ask HN: Remember Fidonet?</a>
-          </h3>
-          <div class="pull-quote">"exploring pre-internet bulletin board network survival and archives"</div>
-          <p class="article-summary">A discussion thread exploring the legacy and current status of Fidonet, the pre-internet bulletin board network system. Community members are sharing whether historical archives exist and if any nodes remain operational today.</p>
-          <div class="article-meta">
-            <span class="relevance-badge score-3">3/10</span>
-            <span class="pub-date"></span>
-          </div>
-        </article>
-      
         <article class="article-card" data-score="4">
-          <div class="article-source">Hacker News</div>
+          <div class="article-source">Emerging AI (Opinion AI)</div>
           <h3 class="article-title">
-            <a href="https://www.ft.com/content/e5245ec3-1a58-4eff-ab58-480b6259aaf1" target="_blank" rel="noopener">Yann LeCun's AI startup raises $1B in Europe's largest ever seed round</a>
+            <a href="https://emergingai.substack.com/p/do-i-need-ai-in-my-business" target="_blank" rel="noopener">Do I Need AI in My Business?</a>
           </h3>
-          <div class="pull-quote">"AI pioneer secures Europe's largest ever billion-dollar seed round"</div>
-          <p class="article-summary">AI pioneer Yann LeCun's new venture has secured $1 billion in seed funding, marking Europe's largest early-stage funding round. The investment signals significant confidence in LeCun's approach to artificial intelligence development following his work at Meta and NYU.</p>
+          <div class="pull-quote">"easiest way to start AI without wasting time or money"</div>
+          <p class="article-summary">A practical guide for small business owners evaluating AI implementation, focusing on realistic use cases versus marketing hype. The article provides specific criteria for determining when AI tools offer genuine value versus when they waste resources.</p>
           <div class="article-meta">
             <span class="relevance-badge score-4">4/10</span>
             <span class="pub-date"></span>
           </div>
         </article>
       
+        <article class="article-card" data-score="1">
+          <div class="article-source">Hacker News</div>
+          <h3 class="article-title">
+            <a href="https://entropicthoughts.com/rebasing-in-magit" target="_blank" rel="noopener">Rebasing in Magit</a>
+          </h3>
+          <div class="pull-quote">"rebasing workflow optimization for Emacs developers using Magit"</div>
+          <p class="article-summary">A technical tutorial on using Git rebasing functionality within the Magit interface for Emacs. The article received moderate engagement on Hacker News with 43 points and 28 comments from the developer community.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-1">1/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
         <article class="article-card" data-score="3">
           <div class="article-source">Hacker News</div>
           <h3 class="article-title">
-            <a href="https://www.freebsd.org/releases/14.4R/announce/" target="_blank" rel="noopener">FreeBSD 14.4-Release Announcement</a>
+            <a href="https://www.bloomberg.com/news/articles/2026-03-06/germany-s-solar-boom-eases-power-costs-as-gas-price-jumps" target="_blank" rel="noopener">Germany's Solar Boom Eases Power Costs as Gas Price Jumps</a>
           </h3>
-          <div class="pull-quote">"FreeBSD 14.4 delivers security updates and hardware compatibility improvements"</div>
-          <p class="article-summary">The FreeBSD project has released version 14.4, featuring security updates, performance improvements, and hardware compatibility enhancements. This maintenance release continues the stable 14.x branch with bug fixes and driver updates for the open-source operating system.</p>
+          <div class="pull-quote">"solar boom provides cost relief during gas price surge"</div>
+          <p class="article-summary">Germany's expanded solar capacity is providing cost relief as natural gas prices surge, demonstrating renewable energy's role in price stability. The Bloomberg report highlights how solar infrastructure investments are paying dividends during energy market volatility.</p>
           <div class="article-meta">
             <span class="relevance-badge score-3">3/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
+        <article class="article-card" data-score="1">
+          <div class="article-source">Hacker News</div>
+          <h3 class="article-title">
+            <a href="https://gultsch.de/posts/xmpp-via-http/" target="_blank" rel="noopener">Sending Jabber/XMPP Messages via HTTP</a>
+          </h3>
+          <div class="pull-quote">"XMPP messaging protocols transmitted through HTTP connections explained"</div>
+          <p class="article-summary">A technical explanation of methods for transmitting XMPP (Jabber) instant messaging protocols through HTTP connections. The post received limited discussion on Hacker News with 14 points and minimal community engagement.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-1">1/10</span>
             <span class="pub-date"></span>
           </div>
         </article>
@@ -536,14 +678,40 @@
         <div class="articles-grid">
           
         <article class="article-card" data-score="4">
-          <div class="article-source">The Bulwark</div>
+          <div class="article-source">Robert Reich</div>
           <h3 class="article-title">
-            <a href="https://www.thebulwark.com/p/project-hail-mary-review" target="_blank" rel="noopener">'Project Hail Mary' Review</a>
+            <a href="https://robertreich.substack.com/p/why-do-americans-dislike-other-americans" target="_blank" rel="noopener">Why do Americans hate each other while Canadians love each other?</a>
           </h3>
-          <div class="pull-quote">"Most perfectly crowd-pleasing movie combining science and storytelling"</div>
-          <p class="article-summary">A review praises the film adaptation of Andy Weir's science fiction novel as exceptionally crowd-pleasing. The movie appears to successfully translate the book's hard science and problem-solving narrative to screen.</p>
+          <div class="pull-quote">"Political polarization driving unprecedented interpersonal distrust among Americans"</div>
+          <p class="article-summary">Robert Reich examines the growing polarization and mutual distrust among Americans compared to greater social cohesion observed in Canada. The analysis focuses on political factors contributing to interpersonal animosity in contemporary American society.</p>
           <div class="article-meta">
             <span class="relevance-badge score-4">4/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
+        <article class="article-card" data-score="3">
+          <div class="article-source">The Bulwark</div>
+          <h3 class="article-title">
+            <a href="https://www.thebulwark.com/p/tacos-with-a-side-of-war-porn-trump-hegseth-iran-attack" target="_blank" rel="noopener">TACOs With a Side of War Porn</a>
+          </h3>
+          <div class="pull-quote">"Trump seemingly retreating despite his callous bluster"</div>
+          <p class="article-summary">Analysis suggests Trump's administration may be retreating from aggressive military rhetoric despite previous bellicose statements. The piece examines the disconnect between public posturing and actual policy implementation regarding Iran.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-3">3/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
+        <article class="article-card" data-score="2">
+          <div class="article-source">The Bulwark</div>
+          <h3 class="article-title">
+            <a href="https://www.thebulwark.com/p/what-it-felt-like-to-face-combat-iran-iraq-saudi-arabia-middle-east-war-if-i-dont-return-hertling-book" target="_blank" rel="noopener">What It Felt Like to Face Combat in the Middle East</a>
+          </h3>
+          <div class="pull-quote">"Everyone experiences fear differently in combat situations"</div>
+          <p class="article-summary">A personal account details the psychological experience of military combat in Middle Eastern conflicts. The piece explores how individuals process and cope with fear during wartime experiences.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-2">2/10</span>
             <span class="pub-date"></span>
           </div>
         </article>
@@ -551,51 +719,25 @@
         <article class="article-card" data-score="6">
           <div class="article-source">The Bulwark</div>
           <h3 class="article-title">
-            <a href="https://www.thebulwark.com/p/trump-is-repeating-putins-blunder-ukraine-iran-regime-change-attack-war" target="_blank" rel="noopener">Trump Is Repeating Putin's Blunder</a>
+            <a href="https://www.thebulwark.com/p/project-hail-mary-review" target="_blank" rel="noopener">'Project Hail Mary' Review</a>
           </h3>
-          <div class="pull-quote">"Both leaders miscalculated the true costs of regime-change wars"</div>
-          <p class="article-summary">Analysis compares Trump's approach to military conflicts with Putin's strategic miscalculations in Ukraine. The piece argues both leaders underestimated the complexity and costs of regime-change operations.</p>
+          <div class="pull-quote">"Most perfectly crowd-pleasing movie ever seen"</div>
+          <p class="article-summary">Film review praises 'Project Hail Mary' as exceptionally entertaining and widely appealing to audiences. The reviewer characterizes it as achieving perfect crowd-pleasing balance in its execution.</p>
           <div class="article-meta">
             <span class="relevance-badge score-6">6/10</span>
             <span class="pub-date"></span>
           </div>
         </article>
       
-        <article class="article-card" data-score="5">
+        <article class="article-card" data-score="3">
           <div class="article-source">The Bulwark</div>
           <h3 class="article-title">
-            <a href="https://www.thebulwark.com/p/tim-miller-pete-hegseth-looks-completely" target="_blank" rel="noopener">Tim Miller: Pete Hegseth Looks Completely Out of His Depth</a>
+            <a href="https://www.thebulwark.com/p/trump-is-repeating-putins-blunder-ukraine-iran-regime-change-attack-war" target="_blank" rel="noopener">Trump Is Repeating Putin's Blunder</a>
           </h3>
-          <div class="pull-quote">"Defense nominee appears unprepared for complex foreign policy challenges"</div>
-          <p class="article-summary">Political commentator Tim Miller critiques Defense Secretary nominee Pete Hegseth's apparent lack of preparedness for the role. The discussion focuses on inconsistent messaging from the Trump administration regarding Iran policy.</p>
+          <div class="pull-quote">"Both leaders thought they could start easy regime-change wars"</div>
+          <p class="article-summary">Foreign policy analysis draws parallels between Trump and Putin's approaches to military intervention and regime change. Both leaders allegedly miscalculated the costs and complexity of achieving quick military victories.</p>
           <div class="article-meta">
-            <span class="relevance-badge score-5">5/10</span>
-            <span class="pub-date"></span>
-          </div>
-        </article>
-      
-        <article class="article-card" data-score="5">
-          <div class="article-source">The Bulwark</div>
-          <h3 class="article-title">
-            <a href="https://www.thebulwark.com/p/trump-says-the-war-is-very-complete" target="_blank" rel="noopener">Trump Says the War Is &quot;Very Complete,&quot; But Also Just &quot;Beginning&quot;</a>
-          </h3>
-          <div class="pull-quote">"Contradictory war messaging creates confusion about actual military strategy"</div>
-          <p class="article-summary">Political analysts examine contradictory statements from Trump's press conference about the Iran conflict. The president simultaneously claimed victory while suggesting the military engagement was escalating.</p>
-          <div class="article-meta">
-            <span class="relevance-badge score-5">5/10</span>
-            <span class="pub-date"></span>
-          </div>
-        </article>
-      
-        <article class="article-card" data-score="5">
-          <div class="article-source">The Bulwark</div>
-          <h3 class="article-title">
-            <a href="https://www.thebulwark.com/p/lindsey-graham-wants-trump-to-attack" target="_blank" rel="noopener">Lindsey Graham Wants Trump to Attack Cuba and Lebanon Next</a>
-          </h3>
-          <div class="pull-quote">"Senator pushes for multi-front military expansion despite GOP concerns"</div>
-          <p class="article-summary">Senator Lindsey Graham advocates for expanding military operations beyond Iran to include Cuba and Lebanon. Some Republican lawmakers express concern about Graham's increasingly hawkish rhetoric and its potential consequences.</p>
-          <div class="article-meta">
-            <span class="relevance-badge score-5">5/10</span>
+            <span class="relevance-badge score-3">3/10</span>
             <span class="pub-date"></span>
           </div>
         </article>
@@ -616,8 +758,8 @@
           <h3 class="article-title">
             <a href="https://newsletter.blockwareintelligence.com/p/bitcoin-line-of-credit-bloc-extreme" target="_blank" rel="noopener">Bitcoin Line of Credit (BLOC), Extreme Oil Volatility, and New Fed Chair</a>
           </h3>
-          <div class="pull-quote">"Bitcoin-backed lending meets extreme oil volatility under new Fed leadership"</div>
-          <p class="article-summary">Financial markets face heightened volatility as Bitcoin-backed lending products emerge alongside extreme oil price swings. A new Federal Reserve chair appointment adds uncertainty to monetary policy direction amid these market disruptions.</p>
+          <div class="pull-quote">"Bitcoin lending meets extreme oil volatility under new Fed leadership"</div>
+          <p class="article-summary">Financial markets are experiencing significant volatility with new Bitcoin lending products, oil price swings, and Federal Reserve leadership changes. The convergence of cryptocurrency innovation and traditional monetary policy is creating uncertain conditions for investors and consumers.</p>
           <div class="article-meta">
             <span class="relevance-badge score-4">4/10</span>
             <span class="pub-date"></span>
@@ -630,7 +772,7 @@
   </main>
 
   <footer class="digest-footer">
-    Generated 3/10/2026, 8:15:27 AM CT
+    Generated 3/10/2026, 9:47:43 AM CT
     · Andrews Family Homeschool LMS
     · For personal use only
   </footer>

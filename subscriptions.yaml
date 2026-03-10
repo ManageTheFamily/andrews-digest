@@ -21,42 +21,42 @@ meta:
 categories:
   - id: education
     label: "Education & Learning"
-    icon: "📚"
+    icon: ""
     color: "#2c5f8a"
 
   - id: baseball
     label: "Baseball & Player Development"
-    icon: "⚾"
+    icon: ""
     color: "#1a6b3a"
 
   - id: health
     label: "Health, Fitness & Nutrition"
-    icon: "💪"
+    icon: ""
     color: "#8a3a2c"
 
   - id: parenting
     label: "Parenting & Family"
-    icon: "🏠"
+    icon: ""
     color: "#5a3a8a"
 
   - id: tech
     label: "Technology & Tools"
-    icon: "🛠️"
+    icon: ""
     color: "#3a6a8a"
 
   - id: politics
     label: "Politics & Current Events"
-    icon: "🗳️"
+    icon: ""
     color: "#2c4a8a"
 
   - id: finance
     label: "Finance & Markets"
-    icon: "📈"
+    icon: ""
     color: "#1a5c3a"
 
   - id: culture
     label: "Arts & Culture"
-    icon: "🎨"
+    icon: ""
     color: "#6a3a8a"
 
 subscriptions:

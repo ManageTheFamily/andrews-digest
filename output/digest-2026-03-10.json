@@ -57,6 +57,55 @@
     }
   ],
   "grouped": {
+    "education": {
+      "category": {
+        "id": "education",
+        "label": "Education & Learning",
+        "icon": "📚",
+        "color": "#2c5f8a"
+      },
+      "items": [
+        {
+          "source": "Excellent AI Prompts",
+          "category": "education",
+          "priority": 1,
+          "title": "3 Intelligent Claude Cowork Scheduled Tasks to Set Up Today",
+          "url": "https://excellentprompts.substack.com/p/claude-cowork-scheduled-tasks-daily-system",
+          "pubDate": null,
+          "excerpt": "Set up 3 Claude Cowork scheduled tasks that run daily: a morning intelligence brief, afternoon strategic focus, and evening close-out. Full prompts included.",
+          "summary": "A productivity system using Claude AI to automate three daily workflows: morning intelligence briefings, afternoon strategic planning, and evening review sessions. The article provides specific prompts for homeschooling parents to streamline administrative tasks and curriculum planning.",
+          "pullQuote": "Automate morning briefings and curriculum planning with structured AI workflows",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Excellent AI Prompts",
+          "category": "education",
+          "priority": 1,
+          "title": "5 AI Prompts to Build a Top-Tier Marketing System for YOUR Business",
+          "url": "https://excellentprompts.substack.com/p/build-a-top-tier-marketing-system-ai",
+          "pubDate": null,
+          "excerpt": "Most marketers copy someone else’s playbook. Here’s how to use AI to build one that fits YOUR business. And learn my updated 8-layer prompting technique demonstrated in each prompt.",
+          "summary": "An AI-powered approach to developing customized marketing strategies using an 8-layer prompting technique rather than copying existing frameworks. The methodology focuses on building systems tailored to specific business contexts and goals.",
+          "pullQuote": "Eight-layer prompting technique builds customized strategies versus copying playbooks",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Books Worth Reading",
+          "category": "education",
+          "priority": 2,
+          "title": "3 books that have absolutely no connection to each other whatsoever",
+          "url": "https://booksworthreading.substack.com/p/3-books-that-have-absolutely-no-connection",
+          "pubDate": null,
+          "excerpt": "My recommendations for this week!",
+          "summary": "A weekly book recommendation roundup featuring three unrelated titles across different genres and subjects. The selection appears to emphasize diverse reading choices without thematic connection.",
+          "pullQuote": "Three unrelated book recommendations spanning different genres and subjects",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    },
     "baseball": {
       "category": {
         "id": "baseball",
@@ -69,14 +118,40 @@
           "source": "Baseball America",
           "category": "baseball",
           "priority": 1,
+          "title": "Brendan Lawson, Eric Nachtsheim & More College Baseball Data Standouts From Week 4",
+          "url": "https://www.baseballamerica.com/stories/brendan-lawson-eric-nachtsheim-more-college-baseball-data-standouts-from-week-4/",
+          "pubDate": null,
+          "excerpt": "Geoff Pontes highlights his standout college baseball \"Data Points\" to identify the most impressive analytics from week 4. The post Brendan Lawson, Eric Nachtsheim & More College Baseball Data Standouts From Week 4 appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America highlights college players who delivered exceptional analytics-based performances in week 4 of the season. The analysis focuses on data-driven metrics to identify standout performances across various statistical categories.",
+          "pullQuote": "Analytics identify most impressive college baseball performances through data points",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "2026 World Baseball Classic Schedule & Scores",
+          "url": "https://www.baseballamerica.com/stories/2026-world-baseball-classic-schedule-scores/",
+          "pubDate": null,
+          "excerpt": "Keep tabs on the 2026 World Baseball Classic with complete scores and schedule information. The post 2026 World Baseball Classic Schedule & Scores appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America provides comprehensive scheduling and scoring information for the 2026 World Baseball Classic tournament. The resource offers complete tracking of international baseball competition results and upcoming matchups.",
+          "pullQuote": "Complete World Baseball Classic schedule and scores tracking resource",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
           "title": "How To Know When A Prospect Change Is Real & More Mailbag Questions | Future Projection",
           "url": "https://www.baseballamerica.com/stories/how-to-know-when-a-prospect-change-is-real-more-mailbag-questions-future-projection/",
           "pubDate": null,
           "excerpt": "In this week's Future Projection mailbag, Ben and Carlos answer more listener questions about evaluating prospect development & more. The post How To Know When A Prospect Change Is Real & More Mailbag Questions | Future Projection appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
-          "summary": "Baseball America experts Ben and Carlos address listener questions about evaluating genuine prospect development versus temporary performance fluctuations. The mailbag format covers methods for distinguishing sustainable player improvements from short-term statistical noise.",
-          "pullQuote": "evaluating genuine prospect development versus temporary performance fluctuations",
+          "summary": "Baseball America experts address listener questions about evaluating whether prospect development changes represent genuine improvement or temporary fluctuations. The discussion covers methods for assessing sustained player development versus short-term performance variations.",
+          "pullQuote": "Methods for evaluating genuine prospect development versus temporary performance changes",
           "relevanceScore": 7,
-          "featuredCandidate": false
+          "featuredCandidate": true
         },
         {
           "source": "Baseball America",
@@ -86,8 +161,8 @@
           "url": "https://www.baseballamerica.com/stories/which-mlb-team-will-be-the-biggest-surprise-of-2026/",
           "pubDate": null,
           "excerpt": "Baseball America staff pick MLB teams who could be ready to go above and beyond in 2026. The post Which MLB Team Will Be The Biggest Surprise Of 2026? appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
-          "summary": "Baseball America staff writers predict which MLB organizations could exceed expectations in the 2026 season. The analysis focuses on teams positioned to outperform current projections based on organizational development and talent pipeline assessments.",
-          "pullQuote": "teams positioned to outperform current projections based on organizational development",
+          "summary": "Baseball America staff analysts predict which MLB teams are positioned to exceed expectations in the 2026 season. The predictions examine roster construction, player development, and organizational factors that could drive unexpected success.",
+          "pullQuote": "Staff predictions identify MLB teams positioned to exceed expectations",
           "relevanceScore": 2,
           "featuredCandidate": false
         },
@@ -99,35 +174,9 @@
           "url": "https://www.baseballamerica.com/stories/baseball-america-2026-week-4-college-team-of-the-week/",
           "pubDate": null,
           "excerpt": "Baseball America presents its National College Team of the Week spotlighting the top-performing players from around the country in week 4. The post Baseball America 2026 Week 4 College Team Of The Week appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
-          "summary": "Baseball America highlights the top-performing college baseball players from the fourth week of the 2026 season. The weekly recognition spotlights standout performances across all positions from universities nationwide.",
-          "pullQuote": "top-performing college baseball players from the fourth week",
+          "summary": "Baseball America recognizes the top-performing college baseball players from across the nation during week 4 of the season. The selections highlight exceptional individual performances in various positions and statistical categories.",
+          "pullQuote": "National recognition spotlights top college baseball performers across positions",
           "relevanceScore": 3,
-          "featuredCandidate": false
-        },
-        {
-          "source": "Baseball America",
-          "category": "baseball",
-          "priority": 1,
-          "title": "Scouting Derek Curiel: A Polished Pure Hitter With Power Questions",
-          "url": "https://www.baseballamerica.com/stories/scouting-derek-curiel-a-polished-pure-hitter-with-power-questions/",
-          "pubDate": null,
-          "excerpt": "Baseball America draft expert Carlos Collazo continues his MLB draft scouting series with a look at LSU outfielder Derek Curiel. The post Scouting Derek Curiel: A Polished Pure Hitter With Power Questions appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
-          "summary": "Draft expert Carlos Collazo provides detailed scouting analysis of LSU outfielder Derek Curiel's hitting mechanics and MLB draft projection. The evaluation examines Curiel's refined contact skills while questioning his ability to generate consistent power at higher levels.",
-          "pullQuote": "refined contact skills while questioning his ability to generate consistent power",
-          "relevanceScore": 5,
-          "featuredCandidate": false
-        },
-        {
-          "source": "Baseball America",
-          "category": "baseball",
-          "priority": 1,
-          "title": "2026 World Baseball Classic Schedule & Scores",
-          "url": "https://www.baseballamerica.com/stories/2026-world-baseball-classic-schedule-scores/",
-          "pubDate": null,
-          "excerpt": "Keep tabs on the 2026 World Baseball Classic with complete scores and schedule information. The post 2026 World Baseball Classic Schedule & Scores appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
-          "summary": "Baseball America provides comprehensive scheduling and scoring information for the 2026 World Baseball Classic tournament. The resource offers complete game results and upcoming matchup details for international competition tracking.",
-          "pullQuote": "comprehensive scheduling and scoring information for international competition tracking",
-          "relevanceScore": 2,
           "featuredCandidate": false
         }
       ]
@@ -148,47 +197,21 @@
           "url": "https://newsletter.doomberg.com/p/90-of-the-law-00d",
           "pubDate": null,
           "excerpt": "As the war with Iran takes hold, the energy dominoes are beginning to fall.",
-          "summary": "The article discusses geopolitical tensions and their impact on energy markets amid conflict with Iran. Energy supply chain disruptions are creating cascading effects across global markets.",
-          "pullQuote": "energy dominoes are beginning to fall amid geopolitical tensions",
+          "summary": "This article discusses geopolitical tensions with Iran and their potential impact on global energy markets. The analysis focuses on how escalating conflicts could trigger cascading effects across energy supply chains.",
+          "pullQuote": "energy dominoes are beginning to fall with Iran conflict",
           "relevanceScore": 2,
           "featuredCandidate": false
         },
         {
-          "source": "Hacker News",
+          "source": "Emerging AI (Opinion AI)",
           "category": "tech",
-          "priority": 3,
-          "title": "Online age-verification tools for child safety are surveilling adults",
-          "url": "https://www.cnbc.com/2026/03/08/social-media-child-safety-internet-ai-surveillance.html",
+          "priority": 1,
+          "title": "Do I Need AI in My Business?",
+          "url": "https://emergingai.substack.com/p/do-i-need-ai-in-my-business",
           "pubDate": null,
-          "excerpt": "Article URL: https://www.cnbc.com/2026/03/08/social-media-child-safety-internet-ai-surveillance.html Comments URL: https://news.ycombinator.com/item?id=47322635 Points: 6 # Comments: 1",
-          "summary": "Age verification systems designed to protect children online are creating extensive surveillance infrastructure that monitors adult users. The technology raises privacy concerns as companies collect biometric and personal data to verify ages across platforms.",
-          "pullQuote": "child safety tools creating extensive adult surveillance infrastructure",
-          "relevanceScore": 7,
-          "featuredCandidate": false
-        },
-        {
-          "source": "Hacker News",
-          "category": "tech",
-          "priority": 3,
-          "title": "Ask HN: Remember Fidonet?",
-          "url": "https://news.ycombinator.com/item?id=47321760",
-          "pubDate": null,
-          "excerpt": "Is it still somehow alive today? Is it archived anywhere? Comments URL: https://news.ycombinator.com/item?id=47321760 Points: 46 # Comments: 26",
-          "summary": "A discussion thread exploring the legacy and current status of Fidonet, the pre-internet bulletin board network system. Community members are sharing whether historical archives exist and if any nodes remain operational today.",
-          "pullQuote": "exploring pre-internet bulletin board network survival and archives",
-          "relevanceScore": 3,
-          "featuredCandidate": false
-        },
-        {
-          "source": "Hacker News",
-          "category": "tech",
-          "priority": 3,
-          "title": "Yann LeCun's AI startup raises $1B in Europe's largest ever seed round",
-          "url": "https://www.ft.com/content/e5245ec3-1a58-4eff-ab58-480b6259aaf1",
-          "pubDate": null,
-          "excerpt": "Article URL: https://www.ft.com/content/e5245ec3-1a58-4eff-ab58-480b6259aaf1 Comments URL: https://news.ycombinator.com/item?id=47321533 Points: 127 # Comments: 89",
-          "summary": "AI pioneer Yann LeCun's new venture has secured $1 billion in seed funding, marking Europe's largest early-stage funding round. The investment signals significant confidence in LeCun's approach to artificial intelligence development following his work at Meta and NYU.",
-          "pullQuote": "AI pioneer secures Europe's largest ever billion-dollar seed round",
+          "excerpt": "A simple guide for small business owners on when AI actually helps, where it doesn’t, and the easiest way to start without wasting time or money.",
+          "summary": "A practical guide for small business owners evaluating AI implementation, focusing on realistic use cases versus marketing hype. The article provides specific criteria for determining when AI tools offer genuine value versus when they waste resources.",
+          "pullQuote": "easiest way to start AI without wasting time or money",
           "relevanceScore": 4,
           "featuredCandidate": false
         },
@@ -196,13 +219,39 @@
           "source": "Hacker News",
           "category": "tech",
           "priority": 3,
-          "title": "FreeBSD 14.4-Release Announcement",
-          "url": "https://www.freebsd.org/releases/14.4R/announce/",
+          "title": "Rebasing in Magit",
+          "url": "https://entropicthoughts.com/rebasing-in-magit",
           "pubDate": null,
-          "excerpt": "Article URL: https://www.freebsd.org/releases/14.4R/announce/ Comments URL: https://news.ycombinator.com/item?id=47321499 Points: 39 # Comments: 3",
-          "summary": "The FreeBSD project has released version 14.4, featuring security updates, performance improvements, and hardware compatibility enhancements. This maintenance release continues the stable 14.x branch with bug fixes and driver updates for the open-source operating system.",
-          "pullQuote": "FreeBSD 14.4 delivers security updates and hardware compatibility improvements",
+          "excerpt": "Article URL: https://entropicthoughts.com/rebasing-in-magit Comments URL: https://news.ycombinator.com/item?id=47323105 Points: 43 # Comments: 28",
+          "summary": "A technical tutorial on using Git rebasing functionality within the Magit interface for Emacs. The article received moderate engagement on Hacker News with 43 points and 28 comments from the developer community.",
+          "pullQuote": "rebasing workflow optimization for Emacs developers using Magit",
+          "relevanceScore": 1,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Germany's Solar Boom Eases Power Costs as Gas Price Jumps",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-06/germany-s-solar-boom-eases-power-costs-as-gas-price-jumps",
+          "pubDate": null,
+          "excerpt": "Article URL: https://www.bloomberg.com/news/articles/2026-03-06/germany-s-solar-boom-eases-power-costs-as-gas-price-jumps Comments URL: https://news.ycombinator.com/item?id=47323028 Points: 47 # Comments: 44",
+          "summary": "Germany's expanded solar capacity is providing cost relief as natural gas prices surge, demonstrating renewable energy's role in price stability. The Bloomberg report highlights how solar infrastructure investments are paying dividends during energy market volatility.",
+          "pullQuote": "solar boom provides cost relief during gas price surge",
           "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Sending Jabber/XMPP Messages via HTTP",
+          "url": "https://gultsch.de/posts/xmpp-via-http/",
+          "pubDate": null,
+          "excerpt": "Article URL: https://gultsch.de/posts/xmpp-via-http/ Comments URL: https://news.ycombinator.com/item?id=47322998 Points: 14 # Comments: 2",
+          "summary": "A technical explanation of methods for transmitting XMPP (Jabber) instant messaging protocols through HTTP connections. The post received limited discussion on Hacker News with 14 points and minimal community engagement.",
+          "pullQuote": "XMPP messaging protocols transmitted through HTTP connections explained",
+          "relevanceScore": 1,
           "featuredCandidate": false
         }
       ]
@@ -216,6 +265,45 @@
       },
       "items": [
         {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "Why do Americans hate each other while Canadians love each other?",
+          "url": "https://robertreich.substack.com/p/why-do-americans-dislike-other-americans",
+          "pubDate": null,
+          "excerpt": "Could it have something to do with our politics? With the sociopath in the Oval?",
+          "summary": "Robert Reich examines the growing polarization and mutual distrust among Americans compared to greater social cohesion observed in Canada. The analysis focuses on political factors contributing to interpersonal animosity in contemporary American society.",
+          "pullQuote": "Political polarization driving unprecedented interpersonal distrust among Americans",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "TACOs With a Side of War Porn",
+          "url": "https://www.thebulwark.com/p/tacos-with-a-side-of-war-porn-trump-hegseth-iran-attack",
+          "pubDate": null,
+          "excerpt": "Despite his callous bluster, Trump is seemingly retreating.",
+          "summary": "Analysis suggests Trump's administration may be retreating from aggressive military rhetoric despite previous bellicose statements. The piece examines the disconnect between public posturing and actual policy implementation regarding Iran.",
+          "pullQuote": "Trump seemingly retreating despite his callous bluster",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "What It Felt Like to Face Combat in the Middle East",
+          "url": "https://www.thebulwark.com/p/what-it-felt-like-to-face-combat-iran-iraq-saudi-arabia-middle-east-war-if-i-dont-return-hertling-book",
+          "pubDate": null,
+          "excerpt": "Everyone experiences fear differently. Here’s what it was like for me.",
+          "summary": "A personal account details the psychological experience of military combat in Middle Eastern conflicts. The piece explores how individuals process and cope with fear during wartime experiences.",
+          "pullQuote": "Everyone experiences fear differently in combat situations",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
           "source": "The Bulwark",
           "category": "politics",
           "priority": 1,
@@ -223,9 +311,9 @@
           "url": "https://www.thebulwark.com/p/project-hail-mary-review",
           "pubDate": null,
           "excerpt": "The most perfectly crowd-pleasing movie I’ve ever seen.",
-          "summary": "A review praises the film adaptation of Andy Weir's science fiction novel as exceptionally crowd-pleasing. The movie appears to successfully translate the book's hard science and problem-solving narrative to screen.",
-          "pullQuote": "Most perfectly crowd-pleasing movie combining science and storytelling",
-          "relevanceScore": 4,
+          "summary": "Film review praises 'Project Hail Mary' as exceptionally entertaining and widely appealing to audiences. The reviewer characterizes it as achieving perfect crowd-pleasing balance in its execution.",
+          "pullQuote": "Most perfectly crowd-pleasing movie ever seen",
+          "relevanceScore": 6,
           "featuredCandidate": false
         },
         {
@@ -236,48 +324,9 @@
           "url": "https://www.thebulwark.com/p/trump-is-repeating-putins-blunder-ukraine-iran-regime-change-attack-war",
           "pubDate": null,
           "excerpt": "Both men thought they could start easy, quick regime-change wars at minimal cost.",
-          "summary": "Analysis compares Trump's approach to military conflicts with Putin's strategic miscalculations in Ukraine. The piece argues both leaders underestimated the complexity and costs of regime-change operations.",
-          "pullQuote": "Both leaders miscalculated the true costs of regime-change wars",
-          "relevanceScore": 6,
-          "featuredCandidate": false
-        },
-        {
-          "source": "The Bulwark",
-          "category": "politics",
-          "priority": 1,
-          "title": "Tim Miller: Pete Hegseth Looks Completely Out of His Depth",
-          "url": "https://www.thebulwark.com/p/tim-miller-pete-hegseth-looks-completely",
-          "pubDate": null,
-          "excerpt": "Tim Miller joined Nicolle Wallace to discuss Donald Trump’s latest comments on the Iran war and the chaos surrounding his administration’s messaging.",
-          "summary": "Political commentator Tim Miller critiques Defense Secretary nominee Pete Hegseth's apparent lack of preparedness for the role. The discussion focuses on inconsistent messaging from the Trump administration regarding Iran policy.",
-          "pullQuote": "Defense nominee appears unprepared for complex foreign policy challenges",
-          "relevanceScore": 5,
-          "featuredCandidate": false
-        },
-        {
-          "source": "The Bulwark",
-          "category": "politics",
-          "priority": 1,
-          "title": "Trump Says the War Is \"Very Complete,\" But Also Just \"Beginning\"",
-          "url": "https://www.thebulwark.com/p/trump-says-the-war-is-very-complete",
-          "pubDate": null,
-          "excerpt": "Sarah Longwell and Sam Stein give their takes on Donald Trump’s latest press conference on the war in Iran, where Trump seemed to declare victory while also suggesting the conflict is just beginning.",
-          "summary": "Political analysts examine contradictory statements from Trump's press conference about the Iran conflict. The president simultaneously claimed victory while suggesting the military engagement was escalating.",
-          "pullQuote": "Contradictory war messaging creates confusion about actual military strategy",
-          "relevanceScore": 5,
-          "featuredCandidate": false
-        },
-        {
-          "source": "The Bulwark",
-          "category": "politics",
-          "priority": 1,
-          "title": "Lindsey Graham Wants Trump to Attack Cuba and Lebanon Next",
-          "url": "https://www.thebulwark.com/p/lindsey-graham-wants-trump-to-attack",
-          "pubDate": null,
-          "excerpt": "Sam Stein and Will Saletan give their takes on why Lindsey Graham is suddenly everywhere celebrating the escalation against Iran and why even some Republicans are alarmed by his rhetoric.",
-          "summary": "Senator Lindsey Graham advocates for expanding military operations beyond Iran to include Cuba and Lebanon. Some Republican lawmakers express concern about Graham's increasingly hawkish rhetoric and its potential consequences.",
-          "pullQuote": "Senator pushes for multi-front military expansion despite GOP concerns",
-          "relevanceScore": 5,
+          "summary": "Foreign policy analysis draws parallels between Trump and Putin's approaches to military intervention and regime change. Both leaders allegedly miscalculated the costs and complexity of achieving quick military victories.",
+          "pullQuote": "Both leaders thought they could start easy regime-change wars",
+          "relevanceScore": 3,
           "featuredCandidate": false
         }
       ]
@@ -298,8 +347,8 @@
           "url": "https://newsletter.blockwareintelligence.com/p/bitcoin-line-of-credit-bloc-extreme",
           "pubDate": null,
           "excerpt": "Breaking News in Finance and Bitcoin - 3/9/2026",
-          "summary": "Financial markets face heightened volatility as Bitcoin-backed lending products emerge alongside extreme oil price swings. A new Federal Reserve chair appointment adds uncertainty to monetary policy direction amid these market disruptions.",
-          "pullQuote": "Bitcoin-backed lending meets extreme oil volatility under new Fed leadership",
+          "summary": "Financial markets are experiencing significant volatility with new Bitcoin lending products, oil price swings, and Federal Reserve leadership changes. The convergence of cryptocurrency innovation and traditional monetary policy is creating uncertain conditions for investors and consumers.",
+          "pullQuote": "Bitcoin lending meets extreme oil volatility under new Fed leadership",
           "relevanceScore": 4,
           "featuredCandidate": false
         }
@@ -314,11 +363,41 @@
     "url": "https://www.baseballamerica.com/stories/how-to-know-when-a-prospect-change-is-real-more-mailbag-questions-future-projection/",
     "pubDate": null,
     "excerpt": "In this week's Future Projection mailbag, Ben and Carlos answer more listener questions about evaluating prospect development & more. The post How To Know When A Prospect Change Is Real & More Mailbag Questions | Future Projection appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
-    "summary": "Baseball America experts Ben and Carlos address listener questions about evaluating genuine prospect development versus temporary performance fluctuations. The mailbag format covers methods for distinguishing sustainable player improvements from short-term statistical noise.",
-    "pullQuote": "evaluating genuine prospect development versus temporary performance fluctuations",
+    "summary": "Baseball America experts address listener questions about evaluating whether prospect development changes represent genuine improvement or temporary fluctuations. The discussion covers methods for assessing sustained player development versus short-term performance variations.",
+    "pullQuote": "Methods for evaluating genuine prospect development versus temporary performance changes",
     "relevanceScore": 7,
-    "featuredCandidate": false
+    "featuredCandidate": true
+  },
+  "briefing": {
+    "editorsNote": "Today's digest balances practical productivity tools with strategic thinking across education, sports, and financial landscapes.",
+    "bullets": [
+      {
+        "category": "education",
+        "text": "Claude AI can automate your morning briefings, planning sessions, and evening reviews with specific prompts.",
+        "icon": "📚"
+      },
+      {
+        "category": "baseball",
+        "text": "Baseball America explains how to distinguish genuine prospect improvement from temporary performance fluctuations.",
+        "icon": "⚾"
+      },
+      {
+        "category": "tech",
+        "text": "Small business owners get practical criteria for evaluating AI tools beyond the marketing hype.",
+        "icon": "🛠️"
+      },
+      {
+        "category": "politics",
+        "text": "Project Hail Mary earns praise as exceptionally entertaining film with perfect crowd-pleasing balance.",
+        "icon": "🗳️"
+      },
+      {
+        "category": "finance",
+        "text": "Bitcoin lending products emerge amid oil volatility and Fed leadership changes creating market uncertainty.",
+        "icon": "📈"
+      }
+    ]
   },
   "dateStr": "2026-03-10",
-  "generatedAt": "2026-03-10T13:15:26.920Z"
+  "generatedAt": "2026-03-10T14:47:43.175Z"
 }
