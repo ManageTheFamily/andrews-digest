@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Andrews Family Digest — Tuesday, March 10, 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    /* =========================================================
+       THE ANDREWS DIGEST — Broadsheet newspaper aesthetic
+       Dark ink, cream newsprint, classic editorial typography
+       ========================================================= */
+
+    :root {
+      --ink: #1a1612;
+      --ink-light: #3d3530;
+      --newsprint: #f5f0e8;
+      --newsprint-dark: #ede8dc;
+      --rule: #2a2420;
+      --rule-light: #c8bfaf;
+      --accent: #8b1a1a;
+      --accent-light: #c0392b;
+      --column-gap: 2rem;
+      --max-width: 1100px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Source Serif 4', Georgia, serif;
+      background: var(--newsprint);
+      color: var(--ink);
+      line-height: 1.6;
+      font-size: 16px;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    a:hover { color: var(--accent); text-decoration: underline; }
+
+    /* --- MASTHEAD --- */
+    .masthead {
+      border-top: 4px solid var(--ink);
+      border-bottom: 4px double var(--ink);
+      padding: 1.5rem 2rem 1rem;
+      text-align: center;
+      background: var(--newsprint);
+      position: relative;
+    }
+
+    .masthead-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'DM Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+      margin-bottom: 0.75rem;
+      border-bottom: 1px solid var(--rule-light);
+      padding-bottom: 0.5rem;
+    }
+
+    .digest-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(2.5rem, 6vw, 5rem);
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      line-height: 1;
+      color: var(--ink);
+      text-transform: uppercase;
+    }
+
+    .digest-tagline {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-style: italic;
+      font-size: 0.95rem;
+      color: var(--ink-light);
+      margin-top: 0.4rem;
+      letter-spacing: 0.03em;
+    }
+
+    .masthead-rule {
+      border: none;
+      border-top: 1px solid var(--rule-light);
+      margin: 0.75rem 0 0;
+    }
+
+    /* --- SECTION NAV --- */
+    .section-nav {
+      background: var(--ink);
+      padding: 0.4rem 2rem;
+      display: flex;
+      gap: 0;
+      overflow-x: auto;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .nav-link {
+      color: var(--newsprint);
+      font-family: 'DM Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 0.35rem 1rem;
+      white-space: nowrap;
+      border-right: 1px solid rgba(255,255,255,0.2);
+      transition: background 0.15s;
+    }
+
+    .nav-link:last-child { border-right: none; }
+    .nav-link:hover { background: rgba(255,255,255,0.12); color: var(--newsprint); text-decoration: none; }
+
+    /* --- MAIN CONTENT --- */
+    .digest-body {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    /* --- FEATURED STORY --- */
+    .featured-story {
+      border-top: 3px solid var(--ink);
+      border-bottom: 3px double var(--rule-light);
+      padding: 2rem 0 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .featured-eyebrow {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      margin-bottom: 0.75rem;
+      font-family: 'DM Mono', monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .featured-label {
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    .featured-source {
+      color: var(--ink-light);
+    }
+
+    .featured-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--ink);
+      margin-bottom: 0.75rem;
+    }
+
+    .featured-title a:hover { color: var(--accent); text-decoration: none; }
+
+    .featured-quote {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-style: italic;
+      font-size: 1.2rem;
+      color: var(--accent);
+      border-left: 3px solid var(--accent);
+      padding: 0.25rem 0 0.25rem 1rem;
+      margin: 0.75rem 0;
+      line-height: 1.4;
+    }
+
+    .featured-summary {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: var(--ink-light);
+      max-width: 70ch;
+    }
+
+    .featured-footer {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .read-more {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border-bottom: 1px solid var(--accent);
+      padding-bottom: 1px;
+    }
+
+    .read-more:hover { color: var(--ink); border-color: var(--ink); text-decoration: none; }
+
+    /* --- DIGEST SECTIONS --- */
+    .digest-section {
+      margin-bottom: 2.5rem;
+      break-inside: avoid;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      border-top: 3px solid var(--section-color, var(--ink));
+      padding: 0.6rem 0 0.5rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .section-icon { font-size: 1rem; }
+
+    .section-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--section-color, var(--ink));
+      flex: 1;
+    }
+
+    .section-count {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+      border: 1px solid var(--rule-light);
+      padding: 0.15rem 0.4rem;
+    }
+
+    /* --- ARTICLE GRID: 2-3 column newspaper columns --- */
+    .articles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 0;
+    }
+
+    .article-card {
+      padding: 1rem 1.25rem 1rem 0;
+      border-right: 1px solid var(--rule-light);
+      border-bottom: 1px solid var(--rule-light);
+    }
+
+    .article-card:last-child { border-right: none; }
+
+    .article-source {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+      margin-bottom: 0.3rem;
+    }
+
+    .article-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 0.4rem;
+    }
+
+    .article-title a:hover { color: var(--accent); text-decoration: none; }
+
+    .pull-quote {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-style: italic;
+      font-size: 0.85rem;
+      color: var(--accent-light);
+      border-left: 2px solid var(--accent-light);
+      padding-left: 0.6rem;
+      margin: 0.5rem 0;
+      line-height: 1.4;
+    }
+
+    .article-summary {
+      font-size: 0.85rem;
+      line-height: 1.65;
+      color: var(--ink-light);
+    }
+
+    .article-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-top: 0.6rem;
+    }
+
+    .relevance-badge {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.04em;
+      padding: 0.1rem 0.35rem;
+      border-radius: 2px;
+      font-weight: 500;
+    }
+
+    /* Score color scale */
+    .score-1, .score-2, .score-3 { background: #eee; color: #666; }
+    .score-4, .score-5 { background: #fff3cd; color: #856404; }
+    .score-6, .score-7 { background: #d1e7dd; color: #0a5b39; }
+    .score-8, .score-9, .score-10 { background: #1a6b3a; color: #fff; }
+
+    .pub-date {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.58rem;
+      color: #999;
+      letter-spacing: 0.04em;
+    }
+
+    /* --- FOOTER --- */
+    .digest-footer {
+      border-top: 3px double var(--ink);
+      padding: 1.5rem 2rem;
+      text-align: center;
+      font-family: 'DM Mono', monospace;
+      font-size: 0.62rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+      background: var(--newsprint-dark);
+    }
+
+    /* --- PRINT STYLES --- */
+    @media print {
+      .section-nav { display: none; }
+      .article-card { break-inside: avoid; }
+      body { font-size: 11pt; }
+    }
+
+    /* --- RESPONSIVE --- */
+    @media (max-width: 600px) {
+      .masthead { padding: 1rem; }
+      .masthead-top { font-size: 0.55rem; gap: 0.5rem; flex-wrap: wrap; }
+      .digest-body { padding: 1rem; }
+      .articles-grid { grid-template-columns: 1fr; }
+      .article-card { border-right: none; }
+    }
+
+    /* HLMS integration hint: when embedded in parent-digest.html,
+       add class="hlms-embed" to <body> to suppress masthead/footer */
+    body.hlms-embed .masthead,
+    body.hlms-embed .digest-footer { display: none; }
+    body.hlms-embed .section-nav { position: sticky; top: 0; z-index: 10; }
+  </style>
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="masthead-top">
+      <span>Vol. 1</span>
+      <span>Est. 2026 · The Woodlands, TX</span>
+      <span>Tuesday, March 10, 2026</span>
+    </div>
+    <h1 class="digest-title">The Andrews Family Digest</h1>
+    <p class="digest-tagline">Curated knowledge for family, learning, and development</p>
+    <hr class="masthead-rule">
+    <p style="font-family: 'DM Mono', monospace; font-size: 0.62rem; letter-spacing: 0.05em; text-transform: uppercase; color: #666; margin-top: 0.4rem;">
+      20 articles across 6 sections
+    </p>
+  </header>
+
+  <nav class="section-nav"><a href="#section-education" class="nav-link">📚 Education & Learning</a><a href="#section-baseball" class="nav-link">⚾ Baseball & Player Development</a><a href="#section-health" class="nav-link">💪 Health, Fitness & Nutrition</a><a href="#section-tech" class="nav-link">🛠️ Technology & Tools</a><a href="#section-politics" class="nav-link">🗳️ Politics & Current Events</a><a href="#section-finance" class="nav-link">📈 Finance & Markets</a></nav>
+
+  <main class="digest-body">
+    
+    <section class="featured-story">
+      <div class="featured-eyebrow">
+        <span class="featured-label">⭐ Editor's Pick</span>
+        <span class="featured-source">Peter Attia MD</span>
+      </div>
+      <h2 class="featured-title">
+        <a href="https://peterattiamd.com/ama81/" target="_blank" rel="noopener">#383 ‒ AMA #81: Biological aging tests, longevity training, emerging therapies, GLP-1 RAs, sun exposure, and more</a>
+      </h2>
+      <blockquote class="featured-quote">seed oils in modest quantities lack convincing evidence of harm</blockquote>
+      <p class="featured-summary">Dr. Peter Attia addresses longevity training protocols, biological aging assessments, and emerging therapeutic interventions in his latest AMA session. The discussion covers GLP-1 receptor agonists, optimal sun exposure guidelines, and Attia's stance that seed oils in modest quantities lack convincing evidence of harm beyond caloric effects.</p>
+      <div class="featured-footer">
+        <span class="relevance-badge score-8">8/10 relevance</span>
+        <span class="pub-date"></span>
+        <a href="https://peterattiamd.com/ama81/" target="_blank" class="read-more">Read full article →</a>
+      </div>
+    </section>
+  
+    
+      <section class="digest-section" id="section-education">
+        <header class="section-header" style="--section-color: #2c5f8a">
+          <span class="section-icon">📚</span>
+          <h2 class="section-title">Education &amp; Learning</h2>
+          <span class="section-count">3 articles</span>
+        </header>
+        <div class="articles-grid">
+          
+        <article class="article-card" data-score="2">
+          <div class="article-source">Excellent AI Prompts</div>
+          <h3 class="article-title">
+            <a href="https://excellentprompts.substack.com/p/build-a-top-tier-marketing-system-ai" target="_blank" rel="noopener">5 AI Prompts to Build a Top-Tier Marketing System for YOUR Business</a>
+          </h3>
+          <div class="pull-quote">"AI prompts create customized marketing systems instead of copying playbooks"</div>
+          <p class="article-summary">A guide presents five AI prompts designed to help businesses create customized marketing systems rather than copying existing frameworks. The article demonstrates an 8-layer prompting technique for developing business-specific marketing strategies using artificial intelligence.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-2">2/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
+        <article class="article-card" data-score="3">
+          <div class="article-source">The Growth Mindset</div>
+          <h3 class="article-title">
+            <a href="https://tmindset.substack.com/p/there-was-no-roi-on-the-tech" target="_blank" rel="noopener">There was no ROI</a>
+          </h3>
+          <div class="pull-quote">"Technology did not improve their productive lives"</div>
+          <p class="article-summary">An analysis examines cases where technology implementation failed to improve productivity or provide return on investment. The piece explores why certain technological solutions do not enhance users' productive capabilities despite expectations.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-3">3/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
+        <article class="article-card" data-score="4">
+          <div class="article-source">Books Worth Reading</div>
+          <h3 class="article-title">
+            <a href="https://booksworthreading.substack.com/p/3-books-that-have-absolutely-no-connection" target="_blank" rel="noopener">3 books that have absolutely no connection to each other whatsoever</a>
+          </h3>
+          <div class="pull-quote">"Weekly recommendations spanning unrelated genres and topics"</div>
+          <p class="article-summary">A weekly book recommendation post features three unrelated titles selected by the author. The recommendations appear to span different genres and topics without thematic connection.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-4">4/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
+        </div>
+      </section>
+    
+      <section class="digest-section" id="section-baseball">
+        <header class="section-header" style="--section-color: #1a6b3a">
+          <span class="section-icon">⚾</span>
+          <h2 class="section-title">Baseball &amp; Player Development</h2>
+          <span class="section-count">5 articles</span>
+        </header>
+        <div class="articles-grid">
+          
+        <article class="article-card" data-score="3">
+          <div class="article-source">Baseball America</div>
+          <h3 class="article-title">
+            <a href="https://www.baseballamerica.com/stories/2026-world-baseball-classic-schedule-scores/" target="_blank" rel="noopener">2026 World Baseball Classic Schedule &amp; Scores</a>
+          </h3>
+          <div class="pull-quote">"Complete World Baseball Classic schedule and scoring tracking available"</div>
+          <p class="article-summary">Baseball America provides comprehensive schedule and scoring information for the 2026 World Baseball Classic tournament. The resource offers complete tracking of games and results throughout the international competition.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-3">3/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
+        <article class="article-card" data-score="4">
+          <div class="article-source">Baseball America</div>
+          <h3 class="article-title">
+            <a href="https://www.baseballamerica.com/stories/why-the-world-baseball-classic-succeeds-where-olympic-baseball-falls-short/" target="_blank" rel="noopener">Why The World Baseball Classic Succeeds Where Olympic Baseball Falls Short</a>
+          </h3>
+          <div class="pull-quote">"WBC structure creates superior competition compared to Olympic baseball"</div>
+          <p class="article-summary">J.J. Cooper analyzes Bryce Harper's comparison between the World Baseball Classic and Olympic baseball formats. The piece argues that the WBC's structure and timing create superior competition and player engagement compared to Olympic baseball.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-4">4/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
+        <article class="article-card" data-score="5">
+          <div class="article-source">Baseball America</div>
+          <h3 class="article-title">
+            <a href="https://www.baseballamerica.com/stories/scouting-every-al-west-no-1-prospect-for-2026/" target="_blank" rel="noopener">Scouting Every AL West No. 1 Prospect For 2026</a>
+          </h3>
+          <div class="pull-quote">"Detailed scouting reports on AL West's top organizational prospects"</div>
+          <p class="article-summary">Baseball America provides detailed scouting reports on the top-ranked prospects from each AL West organization for 2026. The analysis covers player development trajectories and skill assessments for the division's premier young talent.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-5">5/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
+        <article class="article-card" data-score="2">
+          <div class="article-source">Baseball America</div>
+          <h3 class="article-title">
+            <a href="https://www.baseballamerica.com/stories/which-mlb-team-had-the-most-disappointing-offseason-entering-2026/" target="_blank" rel="noopener">Which MLB Team Had The Most Disappointing Offseason Entering 2026?</a>
+          </h3>
+          <div class="pull-quote">"Editorial analysis of MLB teams' underperforming offseason strategies"</div>
+          <p class="article-summary">Baseball America's editorial staff evaluates which MLB organizations failed to meet expectations during their 2026 offseason preparations. The analysis examines roster moves, free agent signings, and strategic decisions that fell short of anticipated impact.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-2">2/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
+        <article class="article-card" data-score="2">
+          <div class="article-source">Baseball America</div>
+          <h3 class="article-title">
+            <a href="https://www.baseballamerica.com/stories/which-mlb-team-had-the-best-offseason-entering-2026/" target="_blank" rel="noopener">Which MLB Team Had The Best Offseason Entering 2026?</a>
+          </h3>
+          <div class="pull-quote">"Analysis of MLB's most successful offseason roster construction strategies"</div>
+          <p class="article-summary">Baseball America staff identifies which MLB teams executed the most effective offseason strategies heading into 2026. The evaluation covers successful roster construction, strategic acquisitions, and organizational improvements across the league.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-2">2/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
+        </div>
+      </section>
+    
+      <section class="digest-section" id="section-health">
+        <header class="section-header" style="--section-color: #8a3a2c">
+          <span class="section-icon">💪</span>
+          <h2 class="section-title">Health, Fitness &amp; Nutrition</h2>
+          <span class="section-count">0 articles</span>
+        </header>
+        <div class="articles-grid">
+          <p class="no-articles">No new articles today.</p>
+        </div>
+      </section>
+    
+      <section class="digest-section" id="section-tech">
+        <header class="section-header" style="--section-color: #3a6a8a">
+          <span class="section-icon">🛠️</span>
+          <h2 class="section-title">Technology &amp; Tools</h2>
+          <span class="section-count">5 articles</span>
+        </header>
+        <div class="articles-grid">
+          
+        <article class="article-card" data-score="6">
+          <div class="article-source">Emerging AI (Opinion AI)</div>
+          <h3 class="article-title">
+            <a href="https://emergingai.substack.com/p/8-ai-tools-that-can-replace-your" target="_blank" rel="noopener">8 AI Tools That Can Replace Your Team</a>
+          </h3>
+          <div class="pull-quote">"Build content, code, design, slides, and videos solo using AI"</div>
+          <p class="article-summary">A comprehensive guide outlines eight AI tools that can handle content creation, coding, design, presentations, and video production for solo entrepreneurs or small teams. The article provides step-by-step implementation strategies for building a complete AI-powered workflow stack.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-6">6/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
+        <article class="article-card" data-score="3">
+          <div class="article-source">Hacker News</div>
+          <h3 class="article-title">
+            <a href="https://www.alphaxiv.org/abs/2603.04379" target="_blank" rel="noopener">Helios: Real real-time long video generation model</a>
+          </h3>
+          <div class="pull-quote">"Real-time long video generation breakthrough transforms content creation"</div>
+          <p class="article-summary">Researchers have developed Helios, a new AI model capable of generating long-form videos in real-time. The technical paper details breakthrough advances in video synthesis that could transform content creation workflows.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-3">3/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
+        <article class="article-card" data-score="4">
+          <div class="article-source">Hacker News</div>
+          <h3 class="article-title">
+            <a href="http://lefenetrou.blogspot.com/2026/03/in-memoriam-tony-hoare.html" target="_blank" rel="noopener">Sir Tony Hoare has died</a>
+          </h3>
+          <div class="pull-quote">"Computer science pioneer who invented quicksort algorithm dies"</div>
+          <p class="article-summary">Computer science pioneer Sir Tony Hoare, inventor of the quicksort algorithm and Hoare logic, has passed away. His contributions to programming language theory and formal verification methods fundamentally shaped modern computer science education and practice.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-4">4/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
+        <article class="article-card" data-score="5">
+          <div class="article-source">Hacker News</div>
+          <h3 class="article-title">
+            <a href="https://blog.engora.com/2026/03/rendezvous-with-rama.html" target="_blank" rel="noopener">Rendezvous with Rama</a>
+          </h3>
+          <div class="pull-quote">"Engineering analysis of Clarke's speculative technology and physics"</div>
+          <p class="article-summary">A technical analysis explores the engineering and scientific concepts behind Arthur C. Clarke's classic science fiction novel. The post examines how the book's speculative technology aligns with current understanding of physics and space exploration.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-5">5/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
+        <article class="article-card" data-score="4">
+          <div class="article-source">Hacker News</div>
+          <h3 class="article-title">
+            <a href="https://arcanenibble.github.io/so-you-want-to-write-an-app.html" target="_blank" rel="noopener">So you want to write an &quot;app&quot; (2025)</a>
+          </h3>
+          <div class="pull-quote">"Modern app development landscape breakdown with practical deployment strategies"</div>
+          <p class="article-summary">A developer's guide breaks down the modern landscape of application development, covering platform choices, development frameworks, and deployment strategies. The article provides practical advice for navigating the complexity of contemporary app development ecosystems.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-4">4/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
+        </div>
+      </section>
+    
+      <section class="digest-section" id="section-politics">
+        <header class="section-header" style="--section-color: #2c4a8a">
+          <span class="section-icon">🗳️</span>
+          <h2 class="section-title">Politics &amp; Current Events</h2>
+          <span class="section-count">5 articles</span>
+        </header>
+        <div class="articles-grid">
+          
+        <article class="article-card" data-score="5">
+          <div class="article-source">Robert Reich</div>
+          <h3 class="article-title">
+            <a href="https://robertreich.substack.com/p/office-hours-whats-unconditional" target="_blank" rel="noopener">Office Hours: What the Hell is “Unconditional Surrender?”</a>
+          </h3>
+          
+          <p class="article-summary">What will Trump demand of Iran to end his war?</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-5">5/10</span>
+            <span class="pub-date">Mar 9, 3:03 AM</span>
+          </div>
+        </article>
+      
+        <article class="article-card" data-score="5">
+          <div class="article-source">The Bulwark</div>
+          <h3 class="article-title">
+            <a href="https://www.thebulwark.com/p/lindsey-graham-wants-trump-to-attack" target="_blank" rel="noopener">Lindsey Graham Wants Trump to Attack Cuba and Lebanon Next</a>
+          </h3>
+          
+          <p class="article-summary">Sam Stein and Will Saletan give their takes on why Lindsey Graham is suddenly everywhere celebrating the escalation against Iran and why even some Republicans are alarmed by his rhetoric.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-5">5/10</span>
+            <span class="pub-date">Mar 9, 7:10 PM</span>
+          </div>
+        </article>
+      
+        <article class="article-card" data-score="5">
+          <div class="article-source">The Bulwark</div>
+          <h3 class="article-title">
+            <a href="https://www.thebulwark.com/p/james-fishback-groyper-florida-campaign-leaked-private-texts-reveal-wild-drama" target="_blank" rel="noopener">Leaked Private Texts Reveal Wild Fishback Campaign Drama</a>
+          </h3>
+          
+          <p class="article-summary">Aides feared candidate’s couch was repossessed, called heterosexual sex gay.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-5">5/10</span>
+            <span class="pub-date">Mar 9, 7:07 PM</span>
+          </div>
+        </article>
+      
+        <article class="article-card" data-score="5">
+          <div class="article-source">The Bulwark</div>
+          <h3 class="article-title">
+            <a href="https://www.thebulwark.com/p/sarah-longwell-no-one-should-trust" target="_blank" rel="noopener">Sarah Longwell: No One Should Trust this Government</a>
+          </h3>
+          
+          <p class="article-summary">Unless the administration is keeping some closely-guarded secret about why America went to war against Iran, the only thing officialdom is saying out loud is that Netanyahu wanted us to.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-5">5/10</span>
+            <span class="pub-date">Mar 9, 2:47 PM</span>
+          </div>
+        </article>
+      
+        <article class="article-card" data-score="5">
+          <div class="article-source">The Bulwark</div>
+          <h3 class="article-title">
+            <a href="https://www.thebulwark.com/p/warning-the-chaos-president-thrives-on-chaos-democracy-authoritarianism" target="_blank" rel="noopener">Warning: The Chaos President THRIVES on Chaos</a>
+          </h3>
+          
+          <p class="article-summary">Failed wars have tail risks for democracy.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-5">5/10</span>
+            <span class="pub-date">Mar 9, 12:09 PM</span>
+          </div>
+        </article>
+      
+        </div>
+      </section>
+    
+      <section class="digest-section" id="section-finance">
+        <header class="section-header" style="--section-color: #1a5c3a">
+          <span class="section-icon">📈</span>
+          <h2 class="section-title">Finance &amp; Markets</h2>
+          <span class="section-count">1 articles</span>
+        </header>
+        <div class="articles-grid">
+          
+        <article class="article-card" data-score="4">
+          <div class="article-source">Blockware Intelligence</div>
+          <h3 class="article-title">
+            <a href="https://newsletter.blockwareintelligence.com/p/bitcoin-line-of-credit-bloc-extreme" target="_blank" rel="noopener">Bitcoin Line of Credit (BLOC), Extreme Oil Volatility, and New Fed Chair</a>
+          </h3>
+          <div class="pull-quote">"Bitcoin-backed lending meets extreme oil volatility under new Fed leadership"</div>
+          <p class="article-summary">Financial markets face multiple disruptions with new Bitcoin-backed lending products emerging alongside volatile oil prices. Federal Reserve leadership changes add uncertainty to monetary policy direction amid these market developments.</p>
+          <div class="article-meta">
+            <span class="relevance-badge score-4">4/10</span>
+            <span class="pub-date"></span>
+          </div>
+        </article>
+      
+        </div>
+      </section>
+    
+  </main>
+
+  <footer class="digest-footer">
+    Generated 3/9/2026, 7:29:53 PM CT
+    · Andrews Family Homeschool LMS
+    · For personal use only
+  </footer>
+
+</body>
+</html>

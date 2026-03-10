@@ -1,0 +1,16 @@
+{
+  "name": "andrews-family-digest",
+  "version": "1.0.0",
+  "description": "Daily newspaper-style digest for the Andrews family",
+  "type": "module",
+  "scripts": {
+    "fetch": "node fetch-digest.js",
+    "dry-run": "node fetch-digest.js --dry-run",
+    "test": "node fetch-digest.js --dry-run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "js-yaml": "^4.1.0",
+    "rss-parser": "^3.13.0"
+  }
+}

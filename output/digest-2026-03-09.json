@@ -1,0 +1,363 @@
+{
+  "meta": {
+    "digest_title": "The Andrews Family Digest",
+    "tagline": "Curated knowledge for family, learning, and development",
+    "lookback_hours": 24,
+    "max_per_category": 5,
+    "model": "claude-sonnet-4-20250514"
+  },
+  "categories": [
+    {
+      "id": "education",
+      "label": "Education & Learning",
+      "icon": "📚",
+      "color": "#2c5f8a"
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball & Player Development",
+      "icon": "⚾",
+      "color": "#1a6b3a"
+    },
+    {
+      "id": "health",
+      "label": "Health, Fitness & Nutrition",
+      "icon": "💪",
+      "color": "#8a3a2c"
+    },
+    {
+      "id": "parenting",
+      "label": "Parenting & Family",
+      "icon": "🏠",
+      "color": "#5a3a8a"
+    },
+    {
+      "id": "tech",
+      "label": "Technology & Tools",
+      "icon": "🛠️",
+      "color": "#3a6a8a"
+    },
+    {
+      "id": "politics",
+      "label": "Politics & Current Events",
+      "icon": "🗳️",
+      "color": "#2c4a8a"
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Markets",
+      "icon": "📈",
+      "color": "#1a5c3a"
+    },
+    {
+      "id": "culture",
+      "label": "Arts & Culture",
+      "icon": "🎨",
+      "color": "#6a3a8a"
+    }
+  ],
+  "grouped": {
+    "education": {
+      "category": {
+        "id": "education",
+        "label": "Education & Learning",
+        "icon": "📚",
+        "color": "#2c5f8a"
+      },
+      "items": [
+        {
+          "source": "Excellent AI Prompts",
+          "category": "education",
+          "priority": 1,
+          "title": "5 AI Prompts to Build a Top-Tier Marketing System for YOUR Business",
+          "url": "https://excellentprompts.substack.com/p/build-a-top-tier-marketing-system-ai",
+          "pubDate": "Mon, 09 Mar 2026 19:36:10 GMT",
+          "excerpt": "Most marketers copy someone else’s playbook. Here’s how to use AI to build one that fits YOUR business. And learn my updated 8-layer prompting technique demonstrated in each prompt.",
+          "summary": "[DRY RUN] Summary skipped.",
+          "pullQuote": "",
+          "relevanceScore": 5
+        },
+        {
+          "source": "The Growth Mindset",
+          "category": "education",
+          "priority": 2,
+          "title": "There was no ROI",
+          "url": "https://tmindset.substack.com/p/there-was-no-roi-on-the-tech",
+          "pubDate": "Mon, 09 Mar 2026 03:30:48 GMT",
+          "excerpt": "For some, the technology did not improve their productive lives",
+          "summary": "[DRY RUN] Summary skipped.",
+          "pullQuote": "",
+          "relevanceScore": 5
+        }
+      ]
+    },
+    "baseball": {
+      "category": {
+        "id": "baseball",
+        "label": "Baseball & Player Development",
+        "icon": "⚾",
+        "color": "#1a6b3a"
+      },
+      "items": [
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "2026 World Baseball Classic Schedule & Scores",
+          "url": "https://www.baseballamerica.com/stories/2026-world-baseball-classic-schedule-scores/",
+          "pubDate": "Mon, 09 Mar 2026 19:37:17 +0000",
+          "excerpt": "Keep tabs on the 2026 World Baseball Classic with complete scores and schedule information. The post 2026 World Baseball Classic Schedule & Scores appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "[DRY RUN] Summary skipped.",
+          "pullQuote": "",
+          "relevanceScore": 5
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Why The World Baseball Classic Succeeds Where Olympic Baseball Falls Short",
+          "url": "https://www.baseballamerica.com/stories/why-the-world-baseball-classic-succeeds-where-olympic-baseball-falls-short/",
+          "pubDate": "Mon, 09 Mar 2026 17:07:45 +0000",
+          "excerpt": "J.J. Cooper reacts to Bryce Harper's World Baseball Classic comparison to the Olympics to explain why the WBC is superior. The post Why The World Baseball Classic Succeeds Where Olympic Baseball Falls Short appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "[DRY RUN] Summary skipped.",
+          "pullQuote": "",
+          "relevanceScore": 5
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Scouting Every AL West No. 1 Prospect For 2026",
+          "url": "https://www.baseballamerica.com/stories/scouting-every-al-west-no-1-prospect-for-2026/",
+          "pubDate": "Mon, 09 Mar 2026 15:23:41 +0000",
+          "excerpt": "Baseball America takes an in-depth look at the top prospects from around the AL West. The post Scouting Every AL West No. 1 Prospect For 2026 appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "[DRY RUN] Summary skipped.",
+          "pullQuote": "",
+          "relevanceScore": 5
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Which MLB Team Had The Most Disappointing Offseason Entering 2026?",
+          "url": "https://www.baseballamerica.com/stories/which-mlb-team-had-the-most-disappointing-offseason-entering-2026/",
+          "pubDate": "Mon, 09 Mar 2026 14:46:27 +0000",
+          "excerpt": "Baseball America staff weigh in on which MLB teams authored the least inspiring offseason performances ahead of the 2026 season. The post Which MLB Team Had The Most Disappointing Offseason Entering 2026? appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "[DRY RUN] Summary skipped.",
+          "pullQuote": "",
+          "relevanceScore": 5
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Which MLB Team Had The Best Offseason Entering 2026?",
+          "url": "https://www.baseballamerica.com/stories/which-mlb-team-had-the-best-offseason-entering-2026/",
+          "pubDate": "Mon, 09 Mar 2026 14:38:20 +0000",
+          "excerpt": "Baseball America staff weigh in on which MLB teams orchestrated the most impressive offseason performances ahead of the 2026 season. The post Which MLB Team Had The Best Offseason Entering 2026? appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "[DRY RUN] Summary skipped.",
+          "pullQuote": "",
+          "relevanceScore": 5
+        }
+      ]
+    },
+    "health": {
+      "category": {
+        "id": "health",
+        "label": "Health, Fitness & Nutrition",
+        "icon": "💪",
+        "color": "#8a3a2c"
+      },
+      "items": [
+        {
+          "source": "Peter Attia MD",
+          "category": "health",
+          "priority": 1,
+          "title": "#383 ‒ AMA #81: Biological aging tests, longevity training, emerging therapies, GLP-1 RAs, sun exposure, and more",
+          "url": "https://peterattiamd.com/ama81/",
+          "pubDate": "Mon, 09 Mar 2026 04:15:00 +0000",
+          "excerpt": "\"If there was anything wrong with seed oils in modest quantities (again beyond the caloric effects of any oil), I'm still waiting for someone to present a convincing case for that.” —Peter Attia The post #383 ‒ AMA #81: Biological aging tests, longevity training, emerging therapies, GLP-1 RAs, sun exposure, and more appeared first on Peter Attia.",
+          "summary": "[DRY RUN] Summary skipped.",
+          "pullQuote": "",
+          "relevanceScore": 5
+        }
+      ]
+    },
+    "tech": {
+      "category": {
+        "id": "tech",
+        "label": "Technology & Tools",
+        "icon": "🛠️",
+        "color": "#3a6a8a"
+      },
+      "items": [
+        {
+          "source": "Emerging AI (Opinion AI)",
+          "category": "tech",
+          "priority": 1,
+          "title": "8 AI Tools That Can Replace Your Team",
+          "url": "https://emergingai.substack.com/p/8-ai-tools-that-can-replace-your",
+          "pubDate": "Mon, 09 Mar 2026 12:12:18 GMT",
+          "excerpt": "Build content, code, design, slides, and videos solo using this 8 tool AI stack, step by step.",
+          "summary": "[DRY RUN] Summary skipped.",
+          "pullQuote": "",
+          "relevanceScore": 5
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Rendezvous with Rama",
+          "url": "https://blog.engora.com/2026/03/rendezvous-with-rama.html",
+          "pubDate": "Mon, 09 Mar 2026 21:34:45 +0000",
+          "excerpt": "Article URL: https://blog.engora.com/2026/03/rendezvous-with-rama.html Comments URL: https://news.ycombinator.com/item?id=47315869 Points: 61 # Comments: 61",
+          "summary": "[DRY RUN] Summary skipped.",
+          "pullQuote": "",
+          "relevanceScore": 5
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "So you want to write an \"app\" (2025)",
+          "url": "https://arcanenibble.github.io/so-you-want-to-write-an-app.html",
+          "pubDate": "Mon, 09 Mar 2026 20:50:59 +0000",
+          "excerpt": "Article URL: https://arcanenibble.github.io/so-you-want-to-write-an-app.html Comments URL: https://news.ycombinator.com/item?id=47315341 Points: 18 # Comments: 6",
+          "summary": "[DRY RUN] Summary skipped.",
+          "pullQuote": "",
+          "relevanceScore": 5
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Oracle is building yesterday's data centers with tomorrow's debt",
+          "url": "https://www.cnbc.com/2026/03/09/oracle-is-building-yesterdays-data-centers-with-tomorrows-debt.html",
+          "pubDate": "Mon, 09 Mar 2026 20:36:43 +0000",
+          "excerpt": "Article URL: https://www.cnbc.com/2026/03/09/oracle-is-building-yesterdays-data-centers-with-tomorrows-debt.html Comments URL: https://news.ycombinator.com/item?id=47315128 Points: 108 # Comments: 34",
+          "summary": "[DRY RUN] Summary skipped.",
+          "pullQuote": "",
+          "relevanceScore": 5
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "The First Airplane Fatality",
+          "url": "https://www.amusingplanet.com/2026/03/thomas-selfridge-first-airplane-fatality.html",
+          "pubDate": "Mon, 09 Mar 2026 20:32:45 +0000",
+          "excerpt": "Article URL: https://www.amusingplanet.com/2026/03/thomas-selfridge-first-airplane-fatality.html Comments URL: https://news.ycombinator.com/item?id=47315079 Points: 27 # Comments: 3",
+          "summary": "[DRY RUN] Summary skipped.",
+          "pullQuote": "",
+          "relevanceScore": 5
+        }
+      ]
+    },
+    "politics": {
+      "category": {
+        "id": "politics",
+        "label": "Politics & Current Events",
+        "icon": "🗳️",
+        "color": "#2c4a8a"
+      },
+      "items": [
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "Office Hours: What the Hell is “Unconditional Surrender?”",
+          "url": "https://robertreich.substack.com/p/office-hours-whats-unconditional",
+          "pubDate": "Mon, 09 Mar 2026 08:03:01 GMT",
+          "excerpt": "What will Trump demand of Iran to end his war?",
+          "summary": "[DRY RUN] Summary skipped.",
+          "pullQuote": "",
+          "relevanceScore": 5
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Sarah Longwell: No One Should Trust this Government",
+          "url": "https://www.thebulwark.com/p/sarah-longwell-no-one-should-trust",
+          "pubDate": "Mon, 09 Mar 2026 19:47:19 GMT",
+          "excerpt": "Unless the administration is keeping some closely-guarded secret about why America went to war against Iran, the only thing officialdom is saying out loud is that Netanyahu wanted us to.",
+          "summary": "[DRY RUN] Summary skipped.",
+          "pullQuote": "",
+          "relevanceScore": 5
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Warning: The Chaos President THRIVES on Chaos",
+          "url": "https://www.thebulwark.com/p/warning-the-chaos-president-thrives-on-chaos-democracy-authoritarianism",
+          "pubDate": "Mon, 09 Mar 2026 17:09:44 GMT",
+          "excerpt": "Failed wars have tail risks for democracy.",
+          "summary": "[DRY RUN] Summary skipped.",
+          "pullQuote": "",
+          "relevanceScore": 5
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Why Primaries Reward The Most Extreme Candidates (w/ Nick Troiano)",
+          "url": "https://www.thebulwark.com/p/why-primaries-reward-the-most-extreme",
+          "pubDate": "Mon, 09 Mar 2026 15:41:57 GMT",
+          "excerpt": "Mona Charen talks with Unite America’s Nick Troiano about the structural problem driving America’s political polarization: the primary system.",
+          "summary": "[DRY RUN] Summary skipped.",
+          "pullQuote": "",
+          "relevanceScore": 5
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Iran War Causes Huge MAGA vs. MAGA Fight",
+          "url": "https://www.thebulwark.com/p/iran-war-causes-huge-maga-vs-maga",
+          "pubDate": "Mon, 09 Mar 2026 14:38:50 GMT",
+          "excerpt": "MAGA Mondays",
+          "summary": "[DRY RUN] Summary skipped.",
+          "pullQuote": "",
+          "relevanceScore": 5
+        }
+      ]
+    },
+    "finance": {
+      "category": {
+        "id": "finance",
+        "label": "Finance & Markets",
+        "icon": "📈",
+        "color": "#1a5c3a"
+      },
+      "items": [
+        {
+          "source": "Blockware Intelligence",
+          "category": "finance",
+          "priority": 1,
+          "title": "Bitcoin Line of Credit (BLOC), Extreme Oil Volatility, and New Fed Chair",
+          "url": "https://newsletter.blockwareintelligence.com/p/bitcoin-line-of-credit-bloc-extreme",
+          "pubDate": "Mon, 09 Mar 2026 19:55:47 GMT",
+          "excerpt": "Breaking News in Finance and Bitcoin - 3/9/2026",
+          "summary": "[DRY RUN] Summary skipped.",
+          "pullQuote": "",
+          "relevanceScore": 5
+        }
+      ]
+    }
+  },
+  "featured": {
+    "source": "Excellent AI Prompts",
+    "category": "education",
+    "priority": 1,
+    "title": "5 AI Prompts to Build a Top-Tier Marketing System for YOUR Business",
+    "url": "https://excellentprompts.substack.com/p/build-a-top-tier-marketing-system-ai",
+    "pubDate": "Mon, 09 Mar 2026 19:36:10 GMT",
+    "excerpt": "Most marketers copy someone else’s playbook. Here’s how to use AI to build one that fits YOUR business. And learn my updated 8-layer prompting technique demonstrated in each prompt.",
+    "summary": "[DRY RUN] Summary skipped.",
+    "pullQuote": "",
+    "relevanceScore": 5
+  },
+  "dateStr": "2026-03-09",
+  "generatedAt": "2026-03-09T22:53:28.693Z"
+}

@@ -1,0 +1,297 @@
+# Andrews Family Daily Digest - Subscription Config
+# Add/remove subscriptions here. The fetch script reads this file.
+#
+# Fields:
+#   name: Display name for the publication
+#   url:  RSS feed URL
+#   category: Groups articles in the newspaper layout
+#   priority: 1 (featured) - 3 (standard). Priority 1 items are candidates for above-the-fold.
+#   active: true/false to toggle without deleting
+
+meta:
+  digest_title: "The Andrews Family Digest"
+  tagline: "Curated knowledge for family, learning, and development"
+  # How many hours back to look for articles
+  lookback_hours: 24
+  # Max articles per category in the output
+  max_per_category: 5
+  # Claude model to use for summarization
+  model: "claude-sonnet-4-20250514"
+
+categories:
+  - id: education
+    label: "Education & Learning"
+    icon: "📚"
+    color: "#2c5f8a"
+
+  - id: baseball
+    label: "Baseball & Player Development"
+    icon: "⚾"
+    color: "#1a6b3a"
+
+  - id: health
+    label: "Health, Fitness & Nutrition"
+    icon: "💪"
+    color: "#8a3a2c"
+
+  - id: parenting
+    label: "Parenting & Family"
+    icon: "🏠"
+    color: "#5a3a8a"
+
+  - id: tech
+    label: "Technology & Tools"
+    icon: "🛠️"
+    color: "#3a6a8a"
+
+  - id: politics
+    label: "Politics & Current Events"
+    icon: "🗳️"
+    color: "#2c4a8a"
+
+  - id: finance
+    label: "Finance & Markets"
+    icon: "📈"
+    color: "#1a5c3a"
+
+  - id: culture
+    label: "Arts & Culture"
+    icon: "🎨"
+    color: "#6a3a8a"
+
+subscriptions:
+
+  # --- Education & Learning ---
+  - name: "Claude Code Masterclass"
+    url: "https://newsletter.claudecodemasterclass.com/feed"
+    category: education
+    priority: 1
+    active: true
+
+  - name: "Excellent AI Prompts"
+    url: "https://excellentprompts.substack.com/feed"
+    category: education
+    priority: 1
+    active: true
+
+  - name: "The Growth Mindset"
+    url: "https://tmindset.substack.com/feed"
+    category: education
+    priority: 2
+    active: true
+
+  - name: "The African History School"
+    url: "https://theafricanhistoryschool.substack.com/feed"
+    category: education
+    priority: 2
+    active: true
+
+  - name: "Books Worth Reading"
+    url: "https://booksworthreading.substack.com/feed"
+    category: education
+    priority: 2
+    active: true
+
+  - name: "Book Rat"
+    url: "https://bookrat.substack.com/feed"
+    category: education
+    priority: 3
+    active: true
+
+  # --- Technology & Tools ---
+  - name: "Doomberg"
+    url: "https://newsletter.doomberg.com/feed"
+    category: tech
+    priority: 1
+    active: true
+
+  - name: "Emerging AI (Opinion AI)"
+    url: "https://emergingai.substack.com/feed"
+    category: tech
+    priority: 1
+    active: true
+
+  - name: "Cygaar"
+    url: "https://cygaar.substack.com/feed"
+    category: tech
+    priority: 2
+    active: true
+
+  - name: "FinStory AI"
+    url: "https://finstoryai.substack.com/feed"
+    category: tech
+    priority: 2
+    active: true
+
+  - name: "Hacker News"
+    url: "https://hnrss.org/frontpage"
+    category: tech
+    priority: 3
+    active: true
+
+  - name: "CSS Tricks"
+    url: "https://css-tricks.com/feed/"
+    category: tech
+    priority: 3
+    active: true
+
+  # --- Health, Fitness & Nutrition ---
+  - name: "Peter Attia MD"
+    url: "https://peterattiamd.com/feed/"
+    category: health
+    priority: 1
+    active: true
+
+  - name: "Precision Nutrition"
+    url: "https://www.precisionnutrition.com/feed"
+    category: health
+    priority: 2
+    active: true
+
+  - name: "Bernard Baars"
+    url: "https://bernardbaars.substack.com/feed"
+    category: health
+    priority: 2
+    active: true
+
+  - name: "Schizophonic Music"
+    url: "https://schizophonicmusic.substack.com/feed"
+    category: health
+    priority: 3
+    active: true
+
+  # --- Baseball & Player Development ---
+  - name: "Baseball America"
+    url: "https://www.baseballamerica.com/feed/"
+    category: baseball
+    priority: 1
+    active: true
+
+  - name: "Driveline Baseball"
+    url: "https://www.drivelinebaseball.com/feed/"
+    category: baseball
+    priority: 1
+    active: true
+
+  - name: "FanGraphs Community"
+    url: "https://community.fangraphs.com/feed/"
+    category: baseball
+    priority: 2
+    active: true
+
+  # --- Politics & Current Events ---
+  - name: "Robert Reich"
+    url: "https://robertreich.substack.com/feed"
+    category: politics
+    priority: 1
+    active: true
+
+  - name: "The Bulwark"
+    url: "https://www.thebulwark.com/feed/"
+    category: politics
+    priority: 1
+    active: true
+
+  - name: "Brian Tyler Cohen"
+    url: "https://plus.briantylercohen.com/feed"
+    category: politics
+    priority: 1
+    active: true
+
+  - name: "David Pakman"
+    url: "https://substack.davidpakman.com/feed"
+    category: politics
+    priority: 1
+    active: true
+
+  - name: "The Don Lemon Show"
+    url: "https://thedonlemonshow.substack.com/feed"
+    category: politics
+    priority: 2
+    active: true
+
+  - name: "Crooked Media"
+    url: "https://crookedmedia.substack.com/feed"
+    category: politics
+    priority: 2
+    active: true
+
+  - name: "The Nation Magazine"
+    url: "https://thenationmagazine.substack.com/feed"
+    category: politics
+    priority: 2
+    active: true
+
+  - name: "Politics USA"
+    url: "https://politicsusa46.substack.com/feed"
+    category: politics
+    priority: 2
+    active: true
+
+  - name: "Endless Urgency"
+    url: "https://endlessurgency.com/feed"
+    category: politics
+    priority: 2
+    active: true
+
+  - name: "Kucinich Report"
+    url: "https://kucinichreport.substack.com/feed"
+    category: politics
+    priority: 3
+    active: true
+
+  - name: "Legal AF (Michael Popok)"
+    url: "https://michaelpopok.substack.com/feed"
+    category: politics
+    priority: 2
+    active: true
+
+  - name: "The Fucking News"
+    url: "https://thefuckingnews.substack.com/feed"
+    category: politics
+    priority: 2
+    active: true
+
+  - name: "Fact Check Org"
+    url: "https://factcheckorg.substack.com/feed"
+    category: politics
+    priority: 1
+    active: true
+
+  # --- Finance ---
+  - name: "Blockware Intelligence"
+    url: "https://newsletter.blockwareintelligence.com/feed"
+    category: finance
+    priority: 1
+    active: true
+
+  - name: "The Finance Newsletter"
+    url: "https://www.thefinancenewsletter.com/feed"
+    category: finance
+    priority: 2
+    active: true
+
+  - name: "Ruben"
+    url: "https://ruben.substack.com/feed"
+    category: finance
+    priority: 2
+    active: true
+
+  # --- Arts & Culture ---
+  - name: "Blind Gallery"
+    url: "https://blindgallery.substack.com/feed"
+    category: culture
+    priority: 2
+    active: true
+
+  - name: "Campaign Zero"
+    url: "https://campaignzero.substack.com/feed"
+    category: culture
+    priority: 2
+    active: true
+
+  - name: "Bobrowsky"
+    url: "https://bobrowsky.substack.com/feed"
+    category: culture
+    priority: 3
+    active: true
