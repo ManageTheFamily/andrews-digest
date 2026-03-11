@@ -1,0 +1,416 @@
+{
+  "meta": {
+    "digest_title": "The Andrews Family Digest",
+    "tagline": "Curated knowledge for family, learning, and development",
+    "lookback_hours": 24,
+    "max_per_category": 5,
+    "model": "claude-sonnet-4-20250514"
+  },
+  "categories": [
+    {
+      "id": "education",
+      "label": "Education & Learning",
+      "icon": "",
+      "color": "#2c5f8a"
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball & Player Development",
+      "icon": "",
+      "color": "#1a6b3a"
+    },
+    {
+      "id": "health",
+      "label": "Health, Fitness & Nutrition",
+      "icon": "",
+      "color": "#8a3a2c"
+    },
+    {
+      "id": "parenting",
+      "label": "Parenting & Family",
+      "icon": "",
+      "color": "#5a3a8a"
+    },
+    {
+      "id": "tech",
+      "label": "Technology & Tools",
+      "icon": "",
+      "color": "#3a6a8a"
+    },
+    {
+      "id": "politics",
+      "label": "Politics & Current Events",
+      "icon": "",
+      "color": "#2c4a8a"
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Markets",
+      "icon": "",
+      "color": "#1a5c3a"
+    },
+    {
+      "id": "culture",
+      "label": "Arts & Culture",
+      "icon": "",
+      "color": "#6a3a8a"
+    }
+  ],
+  "grouped": {
+    "education": {
+      "category": {
+        "id": "education",
+        "label": "Education & Learning",
+        "icon": "",
+        "color": "#2c5f8a"
+      },
+      "items": [
+        {
+          "source": "Claude Code Masterclass",
+          "category": "education",
+          "priority": 1,
+          "title": "Last Week In Claude Code #2 — Skill-Creator, Ultrathink, /voice, Ollama Subagents",
+          "url": "https://newsletter.claudecodemasterclass.com/p/last-week-in-claude-code-2-skill",
+          "pubDate": null,
+          "excerpt": "Test Your Skills, Talk to Claude, and Run Free Parallel Agents",
+          "summary": "Weekly roundup covers new AI coding tools including Skill-Creator for automated programming tasks and Ultrathink for advanced reasoning capabilities. Updates also include voice integration features and parallel agent systems for running multiple AI processes simultaneously.",
+          "pullQuote": "parallel agent systems for running multiple AI processes simultaneously",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Excellent AI Prompts",
+          "category": "education",
+          "priority": 1,
+          "title": "3 Intelligent Claude Cowork Scheduled Tasks to Set Up Today",
+          "url": "https://excellentprompts.substack.com/p/claude-cowork-scheduled-tasks-daily-system",
+          "pubDate": null,
+          "excerpt": "Set up 3 Claude Cowork scheduled tasks that run daily: a morning intelligence brief, afternoon strategic focus, and evening close-out. Full prompts included.",
+          "summary": "Guide provides specific prompts for automating three daily AI-assisted workflows: morning intelligence briefings, afternoon strategic planning sessions, and evening project reviews. Full implementation templates are included for immediate setup of these productivity systems.",
+          "pullQuote": "morning intelligence briefings, afternoon strategic planning sessions, and evening project reviews",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Growth Mindset",
+          "category": "education",
+          "priority": 2,
+          "title": "The Sovereign Mind - Part I",
+          "url": "https://tmindset.substack.com/p/the-sovereign-mind-part-i",
+          "pubDate": null,
+          "excerpt": "Those who win know when not to and when to adopt intellectual technology",
+          "summary": "Essay explores the concept of intellectual sovereignty in the digital age, arguing that success depends on knowing when to embrace or resist new technological tools. The piece emphasizes developing discernment about which intellectual technologies enhance versus diminish human cognitive capacity.",
+          "pullQuote": "knowing when to embrace or resist new technological tools",
+          "relevanceScore": 7,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "baseball": {
+      "category": {
+        "id": "baseball",
+        "label": "Baseball & Player Development",
+        "icon": "",
+        "color": "#1a6b3a"
+      },
+      "items": [
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "MLB Draft Chat With Carlos Collazo (3/11/26)",
+          "url": "https://www.baseballamerica.com/stories/mlb-draft-chat-with-carlos-collazo-3-11-26/",
+          "pubDate": null,
+          "excerpt": "Come chat with Carlos Collazo beginning at 2 p.m. ET to discuss everything MLB Draft. The post MLB Draft Chat With Carlos Collazo (3/11/26) appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America's Carlos Collazo will host a live chat at 2 p.m. ET to discuss MLB Draft topics and answer questions from readers. The interactive session covers draft prospects, team needs, and scouting insights for the upcoming MLB selection process.",
+          "pullQuote": "Live expert discussion on MLB draft prospects and scouting insights",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "2026 World Baseball Classic Schedule & Scores",
+          "url": "https://www.baseballamerica.com/stories/2026-world-baseball-classic-schedule-scores/",
+          "pubDate": null,
+          "excerpt": "Keep tabs on the 2026 World Baseball Classic with complete scores and schedule information. The post 2026 World Baseball Classic Schedule & Scores appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America provides comprehensive schedule information and live score updates for the 2026 World Baseball Classic tournament. The resource serves as a central hub for tracking all games and results throughout the international competition.",
+          "pullQuote": "Complete tournament tracking for international baseball's premier event",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Italy Upset Latest Shocking Loss For Team USA",
+          "url": "https://www.baseballamerica.com/stories/italy-upset-latest-shocking-loss-for-team-usa/",
+          "pubDate": null,
+          "excerpt": "It happened again. Just like it has before. Team USA came into Tuesday’s game against Italy in the driver’s seat in pool play, as one… The post Italy Upset Latest Shocking Loss For Team USA appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Team USA suffered another unexpected defeat in World Baseball Classic pool play, losing to Italy despite entering the game in a strong position. The loss continues a pattern of surprising upsets that have plagued the American squad in international competition.",
+          "pullQuote": "International competition proves unpredictable despite talent advantages",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Explaining All The World Baseball Classic Tiebreaker Scenarios For Team USA, Italy And Mexico",
+          "url": "https://www.baseballamerica.com/stories/explaining-all-the-world-baseball-classic-tiebreaker-scenarios-for-team-usa-italy-and-mexico/",
+          "pubDate": null,
+          "excerpt": "Editor’s Note: This is updated to reflect the fact that Italy cannot get to nine defensive innings in regulation in a game in which it… The post Explaining All The World Baseball Classic Tiebreaker Scenarios For Team USA, Italy And Mexico appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Complex tiebreaker scenarios will determine advancement from World Baseball Classic pool play involving Team USA, Italy, and Mexico. The analysis breaks down various game outcomes and their impact on tournament progression, including defensive innings requirements.",
+          "pullQuote": "Tournament advancement depends on intricate tiebreaker calculations and scenarios",
+          "relevanceScore": 1,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "World Baseball Classic Prospect Standouts, MLB Mock Draft & More | Hot Sheet Show",
+          "url": "https://www.baseballamerica.com/stories/world-baseball-classic-prospect-standouts-mlb-mock-draft-more-hot-sheet-show/",
+          "pubDate": null,
+          "excerpt": "On this week's Hot Sheet Show, we discuss players who have caught our eye during the World Baseball Classic and break down our first 2026 mock draft. The post World Baseball Classic Prospect Standouts, MLB Mock Draft & More | Hot Sheet Show appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America's podcast highlights emerging prospects performing well in the World Baseball Classic while presenting their first 2026 MLB mock draft. The show identifies young players gaining attention through international competition and projects their draft potential.",
+          "pullQuote": "International tournament showcases future draft prospects and talent evaluation",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "tech": {
+      "category": {
+        "id": "tech",
+        "label": "Technology & Tools",
+        "icon": "",
+        "color": "#3a6a8a"
+      },
+      "items": [
+        {
+          "source": "Emerging AI (Opinion AI)",
+          "category": "tech",
+          "priority": 1,
+          "title": "Do I Need AI in My Business?",
+          "url": "https://emergingai.substack.com/p/do-i-need-ai-in-my-business",
+          "pubDate": null,
+          "excerpt": "A simple guide for small business owners on when AI actually helps, where it doesn’t, and the easiest way to start without wasting time or money.",
+          "summary": "A practical guide helps small business owners determine when AI tools provide genuine value versus unnecessary complexity. The article focuses on cost-effective entry points for AI adoption without wasting resources on premature implementation.",
+          "pullQuote": "Simple guide for when AI actually helps versus costly distractions",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Google to Provide Pentagon with AI Agents",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-10/google-to-provide-pentagon-with-ai-agents-for-unclassified-work",
+          "pubDate": null,
+          "excerpt": "Article URL: https://www.bloomberg.com/news/articles/2026-03-10/google-to-provide-pentagon-with-ai-agents-for-unclassified-work Comments URL: https://news.ycombinator.com/item?id=47333433 Points: 25 # Comments: 8",
+          "summary": "Google has secured a contract to supply AI agents to the Pentagon for unclassified government operations. The partnership represents a significant expansion of AI tools into federal administrative work.",
+          "pullQuote": "Google expands AI agents into Pentagon unclassified operations",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "AutoKernel: Autoresearch for GPU Kernels",
+          "url": "https://github.com/RightNow-AI/autokernel",
+          "pubDate": null,
+          "excerpt": "Article URL: https://github.com/RightNow-AI/autokernel Comments URL: https://news.ycombinator.com/item?id=47332688 Points: 32 # Comments: 4",
+          "summary": "AutoKernel is an open-source tool that automatically optimizes GPU computing kernels through research-driven approaches. The project aims to streamline high-performance computing development for AI and scientific applications.",
+          "pullQuote": "Automatic GPU kernel optimization through research-driven approaches",
+          "relevanceScore": 1,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "I'm going to build my own OpenClaw, with blackjack and bun",
+          "url": "https://github.com/rcarmo/piclaw",
+          "pubDate": null,
+          "excerpt": "Article URL: https://github.com/rcarmo/piclaw Comments URL: https://news.ycombinator.com/item?id=47332649 Points: 38 # Comments: 29",
+          "summary": "A developer is creating PiClaw, an alternative implementation of OpenClaw using modern JavaScript runtime Bun. The project represents a personal take on arcade game emulation with updated tooling.",
+          "pullQuote": "Building OpenClaw alternative using modern JavaScript runtime Bun",
+          "relevanceScore": 1,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Create value for others and don't worry about the returns",
+          "url": "https://geohot.github.io//blog/jekyll/update/2026/03/11/running-69-agents.html",
+          "pubDate": null,
+          "excerpt": "Article URL: https://geohot.github.io//blog/jekyll/update/2026/03/11/running-69-agents.html Comments URL: https://news.ycombinator.com/item?id=47332074 Points: 365 # Comments: 202",
+          "summary": "A prominent technologist discusses scaling AI agent operations to 69 concurrent instances while emphasizing value creation over profit maximization. The post explores practical lessons from managing large-scale AI deployments.",
+          "pullQuote": "Scaling 69 AI agents while prioritizing value over returns",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "politics": {
+      "category": {
+        "id": "politics",
+        "label": "Politics & Current Events",
+        "icon": "",
+        "color": "#2c4a8a"
+      },
+      "items": [
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "The Biggest, Most Tragic Failure of All",
+          "url": "https://robertreich.substack.com/p/the-underlying-failure",
+          "pubDate": null,
+          "excerpt": "We are in an unnecessary war that the public doesn’t want, without a clear purpose or endgame. How to respond now?",
+          "summary": "Robert Reich argues that the United States is engaged in an unnecessary war that lacks public support and clear objectives. The piece examines how to respond to ongoing military commitments without defined strategic goals or exit strategies.",
+          "pullQuote": "unnecessary war that the public doesn't want, without clear purpose",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Joe Rogan Says Trump \"Betrayed\" His Base Over Iran War",
+          "url": "https://www.thebulwark.com/p/joe-rogan-says-trump-betrayed-his",
+          "pubDate": null,
+          "excerpt": "Sam Stein and Tim Miller give their takes on Joe Rogan’s surprisingly blunt reaction to Donald Trump’s war with Iran.",
+          "summary": "Podcast host Joe Rogan criticized Donald Trump's military actions regarding Iran, saying the former president betrayed his political supporters. Political commentators Sam Stein and Tim Miller analyze Rogan's unexpectedly direct commentary on Trump's foreign policy decisions.",
+          "pullQuote": "Rogan's surprisingly blunt reaction to Trump's war with Iran",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Trump's Surgeon General Pick Needs a Spine Implant",
+          "url": "https://www.thebulwark.com/p/casey-means-trump-surgeon-general-nominee-needs-spine-implant-backbone-political-courage",
+          "pubDate": null,
+          "excerpt": "A recent exchange revealed a troubling lack of political courage—but the job practically demands it.",
+          "summary": "Trump's nominee for Surgeon General, Casey Means, demonstrated concerning weakness in political courage during recent public exchanges. The position of Surgeon General requires individuals willing to make difficult health policy decisions that may conflict with political pressures.",
+          "pullQuote": "troubling lack of political courage for a job that demands it",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Andrew Weissmann: This is Why America's Institutions Are Failing",
+          "url": "https://www.thebulwark.com/p/andrew-weissmann-this-is-why-americas",
+          "pubDate": null,
+          "excerpt": "Sarah Longwell talks with former federal prosecutor Andrew Weissmann about his new book: Liar’s Kingdom",
+          "summary": "Former federal prosecutor Andrew Weissmann discusses his new book \"Liar's Kingdom\" with Sarah Longwell, examining systemic failures in American democratic institutions. The conversation focuses on how legal and political institutions are struggling to maintain effectiveness and public trust.",
+          "pullQuote": "systemic analysis of why America's institutions are failing",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Trump Doesn't Understand His Own War",
+          "url": "https://www.thebulwark.com/p/trump-doesnt-understand-his-own-war",
+          "pubDate": null,
+          "excerpt": "A recording from The Bulwark's live video",
+          "summary": "Analysis suggests Donald Trump lacks comprehension of the military conflicts he initiated during his presidency. The piece examines Trump's apparent disconnect between his foreign policy decisions and their strategic implications.",
+          "pullQuote": "Trump lacks comprehension of conflicts he initiated",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "finance": {
+      "category": {
+        "id": "finance",
+        "label": "Finance & Markets",
+        "icon": "",
+        "color": "#1a5c3a"
+      },
+      "items": [
+        {
+          "source": "The Finance Newsletter",
+          "category": "finance",
+          "priority": 2,
+          "title": "💥 The Truth About Rising Oil, Stagflation, and the AI Job Wipeout. Here's what to do.",
+          "url": "https://www.thefinancenewsletter.com/p/what-higher-oil-prices-mean",
+          "pubDate": null,
+          "excerpt": "Oil up 35%. 92,000 jobs gone. Robots are getting real. The third industrial revolution is starting now. Are You Prepared?",
+          "summary": "Oil prices have surged 35% while 92,000 jobs have been eliminated as artificial intelligence and automation accelerate economic disruption. The analysis warns of potential stagflation and positions the current period as the beginning of a third industrial revolution requiring strategic preparation.",
+          "pullQuote": "Third industrial revolution starting now with 35% oil surge and massive job displacement",
+          "relevanceScore": 7,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Ruben",
+          "category": "finance",
+          "priority": 2,
+          "title": "ChatGPT → to Claude",
+          "url": "https://ruben.substack.com/p/claude-for-teams",
+          "pubDate": null,
+          "excerpt": "How to set up Claude for your team in 7 days (so they actually use it):",
+          "summary": "A practical guide outlines how organizations can transition from ChatGPT to Claude AI and implement team-wide adoption within seven days. The strategy focuses on ensuring actual usage rather than just deployment of the AI tool.",
+          "pullQuote": "Seven-day implementation strategy for team-wide AI tool adoption",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        }
+      ]
+    }
+  },
+  "featured": {
+    "source": "The Growth Mindset",
+    "category": "education",
+    "priority": 2,
+    "title": "The Sovereign Mind - Part I",
+    "url": "https://tmindset.substack.com/p/the-sovereign-mind-part-i",
+    "pubDate": null,
+    "excerpt": "Those who win know when not to and when to adopt intellectual technology",
+    "summary": "Essay explores the concept of intellectual sovereignty in the digital age, arguing that success depends on knowing when to embrace or resist new technological tools. The piece emphasizes developing discernment about which intellectual technologies enhance versus diminish human cognitive capacity.",
+    "pullQuote": "knowing when to embrace or resist new technological tools",
+    "relevanceScore": 7,
+    "featuredCandidate": false
+  },
+  "briefing": {
+    "editorsNote": "Today's stories reveal a world demanding intellectual discernment as technology reshapes learning, work, and institutional trust.",
+    "bullets": [
+      {
+        "category": "education",
+        "text": "New essay argues intellectual sovereignty requires choosing which digital tools enhance versus diminish thinking.",
+        "icon": ""
+      },
+      {
+        "category": "baseball",
+        "text": "World Baseball Classic showcasing young prospects who could feature in 2026 MLB draft conversations.",
+        "icon": ""
+      },
+      {
+        "category": "tech",
+        "text": "Small business guide reveals when AI adoption creates value versus unnecessary operational complexity.",
+        "icon": ""
+      },
+      {
+        "category": "politics",
+        "text": "Former prosecutor's new book examines why American democratic institutions are losing effectiveness and trust.",
+        "icon": ""
+      },
+      {
+        "category": "finance",
+        "text": "Oil prices surge 35% while AI eliminates 92,000 jobs, signaling potential stagflation ahead.",
+        "icon": ""
+      }
+    ]
+  },
+  "dateStr": "2026-03-11",
+  "generatedAt": "2026-03-11T11:01:12.319Z"
+}
