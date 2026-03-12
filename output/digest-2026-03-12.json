@@ -1,0 +1,377 @@
+{
+  "meta": {
+    "digest_title": "The Andrews Family Digest",
+    "tagline": "Curated knowledge for family, learning, and development",
+    "lookback_hours": 24,
+    "max_per_category": 5,
+    "model": "claude-sonnet-4-20250514"
+  },
+  "categories": [
+    {
+      "id": "education",
+      "label": "Education & Learning",
+      "icon": "",
+      "color": "#2c5f8a"
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball & Player Development",
+      "icon": "",
+      "color": "#1a6b3a"
+    },
+    {
+      "id": "health",
+      "label": "Health, Fitness & Nutrition",
+      "icon": "",
+      "color": "#8a3a2c"
+    },
+    {
+      "id": "parenting",
+      "label": "Parenting & Family",
+      "icon": "",
+      "color": "#5a3a8a"
+    },
+    {
+      "id": "tech",
+      "label": "Technology & Tools",
+      "icon": "",
+      "color": "#3a6a8a"
+    },
+    {
+      "id": "politics",
+      "label": "Politics & Current Events",
+      "icon": "",
+      "color": "#2c4a8a"
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Markets",
+      "icon": "",
+      "color": "#1a5c3a"
+    },
+    {
+      "id": "culture",
+      "label": "Arts & Culture",
+      "icon": "",
+      "color": "#6a3a8a"
+    }
+  ],
+  "grouped": {
+    "education": {
+      "category": {
+        "id": "education",
+        "label": "Education & Learning",
+        "icon": "",
+        "color": "#2c5f8a"
+      },
+      "items": [
+        {
+          "source": "Excellent AI Prompts",
+          "category": "education",
+          "priority": 1,
+          "title": "The Beginner's Guide to Shipping with Claude Code + 3 Support Prompts",
+          "url": "https://excellentprompts.substack.com/p/beginners-guide-shipping-claude-code",
+          "pubDate": null,
+          "excerpt": "Learn the terms, tools, and workflow to go from idea to live app with Claude Code. A super beginner-friendly guide to building, deploying, and shipping real products.",
+          "summary": "A tutorial guide explains how to use Claude AI to build and deploy functional applications from concept to live product. The resource targets beginners and covers essential development workflow, terminology, and deployment tools.",
+          "pullQuote": "go from idea to live app with Claude Code",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "baseball": {
+      "category": {
+        "id": "baseball",
+        "label": "Baseball & Player Development",
+        "icon": "",
+        "color": "#1a6b3a"
+      },
+      "items": [
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "World Baseball Classic Stats Leaders",
+          "url": "https://www.baseballamerica.com/stories/world-baseball-classic-stats-leaders/",
+          "pubDate": null,
+          "excerpt": "BATTING LEADERS (AFTER POOL PLAY) Minimum 10 Plate Appearances Player Team AVG OBP SLG AB PA R H 2B 3B HR RBI SB Genda, S… The post World Baseball Classic Stats Leaders appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America publishes statistical leaders from pool play of the World Baseball Classic, tracking batting averages, on-base percentages, and slugging percentages for qualifying players. The stats compilation provides performance benchmarks from elite international competition across multiple offensive categories.",
+          "pullQuote": "Elite international players demonstrate measurable offensive performance standards",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "2026 World Baseball Classic Schedule & Scores",
+          "url": "https://www.baseballamerica.com/stories/2026-world-baseball-classic-schedule-scores/",
+          "pubDate": null,
+          "excerpt": "Keep tabs on the 2026 World Baseball Classic with complete scores and schedule information. The post 2026 World Baseball Classic Schedule & Scores appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America provides comprehensive scheduling and scoring information for the 2026 World Baseball Classic tournament. The resource offers tracking capabilities for following international baseball competition results and upcoming matchups.",
+          "pullQuote": "Complete tournament tracking for highest level international baseball competition",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Spoke Bats Brings Data-Driven Bespoke Bats To MLB Players",
+          "url": "https://www.baseballamerica.com/stories/spoke-bats-brings-data-driven-bespoke-bats-to-mlb-players/",
+          "pubDate": null,
+          "excerpt": "Inside Spoke Bats, the data-driven company using physics, computational modeling and custom design to build individualized wood bats for MLB players. The post Spoke Bats Brings Data-Driven Bespoke Bats To MLB Players appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Spoke Bats utilizes physics modeling and computational analysis to create individually customized wood bats for Major League Baseball players. The company applies scientific methodology to optimize bat specifications based on each player's biomechanical profile and swing characteristics.",
+          "pullQuote": "Physics and computational modeling create individualized bat specifications",
+          "relevanceScore": 7,
+          "featuredCandidate": true
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Is The SEC Losing Its Grip On College Baseball? | College Podcast",
+          "url": "https://www.baseballamerica.com/stories/is-the-sec-losing-its-grip-on-college-baseball-college-podcast/",
+          "pubDate": null,
+          "excerpt": "In this week's College Baseball Podcast, Jacob and Geoff discuss Top 25 updates and the state of the SEC. The post Is The SEC Losing Its Grip On College Baseball? | College Podcast appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America's College Baseball Podcast examines the current competitive landscape of SEC baseball programs relative to their historical dominance. The discussion includes analysis of Top 25 rankings and shifts in conference strength across college baseball.",
+          "pullQuote": "SEC's traditional baseball dominance faces unprecedented competitive challenges",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Explaining Baseball America's Week 5 NCAA Top 25",
+          "url": "https://www.baseballamerica.com/stories/explaining-baseball-americas-week-5-top-25-college-baseball-rankings/",
+          "pubDate": null,
+          "excerpt": "Jacob Rudner pulls back the curtain on what went into Baseball America's Top 25 college baseball rankings. The post Explaining Baseball America’s Week 5 NCAA Top 25 appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America's Jacob Rudner details the methodology and decision-making process behind the publication's Week 5 college baseball rankings. The analysis provides transparency into evaluation criteria used for ranking the top 25 NCAA baseball programs.",
+          "pullQuote": "Ranking methodology reveals evaluation criteria for top college programs",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "tech": {
+      "category": {
+        "id": "tech",
+        "label": "Technology & Tools",
+        "icon": "",
+        "color": "#3a6a8a"
+      },
+      "items": [
+        {
+          "source": "Emerging AI (Opinion AI)",
+          "category": "tech",
+          "priority": 1,
+          "title": "AI Agents Made Simple (Beginner Guide)",
+          "url": "https://emergingai.substack.com/p/ai-agents-made-simple-beginner-guide",
+          "pubDate": null,
+          "excerpt": "Learn what makes an AI agent different from ChatGPT, when to use one, and how to build your first simple agent without coding.",
+          "summary": "A beginner's guide explains how AI agents differ from ChatGPT by performing autonomous tasks rather than just responding to prompts. The tutorial covers when to use AI agents and provides instructions for building simple agents without coding knowledge.",
+          "pullQuote": "Build your first AI agent without coding knowledge",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "1B identity records exposed in ID verification data leak",
+          "url": "https://www.aol.com/articles/1-billion-identity-records-exposed-152505381.html",
+          "pubDate": null,
+          "excerpt": "Article URL: https://www.aol.com/articles/1-billion-identity-records-exposed-152505381.html Comments URL: https://news.ycombinator.com/item?id=47348440 Points: 35 # Comments: 7",
+          "summary": "A massive data breach has exposed one billion identity records from an ID verification service, potentially compromising personal information used for identity checks. The breach affects records used by businesses and organizations for customer verification processes.",
+          "pullQuote": "One billion identity verification records compromised in breach",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Avoiding Trigonometry (2013)",
+          "url": "https://iquilezles.org/articles/noacos/",
+          "pubDate": null,
+          "excerpt": "Article URL: https://iquilezles.org/articles/noacos/ Comments URL: https://news.ycombinator.com/item?id=47348192 Points: 25 # Comments: 5",
+          "summary": "A technical article from 2013 demonstrates mathematical techniques for solving geometric problems without using trigonometric functions like cosine and sine. The approach focuses on algebraic methods that can be more computationally efficient in programming applications.",
+          "pullQuote": "Solve geometric problems using algebra instead of trigonometry",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "3D-Knitting: The Ultimate Guide",
+          "url": "https://www.oliver-charles.com/pages/3d-knitting",
+          "pubDate": null,
+          "excerpt": "Article URL: https://www.oliver-charles.com/pages/3d-knitting Comments URL: https://news.ycombinator.com/item?id=47347945 Points: 65 # Comments: 22",
+          "summary": "A comprehensive guide explores 3D knitting technology that creates seamless garments directly from digital designs without cutting or sewing. The manufacturing process uses computer-controlled knitting machines to produce complex three-dimensional textile structures.",
+          "pullQuote": "Create seamless garments directly from digital designs",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Reliable Software in the LLM Era",
+          "url": "https://quint-lang.org/posts/llm_era",
+          "pubDate": null,
+          "excerpt": "Article URL: https://quint-lang.org/posts/llm_era Comments URL: https://news.ycombinator.com/item?id=47347901 Points: 10 # Comments: 0",
+          "summary": "Software developers face new challenges ensuring reliability as large language models become integrated into applications and development workflows. The article discusses formal verification methods and testing strategies needed to maintain software quality when AI systems are involved.",
+          "pullQuote": "Formal verification methods needed for AI-integrated software",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "politics": {
+      "category": {
+        "id": "politics",
+        "label": "Politics & Current Events",
+        "icon": "",
+        "color": "#2c4a8a"
+      },
+      "items": [
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "Psst: My book available in the U.K. today",
+          "url": "https://robertreich.substack.com/p/psst-my-book-available-in-the-uk",
+          "pubDate": null,
+          "excerpt": "My glorious days in England",
+          "summary": "Former Labor Secretary Robert Reich announces the UK release of his latest book. The post includes personal reflections on his time in England.",
+          "pullQuote": "Reich's book now available across the pond",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "BONUS POD: Iran Fears &...Focus Groups Love The Bulwark?",
+          "url": "https://www.thebulwark.com/p/bonus-pod-iran-fears-and-focus-groups",
+          "pubDate": null,
+          "excerpt": "Sarah was out last week, and felt she had to bring you some timely focus group reactions to the War in Iran.",
+          "summary": "The Bulwark presents focus group reactions to recent Iran war concerns and commentary. The bonus podcast episode covers timely geopolitical tensions and media reception.",
+          "pullQuote": "Focus groups react to Iran war speculation",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Paxton vs. Cornyn Is a Choice Between Two MAGA Flavors",
+          "url": "https://www.thebulwark.com/p/paxton-vs-cornyn-is-a-choice-between-two-maga-flavors",
+          "pubDate": null,
+          "excerpt": "Both are awful. Both are Trumpy. One also happens to be extravagantly corrupt.",
+          "summary": "Analysis of the potential Texas Senate race between Attorney General Ken Paxton and Senator John Cornyn. The piece argues both candidates represent problematic Trump-aligned politics, with Paxton facing additional corruption allegations.",
+          "pullQuote": "Texas faces choice between two flawed Trump allies",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "If the Shoe Fits: Trump and the Florsheim You Can't Refuse",
+          "url": "https://www.thebulwark.com/p/if-the-shoe-fits-trump-cabinet-rubio-florsheim-wingtips",
+          "pubDate": null,
+          "excerpt": "The strangely Soviet odor of the week’s weirdest story.",
+          "summary": "Commentary on Trump's cabinet selections and political maneuvering, using shoe metaphors to describe power dynamics. The analysis draws comparisons to Soviet-style political operations.",
+          "pullQuote": "Trump cabinet picks reveal Soviet-style power dynamics",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Hanging With Tim Miller",
+          "url": "https://www.thebulwark.com/p/hanging-with-tim-miller",
+          "pubDate": null,
+          "excerpt": "A recording from Tim Miller's live video",
+          "summary": "Recording from Tim Miller's live video session at The Bulwark. The content appears to be an informal discussion or Q&A format.",
+          "pullQuote": "Miller hosts live video discussion session",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "finance": {
+      "category": {
+        "id": "finance",
+        "label": "Finance & Markets",
+        "icon": "",
+        "color": "#1a5c3a"
+      },
+      "items": [
+        {
+          "source": "Blockware Intelligence",
+          "category": "finance",
+          "priority": 1,
+          "title": "What happens if you use a BLOC to buy Bitcoin Miners",
+          "url": "https://newsletter.blockwareintelligence.com/p/what-happens-if-you-use-a-bloc-to",
+          "pubDate": null,
+          "excerpt": "How to double your BTC production without selling a single satoshi",
+          "summary": "The article explores using a Bitcoin Lines of Credit (BLOC) to purchase mining equipment without selling existing Bitcoin holdings. This strategy allows investors to maintain their Bitcoin position while generating additional cryptocurrency through mining operations.",
+          "pullQuote": "Double your BTC production without selling a single satoshi",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        }
+      ]
+    }
+  },
+  "featured": {
+    "source": "Baseball America",
+    "category": "baseball",
+    "priority": 1,
+    "title": "Spoke Bats Brings Data-Driven Bespoke Bats To MLB Players",
+    "url": "https://www.baseballamerica.com/stories/spoke-bats-brings-data-driven-bespoke-bats-to-mlb-players/",
+    "pubDate": null,
+    "excerpt": "Inside Spoke Bats, the data-driven company using physics, computational modeling and custom design to build individualized wood bats for MLB players. The post Spoke Bats Brings Data-Driven Bespoke Bats To MLB Players appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+    "summary": "Spoke Bats utilizes physics modeling and computational analysis to create individually customized wood bats for Major League Baseball players. The company applies scientific methodology to optimize bat specifications based on each player's biomechanical profile and swing characteristics.",
+    "pullQuote": "Physics and computational modeling create individualized bat specifications",
+    "relevanceScore": 7,
+    "featuredCandidate": true
+  },
+  "briefing": {
+    "editorsNote": "Today's stories blend scientific precision with practical learning, from custom baseball bats to AI coding tutorials.",
+    "bullets": [
+      {
+        "category": "education",
+        "text": "New beginner tutorial shows how to build and deploy real applications using Claude AI coding assistance.",
+        "icon": ""
+      },
+      {
+        "category": "baseball",
+        "text": "Spoke Bats uses physics modeling to create custom wood bats tailored to each MLB player's swing.",
+        "icon": ""
+      },
+      {
+        "category": "tech",
+        "text": "Simple guide explains how AI agents can autonomously complete tasks beyond basic ChatGPT conversations.",
+        "icon": ""
+      },
+      {
+        "category": "politics",
+        "text": "Potential Texas Senate race between Paxton and Cornyn offers two problematic Trump-aligned candidates.",
+        "icon": ""
+      },
+      {
+        "category": "finance",
+        "text": "Bitcoin credit lines let investors buy mining equipment while keeping their existing cryptocurrency holdings intact.",
+        "icon": ""
+      }
+    ]
+  },
+  "dateStr": "2026-03-12",
+  "generatedAt": "2026-03-12T11:00:56.297Z"
+}
