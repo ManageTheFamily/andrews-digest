@@ -1,0 +1,390 @@
+{
+  "meta": {
+    "digest_title": "The Andrews Family Digest",
+    "tagline": "Curated knowledge for family, learning, and development",
+    "lookback_hours": 24,
+    "max_per_category": 5,
+    "model": "claude-sonnet-4-20250514"
+  },
+  "categories": [
+    {
+      "id": "education",
+      "label": "Education & Learning",
+      "icon": "",
+      "color": "#2c5f8a"
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball & Player Development",
+      "icon": "",
+      "color": "#1a6b3a"
+    },
+    {
+      "id": "health",
+      "label": "Health, Fitness & Nutrition",
+      "icon": "",
+      "color": "#8a3a2c"
+    },
+    {
+      "id": "parenting",
+      "label": "Parenting & Family",
+      "icon": "",
+      "color": "#5a3a8a"
+    },
+    {
+      "id": "tech",
+      "label": "Technology & Tools",
+      "icon": "",
+      "color": "#3a6a8a"
+    },
+    {
+      "id": "politics",
+      "label": "Politics & Current Events",
+      "icon": "",
+      "color": "#2c4a8a"
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Markets",
+      "icon": "",
+      "color": "#1a5c3a"
+    },
+    {
+      "id": "culture",
+      "label": "Arts & Culture",
+      "icon": "",
+      "color": "#6a3a8a"
+    }
+  ],
+  "grouped": {
+    "education": {
+      "category": {
+        "id": "education",
+        "label": "Education & Learning",
+        "icon": "",
+        "color": "#2c5f8a"
+      },
+      "items": [
+        {
+          "source": "Excellent AI Prompts",
+          "category": "education",
+          "priority": 1,
+          "title": "How to Build Your First Claude Code Agent | Step-by-Step Guide 2026",
+          "url": "https://excellentprompts.substack.com/p/how-to-build-your-first-claude-code-agent",
+          "pubDate": null,
+          "excerpt": "Learn how to create a Claude Code agent using a single markdown file. Build a custom AI assistant with persistent instructions, skills, and a prioritization framework.",
+          "summary": "A technical guide demonstrates how to create a custom AI coding assistant using Claude through a single markdown file configuration. The tutorial covers building persistent instructions, programming skills, and task prioritization frameworks for the AI agent.",
+          "pullQuote": "Create a custom AI assistant with persistent instructions and skills",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Growth Mindset",
+          "category": "education",
+          "priority": 2,
+          "title": "The Sovereign Mind - Part II",
+          "url": "https://tmindset.substack.com/p/the-sovereign-mind-part-ii",
+          "pubDate": null,
+          "excerpt": "The complete playbook to update your work practices and adopt AI",
+          "summary": "A strategic framework outlines how to integrate artificial intelligence tools into daily work and learning practices. The guide focuses on updating traditional methodologies to incorporate AI assistance while maintaining independent thinking skills.",
+          "pullQuote": "Complete playbook to update work practices and adopt AI",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "baseball": {
+      "category": {
+        "id": "baseball",
+        "label": "Baseball & Player Development",
+        "icon": "",
+        "color": "#1a6b3a"
+      },
+      "items": [
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Top College Baseball Probable Pitchers For Week 5",
+          "url": "https://www.baseballamerica.com/stories/top-college-baseball-probable-pitchers/",
+          "pubDate": null,
+          "excerpt": "Presenting all the top college pitchers to watch in this weekend's matchups. The post Top College Baseball Probable Pitchers For Week 5 appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America highlights the top college pitchers scheduled to start in Week 5 matchups across major conferences. The preview provides scouting insights on elite collegiate arms for fans and scouts to monitor.",
+          "pullQuote": "Top college pitchers showcase advanced mechanics in weekend matchups",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "College Baseball Week 5: Previewing Power 4 Conference Play",
+          "url": "https://www.baseballamerica.com/stories/college-baseball-week-5-previewing-power-4-conference-play/",
+          "pubDate": null,
+          "excerpt": "See the college baseball matchups we're most eagerly watching in Week 5, including a gauntlet of ranked SEC games. The post College Baseball Week 5: Previewing Power 4 Conference Play appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Week 5 of college baseball features crucial Power 4 conference matchups, including multiple ranked SEC teams in high-stakes series. The preview identifies key games that could reshape conference standings and national rankings.",
+          "pullQuote": "Ranked SEC teams face gauntlet of conference competition",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Aaron Judge Superfractor Sells For Record $5.2 Million In Private Sale",
+          "url": "https://www.baseballamerica.com/stories/aaron-judge-superfractor-sells-for-record-5-2-million-in-private-sale/",
+          "pubDate": null,
+          "excerpt": "Judge's 1/1 superfractor auto from 2013 Bowman Draft has sold for $5.2 million in a private sale, making it the highest-selling modern baseball card ever The post Aaron Judge Superfractor Sells For Record $5.2 Million In Private Sale appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Aaron Judge's one-of-one superfractor autograph card from 2013 Bowman Draft sold for $5.2 million in a private transaction. The sale establishes a new record for the highest-selling modern baseball card in history.",
+          "pullQuote": "Modern baseball card reaches unprecedented $5.2 million sale price",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "MLB Spring Training Behind The Scenes: How Contract Extensions, Trade Negotiations & More Work",
+          "url": "https://www.baseballamerica.com/stories/mlb-spring-training-behind-the-scenes-how-contract-extensions-trade-negotiations-more-work/",
+          "pubDate": null,
+          "excerpt": "Spring training is a busy and exciting time for MLB teams. Here's everything that goes on behind the scenes each year. The post MLB Spring Training Behind The Scenes: How Contract Extensions, Trade Negotiations & More Work appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Spring training serves as MLB's annual hub for contract negotiations, trade discussions, and roster construction beyond player development activities. The article details the complex business operations that occur simultaneously with on-field preparation.",
+          "pullQuote": "Spring training combines player development with complex business operations",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "10 Up-Arrow Fantasy Baseball Players To Target In 2026",
+          "url": "https://www.baseballamerica.com/stories/10-up-arrow-fantasy-baseball-players-to-target-in-2026/",
+          "pubDate": null,
+          "excerpt": "After hitting on several targets last year, Geoff Pontes is back to highlight 10 up-arrow players worth targeting in fantasy baseball for 2026. The post 10 Up-Arrow Fantasy Baseball Players To Target In 2026 appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Fantasy baseball analyst Geoff Pontes identifies 10 players positioned for significant performance improvements in the 2026 season. The recommendations follow successful predictions from previous seasons and target undervalued talent.",
+          "pullQuote": "Analyst targets undervalued players poised for 2026 breakouts",
+          "relevanceScore": 1,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "health": {
+      "category": {
+        "id": "health",
+        "label": "Health, Fitness & Nutrition",
+        "icon": "",
+        "color": "#8a3a2c"
+      },
+      "items": [
+        {
+          "source": "Bernard Baars",
+          "category": "health",
+          "priority": 2,
+          "title": "#22 — Consciousness Has an Integrative Function with Neuroscientist David Edelman",
+          "url": "https://bernardbaars.substack.com/p/22-consciousness-has-an-integrative",
+          "pubDate": null,
+          "excerpt": "Neuroscientist David Edelman graciously allowed this episode to be recorded in the home of his late father, Nobel Laureate Gerald M. Edelman.",
+          "summary": "Neuroscientist David Edelman discusses consciousness research in an interview conducted at the home of his late father, Nobel Laureate Gerald M. Edelman. The conversation explores the integrative function of consciousness from a neuroscientific perspective.",
+          "pullQuote": "consciousness serves as an integrative bridge in neural processing",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "tech": {
+      "category": {
+        "id": "tech",
+        "label": "Technology & Tools",
+        "icon": "",
+        "color": "#3a6a8a"
+      },
+      "items": [
+        {
+          "source": "Doomberg",
+          "category": "tech",
+          "priority": 1,
+          "title": "Digital Fog",
+          "url": "https://newsletter.doomberg.com/p/digital-fog",
+          "pubDate": null,
+          "excerpt": "The search for signal during modern war.",
+          "summary": "The article examines how digital information warfare and technological disruption create confusion during modern conflicts. It explores the challenge of distinguishing reliable intelligence from misinformation in contemporary warfare contexts.",
+          "pullQuote": "Digital warfare creates unprecedented challenges in separating signal from noise",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Emerging AI (Opinion AI)",
+          "category": "tech",
+          "priority": 1,
+          "title": "The Biggest Money Skill in AI",
+          "url": "https://emergingai.substack.com/p/the-biggest-money-skill-in-ai",
+          "pubDate": null,
+          "excerpt": "A simple guide to the AI skills that are creating real income opportunities right now, and why businesses are ready to pay for them.",
+          "summary": "The article identifies specific AI skills currently generating real income opportunities and explains why businesses are willing to pay premium rates for them. It provides practical guidance for developing marketable AI competencies in today's economy.",
+          "pullQuote": "Businesses are ready to pay premium rates for specific AI skills",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "I traced $2B in grants and 45 states' lobbying behind age‑verification bills",
+          "url": "https://old.reddit.com/r/linux/comments/1rshc1f/i_traced_2_billion_in_nonprofit_grants_and_45/",
+          "pubDate": null,
+          "excerpt": "Article URL: https://old.reddit.com/r/linux/comments/1rshc1f/i_traced_2_billion_in_nonprofit_grants_and_45/ Comments URL: https://news.ycombinator.com/item?id=47362528 Points: 11 # Comments: 0",
+          "summary": "An investigation reveals $2 billion in nonprofit funding and lobbying efforts across 45 states supporting age-verification legislation. The research exposes the financial networks driving internet age-verification requirements that could affect online privacy and access.",
+          "pullQuote": "Two billion dollars traced behind age-verification legislation across 45 states",
+          "relevanceScore": 7,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Source code of Swedish e-government services has been leaked",
+          "url": "https://darkwebinformer.com/full-source-code-of-swedens-e-government-platform-leaked-from-compromised-cgi-sverige-infrastructure/",
+          "pubDate": null,
+          "excerpt": "Article URL: https://darkwebinformer.com/full-source-code-of-swedens-e-government-platform-leaked-from-compromised-cgi-sverige-infrastructure/ Comments URL: https://news.ycombinator.com/item?id=47362350 Points: 24 # Comments: 12",
+          "summary": "Swedish e-government platform source code was compromised through a breach at CGI Sverige's infrastructure. The leak exposes the complete codebase of Sweden's digital government services, raising significant cybersecurity concerns.",
+          "pullQuote": "Complete Swedish e-government platform source code compromised and leaked",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Bucketsquatting is (finally) dead",
+          "url": "https://onecloudplease.com/blog/bucketsquatting-is-finally-dead",
+          "pubDate": null,
+          "excerpt": "Article URL: https://onecloudplease.com/blog/bucketsquatting-is-finally-dead Comments URL: https://news.ycombinator.com/item?id=47361913 Points: 86 # Comments: 36",
+          "summary": "Cloud storage providers have finally addressed bucketsquatting, a security vulnerability where attackers could claim abandoned storage bucket names to intercept data. The fix eliminates a long-standing cybersecurity risk that affected major cloud platforms.",
+          "pullQuote": "Long-standing cloud storage security vulnerability finally eliminated by providers",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "politics": {
+      "category": {
+        "id": "politics",
+        "label": "Politics & Current Events",
+        "icon": "",
+        "color": "#2c4a8a"
+      },
+      "items": [
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "Office Hours: Trump Is Cornered in Iran. So What Will He Do Now?",
+          "url": "https://robertreich.substack.com/p/office-hours-trump-is-cornered-in",
+          "pubDate": null,
+          "excerpt": "He has no good options but has to choose one",
+          "summary": "Robert Reich analyzes Trump's limited foreign policy options regarding Iran tensions. The article explores potential diplomatic and military responses to current Middle East developments.",
+          "pullQuote": "Trump faces difficult choices with no clear good options",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "How to get the truth out when some social media platforms are blocking criticism of Trump's war?",
+          "url": "https://robertreich.substack.com/p/how-to-get-the-truth-out-when-some",
+          "pubDate": null,
+          "excerpt": "Talk about a BLT sandwich",
+          "summary": "Reich discusses concerns about social media platforms potentially restricting criticism of military actions. The piece examines information flow and media accountability during wartime.",
+          "pullQuote": "Social platforms may be limiting critical war coverage",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "Trump and My Marvelous New High-Tech Hearing Aids.",
+          "url": "https://robertreich.substack.com/p/trump-and-my-marvelous-new-high-tech",
+          "pubDate": null,
+          "excerpt": "He can’t hear what he needs to",
+          "summary": "Reich uses his experience with new hearing aid technology as a metaphor for political listening. The article connects personal health technology advances to broader themes about political communication.",
+          "pullQuote": "Advanced hearing aids reveal what leaders choose not to hear",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Can Every Movie Make Money?",
+          "url": "https://www.thebulwark.com/p/can-every-movie-make-money",
+          "pubDate": null,
+          "excerpt": "Kevin Goetz on his latest book, 'How to Score in Hollywood.'",
+          "summary": "Interview with Kevin Goetz about his book on Hollywood scoring and film profitability metrics. The discussion covers how studios use audience testing to predict and improve box office performance.",
+          "pullQuote": "Hollywood uses sophisticated testing to predict movie success",
+          "relevanceScore": 1,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "The Trump War Glossary: What He *Really* Means About Iran",
+          "url": "https://www.thebulwark.com/p/trump-glossary-iran-words",
+          "pubDate": null,
+          "excerpt": "Keeping up with Mr. ‘I Have the Best Words’ as he twists the English language.",
+          "summary": "Analysis decoding Trump's specific language choices regarding Iran policy and military actions. The piece examines how political rhetoric shapes public understanding of foreign policy decisions.",
+          "pullQuote": "Political language manipulation affects public war understanding",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    }
+  },
+  "featured": {
+    "source": "Hacker News",
+    "category": "tech",
+    "priority": 3,
+    "title": "I traced $2B in grants and 45 states' lobbying behind age‑verification bills",
+    "url": "https://old.reddit.com/r/linux/comments/1rshc1f/i_traced_2_billion_in_nonprofit_grants_and_45/",
+    "pubDate": null,
+    "excerpt": "Article URL: https://old.reddit.com/r/linux/comments/1rshc1f/i_traced_2_billion_in_nonprofit_grants_and_45/ Comments URL: https://news.ycombinator.com/item?id=47362528 Points: 11 # Comments: 0",
+    "summary": "An investigation reveals $2 billion in nonprofit funding and lobbying efforts across 45 states supporting age-verification legislation. The research exposes the financial networks driving internet age-verification requirements that could affect online privacy and access.",
+    "pullQuote": "Two billion dollars traced behind age-verification legislation across 45 states",
+    "relevanceScore": 7,
+    "featuredCandidate": false
+  },
+  "briefing": {
+    "editorsNote": "Today's digest explores the intersection of technology, education, and freedom in our rapidly evolving information landscape.",
+    "bullets": [
+      {
+        "category": "education",
+        "text": "Part II of strategic AI integration offers frameworks for maintaining independent thinking while leveraging technological tools.",
+        "icon": ""
+      },
+      {
+        "category": "baseball",
+        "text": "Week 5 college baseball showcases elite pitching prospects across major conferences for scouts and fans.",
+        "icon": ""
+      },
+      {
+        "category": "health",
+        "text": "Nobel laureate's son explores how consciousness integrates information processing in groundbreaking neuroscience research.",
+        "icon": ""
+      },
+      {
+        "category": "tech",
+        "text": "Investigation exposes $2 billion funding network behind age-verification laws affecting online privacy across 45 states.",
+        "icon": ""
+      },
+      {
+        "category": "politics",
+        "text": "Analysis examines social media censorship concerns and information access during military conflict periods.",
+        "icon": ""
+      }
+    ]
+  },
+  "dateStr": "2026-03-13",
+  "generatedAt": "2026-03-13T11:01:03.754Z"
+}
