@@ -1,0 +1,392 @@
+{
+  "meta": {
+    "digest_title": "The Andrews Family Digest",
+    "tagline": "Curated knowledge for family, learning, and development",
+    "lookback_hours": 24,
+    "max_per_category": 5,
+    "model": "claude-sonnet-4-20250514"
+  },
+  "categories": [
+    {
+      "id": "education",
+      "label": "Education & Learning",
+      "icon": "",
+      "color": "#2c5f8a"
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball & Player Development",
+      "icon": "",
+      "color": "#1a6b3a"
+    },
+    {
+      "id": "health",
+      "label": "Health, Fitness & Nutrition",
+      "icon": "",
+      "color": "#8a3a2c"
+    },
+    {
+      "id": "parenting",
+      "label": "Parenting & Family",
+      "icon": "",
+      "color": "#5a3a8a"
+    },
+    {
+      "id": "tech",
+      "label": "Technology & Tools",
+      "icon": "",
+      "color": "#3a6a8a"
+    },
+    {
+      "id": "politics",
+      "label": "Politics & Current Events",
+      "icon": "",
+      "color": "#2c4a8a"
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Markets",
+      "icon": "",
+      "color": "#1a5c3a"
+    },
+    {
+      "id": "culture",
+      "label": "Arts & Culture",
+      "icon": "",
+      "color": "#6a3a8a"
+    }
+  ],
+  "grouped": {
+    "education": {
+      "category": {
+        "id": "education",
+        "label": "Education & Learning",
+        "icon": "",
+        "color": "#2c5f8a"
+      },
+      "items": [
+        {
+          "source": "Excellent AI Prompts",
+          "category": "education",
+          "priority": 1,
+          "title": "9 AI Prompts to Break Your AI Out of Default Mode",
+          "url": "https://excellentprompts.substack.com/p/break-your-ai-out-of-default-mode",
+          "pubDate": null,
+          "excerpt": "Force Claude, Gemini, and ChatGPT past safe, predictable answers and into territory that actually surprises you.",
+          "summary": "A guide offers nine specific prompting techniques to push AI chatbots like Claude, Gemini, and ChatGPT beyond their standard responses. The methods aim to generate more creative, nuanced, and genuinely surprising outputs for educational and professional applications.",
+          "pullQuote": "Force AI past safe, predictable answers into surprising territory",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Growth Mindset",
+          "category": "education",
+          "priority": 2,
+          "title": "Weekend Q&A Sessions: Emotional Regulation",
+          "url": "https://tmindset.substack.com/p/weekend-q-and-a-sessions-emotional",
+          "pubDate": null,
+          "excerpt": "I can't keep calm",
+          "summary": "A Q&A session addresses challenges with emotional regulation and maintaining calm under pressure. The discussion focuses on practical strategies for developing better self-control and emotional management skills.",
+          "pullQuote": "Practical strategies for developing better emotional self-control skills",
+          "relevanceScore": 7,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Books Worth Reading",
+          "category": "education",
+          "priority": 2,
+          "title": "Old Book Advice Column",
+          "url": "https://booksworthreading.substack.com/p/old-book-advice-column",
+          "pubDate": null,
+          "excerpt": "AND: Reader mailbag, poem of the week, and book pics!",
+          "summary": "A literary newsletter features an advice column format alongside reader submissions and poetry recommendations. The publication combines book discovery with interactive content for engaged readers.",
+          "pullQuote": "Literary advice column combines book discovery with reader interaction",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "baseball": {
+      "category": {
+        "id": "baseball",
+        "label": "Baseball & Player Development",
+        "icon": "",
+        "color": "#1a6b3a"
+      },
+      "items": [
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "2026 World Baseball Classic Schedule & Scores",
+          "url": "https://www.baseballamerica.com/stories/2026-world-baseball-classic-schedule-scores/",
+          "pubDate": null,
+          "excerpt": "Keep tabs on the 2026 World Baseball Classic with complete scores and schedule information. The post 2026 World Baseball Classic Schedule & Scores appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America provides complete schedule and scoring information for the 2026 World Baseball Classic tournament. The coverage offers comprehensive tracking of international competition results and matchups.",
+          "pullQuote": "Complete scores and schedule information for international baseball competition",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "The Pirates' Case For—And Against—Konnor Griffin Making Their Opening Day Roster",
+          "url": "https://www.baseballamerica.com/stories/the-pirates-case-for-and-against-konnor-griffin-making-their-opening-day-roster/",
+          "pubDate": null,
+          "excerpt": "Exploring the reasons why the Pirates might add Konnor Griffin to their Opening Day roster, and the service time implications if they do not. The post The Pirates’ Case For—And Against—Konnor Griffin Making Their Opening Day Roster appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Analysis examines the Pittsburgh Pirates' decision-making process regarding prospect Konnor Griffin's potential roster placement. The piece explores service time considerations and organizational strategy implications for player development timing.",
+          "pullQuote": "Service time implications shape organizational decisions on prospect promotion timing",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Paul Skenes Signs In Japanese, Konnor Griffin Predicts 2026 Pirates Championship In Onyx Baseball Card Release",
+          "url": "https://www.baseballamerica.com/stories/paul-skenes-signs-in-japanese-konnor-griffin-predicts-2026-pirates-championship-in-onyx-baseball-card-release/",
+          "pubDate": null,
+          "excerpt": "Paul Skenes and Konnor Griffin will have a handful of cards in the upcoming 2026 Onyx Vintage release, coming March 31. The post Paul Skenes Signs In Japanese, Konnor Griffin Predicts 2026 Pirates Championship In Onyx Baseball Card Release appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Paul Skenes and Konnor Griffin will feature in the 2026 Onyx Vintage baseball card release scheduled for March 31. The cards showcase unique signatures and player predictions for the upcoming season.",
+          "pullQuote": "Top prospects featured in upcoming collectible card release",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "NL East MLB Prospects To Know For 2026 | Fantasy Podcast",
+          "url": "https://www.baseballamerica.com/stories/nl-east-mlb-prospects-to-know-for-2026-fantasy-podcast/",
+          "pubDate": null,
+          "excerpt": "On this week's Fantasy Podcast, we discuss 25 prospects from the NL East that should be on your fantasy baseball radar. The post NL East MLB Prospects To Know For 2026 | Fantasy Podcast appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America's Fantasy Podcast examines 25 key prospects from National League East organizations for the 2026 season. The discussion focuses on players likely to impact fantasy baseball leagues and organizational depth charts.",
+          "pullQuote": "Twenty-five NL East prospects worth tracking for development impact",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Arizona Backfields Intel: Rockies Prospect Drawing Scout Buzz",
+          "url": "https://www.baseballamerica.com/stories/arizona-backfields-intel-rockies-prospect-drawing-scout-buzz/",
+          "pubDate": null,
+          "excerpt": "Jesús Cano canvasses the backfields of Arizona spring training for updates on Rockies and Diamondbacks prospects worth watching. The post Arizona Backfields Intel: Rockies Prospect Drawing Scout Buzz appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Spring training coverage highlights emerging prospects in Colorado Rockies and Arizona Diamondbacks organizations generating scout attention. The report provides real-time evaluation updates from Arizona facility observations.",
+          "pullQuote": "Scout evaluations reveal emerging prospects generating organizational buzz",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "health": {
+      "category": {
+        "id": "health",
+        "label": "Health, Fitness & Nutrition",
+        "icon": "",
+        "color": "#8a3a2c"
+      },
+      "items": [
+        {
+          "source": "Peter Attia MD",
+          "category": "health",
+          "priority": 1,
+          "title": "An intriguing case of \"exceptional resilience\" against dementia",
+          "url": "https://peterattiamd.com/heat-shock-proteins-and-alzheimers-mutation/",
+          "pubDate": null,
+          "excerpt": "A 75-year-old man free of dementia despite a dominant Alzheimer’s mutation — and a possible hint for the rest of us The post An intriguing case of “exceptional resilience” against dementia appeared first on Peter Attia.",
+          "summary": "A 75-year-old man with a dominant Alzheimer's genetic mutation remained dementia-free, potentially due to elevated heat shock proteins. The case suggests heat shock protein activation through exercise and heat exposure may offer neuroprotective benefits for cognitive health.",
+          "pullQuote": "Heat shock proteins may protect against dementia despite genetic predisposition",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Schizophonic Music",
+          "category": "health",
+          "priority": 3,
+          "title": "Bass Drums or bombs? - And the AI question",
+          "url": "https://schizophonicmusic.substack.com/p/bass-drums-or-bombs-and-the-ai-question",
+          "pubDate": null,
+          "excerpt": "Originally written in July 2025, I'm republishing due to the wars and the invasion of AI",
+          "summary": "A music publication examines the relationship between bass drum sounds and explosive audio effects in the context of artificial intelligence. The article appears to focus on audio production techniques rather than health or fitness topics.",
+          "pullQuote": "Musical production intersects with artificial intelligence technology",
+          "relevanceScore": 1,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "tech": {
+      "category": {
+        "id": "tech",
+        "label": "Technology & Tools",
+        "icon": "",
+        "color": "#3a6a8a"
+      },
+      "items": [
+        {
+          "source": "Emerging AI (Opinion AI)",
+          "category": "tech",
+          "priority": 1,
+          "title": "A Simple Guide to Claude Skills",
+          "url": "https://emergingai.substack.com/p/a-simple-guide-to-claude-skills",
+          "pubDate": null,
+          "excerpt": "Learn how to create, test, and deploy a custom Claude Skill without getting lost in technical complexity",
+          "summary": "A new guide explains how to create custom Claude Skills, allowing users to build specialized AI tools without advanced technical knowledge. The tutorial covers the complete process from creation through deployment for practical applications.",
+          "pullQuote": "Create specialized AI tools without advanced technical knowledge",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "politics": {
+      "category": {
+        "id": "politics",
+        "label": "Politics & Current Events",
+        "icon": "",
+        "color": "#2c4a8a"
+      },
+      "items": [
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "Who's America's Abuser-in-Chief? | The Coffee Klatch for March 14, 2026",
+          "url": "https://robertreich.substack.com/p/trump-the-abuser-the-coffee-klatch",
+          "pubDate": null,
+          "excerpt": "With Heather Lofthouse, E. Jean Carroll, and yours truly, Robert Reich",
+          "summary": "Former Labor Secretary Robert Reich hosts a discussion with Heather Lofthouse and E. Jean Carroll examining political leadership dynamics. The conversation focuses on characterizing current political behavior patterns and their societal impact.",
+          "pullQuote": "Political leadership examined through lens of abusive behavior patterns",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Illinois Senate Race: Daaaa Dems (with David Axelrod)",
+          "url": "https://www.thebulwark.com/p/illinois-senate-race-daaaa-dems-with",
+          "pubDate": null,
+          "excerpt": "The Democratic primary for US Senate in Illinois is a bit quiet, according to our guest.",
+          "summary": "Former Obama strategist David Axelrod discusses the unusually quiet Democratic primary for Illinois Senate seat. The conversation explores potential candidates and the subdued nature of early campaign activity.",
+          "pullQuote": "Democratic primary remains surprisingly quiet according to political strategist",
+          "relevanceScore": 1,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Is This the Sickest MAGA Scandal Yet?",
+          "url": "https://www.thebulwark.com/p/is-this-the-sickest-maga-scandal",
+          "pubDate": null,
+          "excerpt": "Sam Stein, Tim Miller, and Will Sommer take on one of the strangest scandals to hit the far-right internet: extremist agitator Jake Lang getting caught in a social-media sting run by a self-styled “predator hunter.” They also talk about the growing war inside conservative media as Megyn Kelly and Ben Shapiro clash publicly.",
+          "summary": "Political commentators analyze a scandal involving far-right figure Jake Lang caught in a predator hunter sting operation. The discussion also covers growing tensions within conservative media, including public disputes between Megyn Kelly and Ben Shapiro.",
+          "pullQuote": "Conservative media figures clash publicly amid extremist scandal fallout",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "The Iran War Could Get Out of Hand",
+          "url": "https://www.thebulwark.com/p/the-iran-war-could-get-out-of-hand",
+          "pubDate": null,
+          "excerpt": "Hungry for a TACO.",
+          "summary": "Analysis warns of potential escalation risks in current Middle East tensions involving Iran. The piece examines scenarios where military engagement could expand beyond current parameters.",
+          "pullQuote": "Middle East military engagement risks expanding beyond current scope",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Tom Nichols: Sinking Into the Mire of a Longer War?",
+          "url": "https://www.thebulwark.com/p/tom-nichols-sinking-into-the-mire",
+          "pubDate": null,
+          "excerpt": "Watch now | The Trump administration is preparing to deploy a Marine expeditionary unit to the Middle East along with more warships.",
+          "summary": "The Trump administration is deploying additional Marine expeditionary units and naval vessels to the Middle East. Defense analyst Tom Nichols examines whether this military buildup signals preparation for extended conflict.",
+          "pullQuote": "Marine expeditionary units deploying alongside increased naval presence",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "finance": {
+      "category": {
+        "id": "finance",
+        "label": "Finance & Markets",
+        "icon": "",
+        "color": "#1a5c3a"
+      },
+      "items": [
+        {
+          "source": "Blockware Intelligence",
+          "category": "finance",
+          "priority": 1,
+          "title": "Blockware Intelligence Newsletter: Week 204",
+          "url": "https://newsletter.blockwareintelligence.com/p/blockware-intelligence-newsletter-0d6",
+          "pubDate": null,
+          "excerpt": "Bitcoin on-chain analysis, mining analysis, macro analysis; overview of 3/9/26 - 3/13/26",
+          "summary": "Blockware Intelligence provides weekly analysis covering Bitcoin on-chain metrics, mining operations, and macroeconomic factors for the period March 9-13, 2026. The newsletter offers technical analysis for cryptocurrency investors and those tracking digital asset market trends.",
+          "pullQuote": "Bitcoin analysis covering on-chain metrics and macro trends",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        }
+      ]
+    }
+  },
+  "featured": {
+    "source": "The Growth Mindset",
+    "category": "education",
+    "priority": 2,
+    "title": "Weekend Q&A Sessions: Emotional Regulation",
+    "url": "https://tmindset.substack.com/p/weekend-q-and-a-sessions-emotional",
+    "pubDate": null,
+    "excerpt": "I can't keep calm",
+    "summary": "A Q&A session addresses challenges with emotional regulation and maintaining calm under pressure. The discussion focuses on practical strategies for developing better self-control and emotional management skills.",
+    "pullQuote": "Practical strategies for developing better emotional self-control skills",
+    "relevanceScore": 7,
+    "featuredCandidate": false
+  },
+  "briefing": {
+    "editorsNote": "Today brings practical wisdom for strengthening minds and bodies while navigating an increasingly complex technological landscape.",
+    "bullets": [
+      {
+        "category": "education",
+        "text": "Learn practical strategies for helping children develop better emotional self-control and stress management skills.",
+        "icon": ""
+      },
+      {
+        "category": "baseball",
+        "text": "Pirates face tough roster decision on prospect Konnor Griffin balancing development timing with service time.",
+        "icon": ""
+      },
+      {
+        "category": "health",
+        "text": "Heat shock proteins from exercise and heat exposure may protect against dementia and cognitive decline.",
+        "icon": ""
+      },
+      {
+        "category": "tech",
+        "text": "New guide shows how to create custom Claude AI tools without advanced programming knowledge.",
+        "icon": ""
+      },
+      {
+        "category": "politics",
+        "text": "Trump administration deploys additional Marine units to Middle East amid concerns about prolonged conflict.",
+        "icon": ""
+      },
+      {
+        "category": "finance",
+        "text": "Weekly Bitcoin analysis covers mining operations and macroeconomic factors affecting cryptocurrency markets this week.",
+        "icon": ""
+      }
+    ]
+  },
+  "dateStr": "2026-03-14",
+  "generatedAt": "2026-03-14T11:01:06.597Z"
+}
