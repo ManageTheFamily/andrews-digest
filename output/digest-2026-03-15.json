@@ -1,0 +1,312 @@
+{
+  "meta": {
+    "digest_title": "The Andrews Family Digest",
+    "tagline": "Curated knowledge for family, learning, and development",
+    "lookback_hours": 24,
+    "max_per_category": 5,
+    "model": "claude-sonnet-4-20250514"
+  },
+  "categories": [
+    {
+      "id": "education",
+      "label": "Education & Learning",
+      "icon": "",
+      "color": "#2c5f8a"
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball & Player Development",
+      "icon": "",
+      "color": "#1a6b3a"
+    },
+    {
+      "id": "health",
+      "label": "Health, Fitness & Nutrition",
+      "icon": "",
+      "color": "#8a3a2c"
+    },
+    {
+      "id": "parenting",
+      "label": "Parenting & Family",
+      "icon": "",
+      "color": "#5a3a8a"
+    },
+    {
+      "id": "tech",
+      "label": "Technology & Tools",
+      "icon": "",
+      "color": "#3a6a8a"
+    },
+    {
+      "id": "politics",
+      "label": "Politics & Current Events",
+      "icon": "",
+      "color": "#2c4a8a"
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Markets",
+      "icon": "",
+      "color": "#1a5c3a"
+    },
+    {
+      "id": "culture",
+      "label": "Arts & Culture",
+      "icon": "",
+      "color": "#6a3a8a"
+    }
+  ],
+  "grouped": {
+    "education": {
+      "category": {
+        "id": "education",
+        "label": "Education & Learning",
+        "icon": "",
+        "color": "#2c5f8a"
+      },
+      "items": [
+        {
+          "source": "Excellent AI Prompts",
+          "category": "education",
+          "priority": 1,
+          "title": "7 AI Prompts to Rebuild Your Life After a Major Life Change (The Practical Stuff, Not the Emotional Stuff)",
+          "url": "https://excellentprompts.substack.com/p/ai-logistics-prompts-for-difficult-life-moments",
+          "pubDate": null,
+          "excerpt": "Save this for the day you or someone you love needs it. 7 private, local AI prompts that handle budgets, leases, resumes, and routines when starting over.",
+          "summary": "A collection of seven AI prompts designed to help manage practical logistics during major life transitions, covering budgets, housing, employment, and daily routines. The prompts focus on actionable planning rather than emotional support, using local AI processing for privacy.",
+          "pullQuote": "AI prompts handle budgets, leases, resumes when starting over",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "baseball": {
+      "category": {
+        "id": "baseball",
+        "label": "Baseball & Player Development",
+        "icon": "",
+        "color": "#1a6b3a"
+      },
+      "items": [
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "2026 World Baseball Classic Schedule & Scores",
+          "url": "https://www.baseballamerica.com/stories/2026-world-baseball-classic-schedule-scores/",
+          "pubDate": null,
+          "excerpt": "Keep tabs on the 2026 World Baseball Classic with complete scores and schedule information. The post 2026 World Baseball Classic Schedule & Scores appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America provides comprehensive schedule and scoring information for the 2026 World Baseball Classic tournament. The resource serves as a centralized hub for tracking international baseball competition results.",
+          "pullQuote": "Complete World Baseball Classic schedule and scoring tracker available",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Florida Backfields Intel: Red Sox Pitching Prospects Show Huge Ceilings",
+          "url": "https://www.baseballamerica.com/stories/florida-backfields-intel-red-sox-pitching-prospects-show-huge-ceilings/",
+          "pubDate": null,
+          "excerpt": "Baseball America saw Boston's trio of electric 2025 SEC righthanders in action, plus a bonus look at righthander Juan Valera. The post Florida Backfields Intel: Red Sox Pitching Prospects Show Huge Ceilings appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America scouts analyzed Boston Red Sox's three elite SEC righthanded pitching prospects during spring training workouts. The evaluation also included assessment of righthander Juan Valera's development trajectory.",
+          "pullQuote": "Electric SEC righthanders demonstrate huge developmental ceilings in spring training",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "LSU Still Slumping, Ole Miss Tops Unbeaten Texas | Friday College Baseball Recap",
+          "url": "https://www.baseballamerica.com/stories/lsu-still-slumping-ole-miss-tops-unbeaten-texas-friday-college-baseball-recap/",
+          "pubDate": null,
+          "excerpt": "LSU baseball's struggles continue, Ole Miss delivers an emphatic win over Texas and Georgia Tech star Vahn Lackey rolls on. The post LSU Still Slumping, Ole Miss Tops Unbeaten Texas | Friday College Baseball Recap appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "LSU baseball continues its early-season struggles while Ole Miss delivered a statement victory over previously undefeated Texas. Georgia Tech pitcher Vahn Lackey maintained his dominant start to the season with another strong performance.",
+          "pullQuote": "Ole Miss delivers emphatic upset over unbeaten Texas program",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "tech": {
+      "category": {
+        "id": "tech",
+        "label": "Technology & Tools",
+        "icon": "",
+        "color": "#3a6a8a"
+      },
+      "items": [
+        {
+          "source": "Emerging AI (Opinion AI)",
+          "category": "tech",
+          "priority": 1,
+          "title": "Starting AI Today? This Is Exactly What I'd Do",
+          "url": "https://emergingai.substack.com/p/starting-ai-today-this-is-exactly",
+          "pubDate": null,
+          "excerpt": "No coding, no fluff, just the mindset and steps I would use to start building with AI from day one",
+          "summary": "A practical guide outlines specific steps for beginners to start building with AI tools without requiring coding knowledge. The approach focuses on actionable strategies rather than theoretical concepts for immediate implementation.",
+          "pullQuote": "No coding required for building with AI from day one",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "FinStory AI",
+          "category": "tech",
+          "priority": 2,
+          "title": "Claude's new visualization feature is insane",
+          "url": "https://finstoryai.substack.com/p/claudes-new-visualization-feature",
+          "pubDate": null,
+          "excerpt": "Claude can now show you. Finance can build interactive charts, dashboards, and visual stories directly in the chat. It changes everything for CFOs.",
+          "summary": "Anthropic's Claude AI now generates interactive charts, dashboards, and visual stories directly within chat conversations. The feature targets finance professionals but could transform how users create data visualizations across disciplines.",
+          "pullQuote": "Interactive charts and dashboards generated directly in chat conversations",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "politics": {
+      "category": {
+        "id": "politics",
+        "label": "Politics & Current Events",
+        "icon": "",
+        "color": "#2c4a8a"
+      },
+      "items": [
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "Sunday thought: Who's Winning from Trump's War? Follow the Money",
+          "url": "https://robertreich.substack.com/p/sunday-thought-follow-the-war-money",
+          "pubDate": null,
+          "excerpt": "Trump, his biggest backers, and Vladimir Putin",
+          "summary": "Reich examines the financial beneficiaries of Trump's foreign policy decisions, arguing that Trump, his major supporters, and Vladimir Putin stand to gain economically. The analysis focuses on following monetary incentives to understand geopolitical positioning.",
+          "pullQuote": "Trump's biggest backers and Putin benefit from current conflicts",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "So What Does Trump Do Now?",
+          "url": "https://robertreich.substack.com/p/so-what-does-trump-do-now",
+          "pubDate": null,
+          "excerpt": "He's cornered in the Strait of Hormuz.",
+          "summary": "Reich analyzes Trump's current political position using the metaphor of being cornered in the Strait of Hormuz. The piece examines strategic options available to Trump given current constraints and pressures.",
+          "pullQuote": "Trump finds himself strategically cornered with limited options",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Trump's War With the Fed Could Backfire (w/ Kenneth Rogoff)",
+          "url": "https://www.thebulwark.com/p/trumps-war-with-the-fed-could-backfire",
+          "pubDate": null,
+          "excerpt": "Harvard economist and former IMF chief economist Kenneth Rogoff joins John Avlon to discuss the growing risks facing the U.S.",
+          "summary": "Harvard economist Kenneth Rogoff discusses potential economic risks from Trump's confrontation with Federal Reserve independence. The former IMF chief economist warns of growing threats to U.S. economic stability from political interference in monetary policy.",
+          "pullQuote": "Federal Reserve independence faces unprecedented political pressure",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Trump Says Iran Is Finished—Then Asks the World for Backup",
+          "url": "https://www.thebulwark.com/p/trump-says-iran-is-finishedthen-asks",
+          "pubDate": null,
+          "excerpt": "Sam Stein and Will Saletan take on Donald Trump’s claims that Iran has been “decimated” even as his administration asks other countries to help secure the Strait of Hormuz.",
+          "summary": "Trump administration claims Iran has been decimated while simultaneously requesting international assistance to secure the Strait of Hormuz. The contradiction highlights inconsistencies between public messaging and actual security needs in the region.",
+          "pullQuote": "Administration seeks help securing Strait despite claiming Iranian defeat",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Trump's DOJ Just Proposed a Stunning Ethics Loophole (w/ Andrew Weissmann) | Illegal News",
+          "url": "https://www.thebulwark.com/p/trumps-doj-just-proposed-a-stunning",
+          "pubDate": null,
+          "excerpt": "Sarah Longwell and Andrew Weissmann discuss a chaotic week for the rule of law, from the DOJ bizarrely flip-flopping on defending Trump’s executive orders targeting law firms, to a Trump-appointed judge finding evidence of racial profiling in ICE stops in Minnesota, and a new DOJ proposal that could shield government lawyers from ethics investigations.",
+          "summary": "The DOJ has proposed new rules that could shield government lawyers from ethics investigations, while flip-flopping on defending Trump's executive orders. A Trump-appointed judge simultaneously found evidence of racial profiling in Minnesota ICE operations.",
+          "pullQuote": "New DOJ proposal could shield government lawyers from ethics probes",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "finance": {
+      "category": {
+        "id": "finance",
+        "label": "Finance & Markets",
+        "icon": "",
+        "color": "#1a5c3a"
+      },
+      "items": [
+        {
+          "source": "Ruben",
+          "category": "finance",
+          "priority": 2,
+          "title": "The new Claude charts.",
+          "url": "https://ruben.substack.com/p/claude-charts",
+          "pubDate": null,
+          "excerpt": "(yet another Claude upgrade) How to create interactive charts:",
+          "summary": "Claude AI has released new interactive chart creation capabilities, allowing users to generate visual data representations through conversational prompts. The upgrade enables more sophisticated data visualization for analysis and educational purposes.",
+          "pullQuote": "Interactive charts through conversational AI prompts now available",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        }
+      ]
+    }
+  },
+  "featured": {
+    "source": "Emerging AI (Opinion AI)",
+    "category": "tech",
+    "priority": 1,
+    "title": "Starting AI Today? This Is Exactly What I'd Do",
+    "url": "https://emergingai.substack.com/p/starting-ai-today-this-is-exactly",
+    "pubDate": null,
+    "excerpt": "No coding, no fluff, just the mindset and steps I would use to start building with AI from day one",
+    "summary": "A practical guide outlines specific steps for beginners to start building with AI tools without requiring coding knowledge. The approach focuses on actionable strategies rather than theoretical concepts for immediate implementation.",
+    "pullQuote": "No coding required for building with AI from day one",
+    "relevanceScore": 6,
+    "featuredCandidate": false
+  },
+  "briefing": {
+    "editorsNote": "Today's digest highlights practical AI tools reshaping how families learn, plan, and navigate both opportunities and challenges.",
+    "bullets": [
+      {
+        "category": "education",
+        "text": "Seven AI prompts help families tackle practical logistics during major life transitions with privacy-focused solutions.",
+        "icon": ""
+      },
+      {
+        "category": "baseball",
+        "text": "Red Sox showcase three elite SEC pitching prospects with exceptional potential during Florida spring training workouts.",
+        "icon": ""
+      },
+      {
+        "category": "tech",
+        "text": "New guide provides specific steps for families to start building with AI tools without coding experience.",
+        "icon": ""
+      },
+      {
+        "category": "politics",
+        "text": "Harvard economist warns Trump's Federal Reserve interference threatens U.S. economic stability and monetary policy independence.",
+        "icon": ""
+      },
+      {
+        "category": "finance",
+        "text": "Claude AI launches interactive chart creation, enabling families to visualize data through simple conversational prompts.",
+        "icon": ""
+      }
+    ]
+  },
+  "dateStr": "2026-03-15",
+  "generatedAt": "2026-03-15T11:01:01.281Z"
+}
