@@ -1,0 +1,338 @@
+{
+  "meta": {
+    "digest_title": "The Andrews Family Digest",
+    "tagline": "Curated knowledge for family, learning, and development",
+    "lookback_hours": 24,
+    "max_per_category": 5,
+    "model": "claude-sonnet-4-20250514"
+  },
+  "categories": [
+    {
+      "id": "education",
+      "label": "Education & Learning",
+      "icon": "",
+      "color": "#2c5f8a"
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball & Player Development",
+      "icon": "",
+      "color": "#1a6b3a"
+    },
+    {
+      "id": "health",
+      "label": "Health, Fitness & Nutrition",
+      "icon": "",
+      "color": "#8a3a2c"
+    },
+    {
+      "id": "parenting",
+      "label": "Parenting & Family",
+      "icon": "",
+      "color": "#5a3a8a"
+    },
+    {
+      "id": "tech",
+      "label": "Technology & Tools",
+      "icon": "",
+      "color": "#3a6a8a"
+    },
+    {
+      "id": "politics",
+      "label": "Politics & Current Events",
+      "icon": "",
+      "color": "#2c4a8a"
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Markets",
+      "icon": "",
+      "color": "#1a5c3a"
+    },
+    {
+      "id": "culture",
+      "label": "Arts & Culture",
+      "icon": "",
+      "color": "#6a3a8a"
+    }
+  ],
+  "grouped": {
+    "education": {
+      "category": {
+        "id": "education",
+        "label": "Education & Learning",
+        "icon": "",
+        "color": "#2c5f8a"
+      },
+      "items": [
+        {
+          "source": "Excellent AI Prompts",
+          "category": "education",
+          "priority": 1,
+          "title": "What Is Ollama, How to Use It, and Why It Matters (10 AI Prompts to Test Local Models)",
+          "url": "https://excellentprompts.substack.com/p/guide-to-ollama",
+          "pubDate": null,
+          "excerpt": "The practical, non-techie guide to running Ollama on your own machine (and when you should)",
+          "summary": "Ollama allows users to run AI language models locally on their personal computers without relying on cloud services. The guide provides practical setup instructions and 10 specific prompts for testing local AI models for educational and productivity applications.",
+          "pullQuote": "running AI models locally offers privacy and control over educational content",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Growth Mindset",
+          "category": "education",
+          "priority": 2,
+          "title": "It Just Didn't Feel Right",
+          "url": "https://tmindset.substack.com/p/it-just-didnt-feel-right",
+          "pubDate": null,
+          "excerpt": "Human intuition triumphed over the algorithm",
+          "summary": "The article explores situations where human intuition successfully overrode algorithmic recommendations or data-driven decisions. It examines the role of gut feelings and experiential knowledge in decision-making processes.",
+          "pullQuote": "human intuition can outperform algorithmic decision-making in complex situations",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "baseball": {
+      "category": {
+        "id": "baseball",
+        "label": "Baseball & Player Development",
+        "icon": "",
+        "color": "#1a6b3a"
+      },
+      "items": [
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Matt Eddy's Breakout MLB Prospects Team For 2026",
+          "url": "https://www.baseballamerica.com/stories/matt-eddys-breakout-mlb-prospects-team-for-2026/",
+          "pubDate": null,
+          "excerpt": "Matt Eddy's 12 breakout MLB prospects for 2026 include picks to click in the Red Sox, Cubs and Mets systems. The post Matt Eddy’s Breakout MLB Prospects Team For 2026 appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America's Matt Eddy identifies 12 MLB prospects positioned for breakout seasons in 2026, with selections from Red Sox, Cubs, and Mets farm systems. The analysis focuses on players expected to make significant developmental leaps in the upcoming season.",
+          "pullQuote": "12 breakout MLB prospects positioned for significant developmental leaps",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Geoff Pontes' Breakout MLB Prospects Team For 2026",
+          "url": "https://www.baseballamerica.com/stories/geoff-pontes-breakout-mlb-prospects-team-for-2026/",
+          "pubDate": null,
+          "excerpt": "Geoff Pontes’ breakout MLB prospects list includes multiple Red Sox selections and another nod to a Nationals infielder he likes entering 2026. The post Geoff Pontes’ Breakout MLB Prospects Team For 2026 appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America's Geoff Pontes releases his breakout prospects list for 2026, featuring multiple Red Sox prospects and highlighting a Nationals infielder. The selections represent players expected to emerge as significant talents in the coming season.",
+          "pullQuote": "Multiple Red Sox prospects and Nationals infielder highlight breakout candidates",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "2026 World Baseball Classic Schedule & Scores",
+          "url": "https://www.baseballamerica.com/stories/2026-world-baseball-classic-schedule-scores/",
+          "pubDate": null,
+          "excerpt": "Keep tabs on the 2026 World Baseball Classic with complete scores and schedule information. The post 2026 World Baseball Classic Schedule & Scores appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America provides comprehensive schedule and scoring information for the 2026 World Baseball Classic tournament. The resource offers complete tracking of international competition results and upcoming matchups.",
+          "pullQuote": "Complete schedule and scoring information for international baseball competition",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Perdomo's Strikeout Should Ensure ABS Comes To 2029 WBC",
+          "url": "https://www.baseballamerica.com/stories/perdomos-strikeout-should-ensure-abs-comes-to-2029-wbc/",
+          "pubDate": null,
+          "excerpt": "I have done no reporting on this. I don’t know if it’s possible to have reporting insight on a decision still years away. But here’s… The post Perdomo’s Strikeout Should Ensure ABS Comes To 2029 WBC appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "A controversial strikeout call involving Perdomo highlights ongoing debates about implementing Automated Ball-Strike (ABS) systems in international competition. The incident may accelerate adoption of electronic strike zone technology for the 2029 World Baseball Classic.",
+          "pullQuote": "Controversial strikeout may accelerate automated strike zone technology adoption",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "health": {
+      "category": {
+        "id": "health",
+        "label": "Health, Fitness & Nutrition",
+        "icon": "",
+        "color": "#8a3a2c"
+      },
+      "items": [
+        {
+          "source": "Peter Attia MD",
+          "category": "health",
+          "priority": 1,
+          "title": "#384 – Special episode — Obicetrapib: The CETP inhibitor with cardiovascular benefits and potential Alzheimer's prevention",
+          "url": "https://peterattiamd.com/obicetrapib/",
+          "pubDate": null,
+          "excerpt": "\"It's hard for me to mask my personal optimism around this. I love the biological plausibility of this, and I think that obicetrapib has done something that it's four predecessors has failed to do.\" —Peter Attia The post #384 – Special episode — Obicetrapib: The CETP inhibitor with cardiovascular benefits and potential Alzheimer’s prevention appeared first on Peter Attia.",
+          "summary": "Dr. Peter Attia discusses obicetrapib, a CETP inhibitor drug that shows promise for cardiovascular protection and potential Alzheimer's prevention where four previous similar drugs failed. The episode covers the biological mechanisms and clinical trial data supporting this new therapeutic approach for longevity and cognitive health.",
+          "pullQuote": "obicetrapib succeeded where four predecessor drugs failed in cardiovascular protection",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Bernard Baars",
+          "category": "health",
+          "priority": 2,
+          "title": "Entering and Leaving Frames",
+          "url": "https://bernardbaars.substack.com/p/entering-and-leaving-frames",
+          "pubDate": null,
+          "excerpt": "Why transitions, interruptions, and surprise reveal the hidden structure of conscious life",
+          "summary": "Neuroscientist Bernard Baars explores how transitions, interruptions, and surprising events reveal the underlying structure of conscious awareness. The analysis examines how the brain processes shifts between different cognitive and perceptual frameworks in daily life.",
+          "pullQuote": "transitions and surprise reveal hidden structure of conscious life",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "tech": {
+      "category": {
+        "id": "tech",
+        "label": "Technology & Tools",
+        "icon": "",
+        "color": "#3a6a8a"
+      },
+      "items": [
+        {
+          "source": "Emerging AI (Opinion AI)",
+          "category": "tech",
+          "priority": 1,
+          "title": "OpenClaw Masterclass",
+          "url": "https://emergingai.substack.com/p/openclaw-masterclass",
+          "pubDate": null,
+          "excerpt": "The complete beginner friendly guide to setup, workflows, skills, security, and daily use",
+          "summary": "A comprehensive guide covers setup, workflows, and daily use of OpenClaw, an AI tool for beginners. The masterclass addresses security considerations and practical skills for integrating the technology into regular workflows.",
+          "pullQuote": "Complete beginner friendly guide to AI workflows and daily use",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "politics": {
+      "category": {
+        "id": "politics",
+        "label": "Politics & Current Events",
+        "icon": "",
+        "color": "#2c4a8a"
+      },
+      "items": [
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "Trump's Stupidest Cabinet Member",
+          "url": "https://robertreich.substack.com/p/trumps-stupidest-cabinet-member",
+          "pubDate": null,
+          "excerpt": "A hard call, but there’s a clear winner",
+          "summary": "Political commentator Robert Reich evaluates Trump administration cabinet members based on perceived competence. The analysis focuses on identifying which appointee Reich considers least qualified for their position.",
+          "pullQuote": "A hard call, but there's a clear winner",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "Sunday Caption Contest: Turds Away!",
+          "url": "https://robertreich.substack.com/p/sunday-caption-contest-turds",
+          "pubDate": null,
+          "excerpt": "And last week’s winner",
+          "summary": "Weekly interactive content featuring a political cartoon caption contest with reader submissions. The post also announces the winner from the previous week's competition.",
+          "pullQuote": "Weekly interactive content with political cartoon submissions",
+          "relevanceScore": 1,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "Sunday Thought #2: The Legacy of These Dark Days",
+          "url": "https://robertreich.substack.com/p/sunday-thought-2-the-legacy-of-these",
+          "pubDate": null,
+          "excerpt": "The meaning of Minnesota",
+          "summary": "Reich reflects on current political challenges and draws lessons from Minnesota's political landscape. The piece examines what the state's approach might teach about navigating contemporary political difficulties.",
+          "pullQuote": "Minnesota offers lessons for navigating contemporary political difficulties",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "The Voter Fraud Fraud",
+          "url": "https://www.thebulwark.com/p/the-voter-fraud-fraud-election-cheating-save-america-act",
+          "pubDate": null,
+          "excerpt": "There just isn’t evidence of significant election cheating—but that won’t stop the GOP from pushing its dangerous SAVE America Act.",
+          "summary": "Analysis finds insufficient evidence of significant election fraud despite ongoing Republican claims. The piece examines the GOP's SAVE America Act and its potential implications for election integrity debates.",
+          "pullQuote": "No evidence of significant election cheating despite ongoing claims",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "How Does The Iran War End? | Shield of the Republic",
+          "url": "https://www.thebulwark.com/p/how-does-the-iran-war-end-shield",
+          "pubDate": null,
+          "excerpt": "Eric and Eliot continue to wrestle with the ongoing Iran war, examining the media coverage surrounding it, the tactical successes the joint forces have had, the inexplicable failure to provide counter-drone defense to US forces, the baffling inattention to mine storage facilities that may have led to mines being seeded in the Gulf, and the enormous expenditure of munitions that may leave the US vu",
+          "summary": "Foreign policy analysts examine ongoing Iran conflict, including tactical successes and strategic failures in US military operations. The discussion covers counter-drone defense gaps, Gulf mining concerns, and significant munitions expenditure affecting US military readiness.",
+          "pullQuote": "Enormous munitions expenditure may leave US forces vulnerable",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        }
+      ]
+    }
+  },
+  "featured": {
+    "source": "Excellent AI Prompts",
+    "category": "education",
+    "priority": 1,
+    "title": "What Is Ollama, How to Use It, and Why It Matters (10 AI Prompts to Test Local Models)",
+    "url": "https://excellentprompts.substack.com/p/guide-to-ollama",
+    "pubDate": null,
+    "excerpt": "The practical, non-techie guide to running Ollama on your own machine (and when you should)",
+    "summary": "Ollama allows users to run AI language models locally on their personal computers without relying on cloud services. The guide provides practical setup instructions and 10 specific prompts for testing local AI models for educational and productivity applications.",
+    "pullQuote": "running AI models locally offers privacy and control over educational content",
+    "relevanceScore": 6,
+    "featuredCandidate": false
+  },
+  "briefing": {
+    "editorsNote": "Today's digest explores emerging technologies that promise to transform how we learn, heal, and engage with information.",
+    "bullets": [
+      {
+        "category": "education",
+        "text": "Ollama lets you run powerful AI models directly on your computer for private educational applications.",
+        "icon": ""
+      },
+      {
+        "category": "baseball",
+        "text": "Controversial Perdomo strikeout call may finally bring automated strike zones to international baseball competition.",
+        "icon": ""
+      },
+      {
+        "category": "health",
+        "text": "New drug obicetrapib shows promise for preventing both heart disease and Alzheimer's where others failed.",
+        "icon": ""
+      },
+      {
+        "category": "tech",
+        "text": "OpenClaw masterclass teaches beginners how to safely integrate AI tools into daily work routines.",
+        "icon": ""
+      },
+      {
+        "category": "politics",
+        "text": "New analysis reveals lack of evidence supporting widespread voter fraud claims and legislative responses.",
+        "icon": ""
+      }
+    ]
+  },
+  "dateStr": "2026-03-16",
+  "generatedAt": "2026-03-16T11:00:57.461Z"
+}
