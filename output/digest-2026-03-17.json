@@ -1,0 +1,390 @@
+{
+  "meta": {
+    "digest_title": "The Andrews Family Digest",
+    "tagline": "Curated knowledge for family, learning, and development",
+    "lookback_hours": 24,
+    "max_per_category": 5,
+    "model": "claude-sonnet-4-20250514"
+  },
+  "categories": [
+    {
+      "id": "education",
+      "label": "Education & Learning",
+      "icon": "",
+      "color": "#2c5f8a"
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball & Player Development",
+      "icon": "",
+      "color": "#1a6b3a"
+    },
+    {
+      "id": "health",
+      "label": "Health, Fitness & Nutrition",
+      "icon": "",
+      "color": "#8a3a2c"
+    },
+    {
+      "id": "parenting",
+      "label": "Parenting & Family",
+      "icon": "",
+      "color": "#5a3a8a"
+    },
+    {
+      "id": "tech",
+      "label": "Technology & Tools",
+      "icon": "",
+      "color": "#3a6a8a"
+    },
+    {
+      "id": "politics",
+      "label": "Politics & Current Events",
+      "icon": "",
+      "color": "#2c4a8a"
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Markets",
+      "icon": "",
+      "color": "#1a5c3a"
+    },
+    {
+      "id": "culture",
+      "label": "Arts & Culture",
+      "icon": "",
+      "color": "#6a3a8a"
+    }
+  ],
+  "grouped": {
+    "education": {
+      "category": {
+        "id": "education",
+        "label": "Education & Learning",
+        "icon": "",
+        "color": "#2c5f8a"
+      },
+      "items": [
+        {
+          "source": "Excellent AI Prompts",
+          "category": "education",
+          "priority": 1,
+          "title": "Stop Drowning in AI Overload (5 AI Prompts)",
+          "url": "https://excellentprompts.substack.com/p/stop-drowning-in-ai-overload-5-ai",
+          "pubDate": null,
+          "excerpt": "You read about AI more than you use it. These 5 prompts build a system that filters the noise so + you can do actual work.",
+          "summary": "A productivity guide offers five AI prompts designed to help users filter through excessive AI information and focus on practical applications. The system aims to reduce time spent reading about AI tools and increase actual productive use of the technology.",
+          "pullQuote": "Build a system that filters AI noise for actual work",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Excellent AI Prompts",
+          "category": "education",
+          "priority": 1,
+          "title": "5 Powerful AI Prompts to Build Personal and Business Intelligence Documents for Every AI Tool (Beginner Friendly)",
+          "url": "https://excellentprompts.substack.com/p/ai-prompts-personal-business-intelligence-documents",
+          "pubDate": null,
+          "excerpt": "Stop re-explaining yourself to every AI tool. Build personal and business intelligence documents that carry your context across Claude, Perplexity, Gemini, ChatGPT, local LLMs, agents, and automated workflows.",
+          "summary": "A guide demonstrates how to create standardized personal and business intelligence documents that maintain context across multiple AI platforms. The approach eliminates the need to repeatedly explain personal circumstances to different AI tools like ChatGPT, Claude, and Gemini.",
+          "pullQuote": "Stop re-explaining yourself to every AI tool with intelligence documents",
+          "relevanceScore": 7,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "baseball": {
+      "category": {
+        "id": "baseball",
+        "label": "Baseball & Player Development",
+        "icon": "",
+        "color": "#1a6b3a"
+      },
+      "items": [
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Minor League Transactions: Feb. 25–March 15, 2026",
+          "url": "https://www.baseballamerica.com/stories/minor-league-transactions-feb-25-march-15-2026/",
+          "pubDate": null,
+          "excerpt": "A summary of minor league moves over the past three weeks. The post Minor League Transactions: Feb. 25–March 15, 2026 appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America compiled minor league player moves and roster changes over a three-week period in spring 2026. The transactions provide insight into organizational depth and player movement patterns across professional baseball's development system.",
+          "pullQuote": "Minor league moves reveal organizational depth and development patterns",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Are College Baseball Teams Making A Mistake By Ignoring Soft-Tossing Pitchers?",
+          "url": "https://www.baseballamerica.com/stories/are-college-baseball-teams-making-a-mistake-by-ignoring-soft-tossing-pitchers/",
+          "pubDate": null,
+          "excerpt": "J.J. Cooper digs into college pitching data to see how players with slower fastballs compare to harder throwers. The post Are College Baseball Teams Making A Mistake By Ignoring Soft-Tossing Pitchers? appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Data analysis reveals college teams may be overlooking effective pitchers who throw with lower velocity but achieve strong results through command and movement. The research challenges the modern emphasis on pure fastball speed in recruiting and development.",
+          "pullQuote": "Effective pitchers with lower velocity achieve results through command and movement",
+          "relevanceScore": 8,
+          "featuredCandidate": true
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Lawsuit Accuses Breaking Platform Whatnot Of Being 'Unregulated Online Casino' For Sports Cards (Report)",
+          "url": "https://www.baseballamerica.com/stories/lawsuit-accuses-breaking-platform-whatnot-of-being-unregulated-online-casino-for-sports-cards-report/",
+          "pubDate": null,
+          "excerpt": "A total of 15 arbitration complaints have been filed against Whatnot, per the Athletic, alleging the company's practices represent illegal gambling. The post Lawsuit Accuses Breaking Platform Whatnot Of Being ‘Unregulated Online Casino’ For Sports Cards (Report) appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Fifteen arbitration complaints filed against sports card platform Whatnot allege the company operates as an illegal gambling enterprise. The lawsuits target the platform's card-breaking practices and their similarity to casino operations.",
+          "pullQuote": "Sports card platform faces gambling allegations in multiple lawsuits",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Scouting Every NL East No. 1 Prospect For 2026",
+          "url": "https://www.baseballamerica.com/stories/scouting-every-nl-east-no-1-prospect-for-2026/",
+          "pubDate": null,
+          "excerpt": "Baseball America takes an in-depth look at the top prospects from around the NL East. The post Scouting Every NL East No. 1 Prospect For 2026 appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America provides detailed scouting reports on the top-ranked prospects from each National League East organization. The analysis covers player tools, development trajectories, and projected timelines for major league impact.",
+          "pullQuote": "Detailed scouting reports reveal top prospects' tools and development trajectories",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "MLB Predictions 2026: World Series Picks, Standings Preview & More",
+          "url": "https://www.baseballamerica.com/stories/mlb-predictions-2026-world-series-picks-standings-preview-more/",
+          "pubDate": null,
+          "excerpt": "Baseball America staff make their picks for 2026 World Series winners, plus projected standings, awards, top rookies and lots more. The post MLB Predictions 2026: World Series Picks, Standings Preview & More appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America staff analysts provide comprehensive 2026 season predictions including World Series winners, division standings, and award recipients. The preview also identifies top rookie candidates and breakthrough player predictions.",
+          "pullQuote": "Comprehensive season predictions cover World Series winners and award recipients",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "tech": {
+      "category": {
+        "id": "tech",
+        "label": "Technology & Tools",
+        "icon": "",
+        "color": "#3a6a8a"
+      },
+      "items": [
+        {
+          "source": "Doomberg",
+          "category": "tech",
+          "priority": 1,
+          "title": "Drilling Laterally",
+          "url": "https://newsletter.doomberg.com/p/drilling-laterally",
+          "pubDate": null,
+          "excerpt": "Can the world still avoid an energy calamity?",
+          "summary": "Energy industry analysis examines whether global energy supply challenges can be resolved through current drilling technologies and strategies. The piece explores potential energy calamity scenarios and mitigation approaches in the current geopolitical climate.",
+          "pullQuote": "Can the world still avoid an energy calamity",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Emerging AI (Opinion AI)",
+          "category": "tech",
+          "priority": 1,
+          "title": "Where to Invest in AI",
+          "url": "https://emergingai.substack.com/p/where-to-invest-in-ai",
+          "pubDate": null,
+          "excerpt": "Where the real money in AI may be flowing and how to spot it early",
+          "summary": "Investment analysis identifies emerging opportunities in artificial intelligence sectors beyond mainstream tech stocks. The article provides frameworks for spotting early-stage AI investment opportunities before they become widely recognized.",
+          "pullQuote": "Where the real money in AI may be flowing",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Kagi Small Web",
+          "url": "https://kagi.com/smallweb/",
+          "pubDate": null,
+          "excerpt": "Article URL: https://kagi.com/smallweb/ Comments URL: https://news.ycombinator.com/item?id=47410542 Points: 91 # Comments: 14",
+          "summary": "Kagi search engine introduces initiative to promote and surface smaller, independent websites in search results. The project aims to counter the dominance of large platforms and restore visibility to personal blogs and niche content creators.",
+          "pullQuote": "Restore visibility to personal blogs and niche content",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Building a Shell",
+          "url": "https://healeycodes.com/building-a-shell",
+          "pubDate": null,
+          "excerpt": "Article URL: https://healeycodes.com/building-a-shell Comments URL: https://news.ycombinator.com/item?id=47410532 Points: 10 # Comments: 0",
+          "summary": "Technical tutorial demonstrates how to create a basic command-line shell from scratch using programming fundamentals. The educational content covers system calls, process management, and command parsing for computer science learning.",
+          "pullQuote": "Create a command-line shell from scratch using fundamentals",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Grace Hopper's Revenge",
+          "url": "https://www.thefuriousopposites.com/p/grace-hoppers-revenge",
+          "pubDate": null,
+          "excerpt": "Article URL: https://www.thefuriousopposites.com/p/grace-hoppers-revenge Comments URL: https://news.ycombinator.com/item?id=47410349 Points: 12 # Comments: 6",
+          "summary": "Historical analysis explores computing pioneer Grace Hopper's contributions and their relevance to modern software development challenges. The piece examines how her early insights about programming abstraction and compiler design vindicate her approach decades later.",
+          "pullQuote": "Programming abstraction insights vindicate her approach decades later",
+          "relevanceScore": 7,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "politics": {
+      "category": {
+        "id": "politics",
+        "label": "Politics & Current Events",
+        "icon": "",
+        "color": "#2c4a8a"
+      },
+      "items": [
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Trump's War Psychology",
+          "url": "https://www.thebulwark.com/p/trump-war-psychology-iran",
+          "pubDate": null,
+          "excerpt": "An extension of id by other means.",
+          "summary": "Analysis examines Trump's psychological approach to military conflict and foreign policy decision-making regarding Iran. The piece explores how personal impulses may drive strategic military choices.",
+          "pullQuote": "Extension of id by other means shapes military strategy",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "'Evacuation Day' and the American Character",
+          "url": "https://www.thebulwark.com/p/evacuation-day-and-the-american-character",
+          "pubDate": null,
+          "excerpt": "How the British occupation of Boston—which ended 250 years ago today—shaped our political sensibility.",
+          "summary": "Historical analysis examines how the British evacuation of Boston 250 years ago influenced fundamental American political attitudes and values. The piece connects colonial resistance to modern political sensibilities.",
+          "pullQuote": "British occupation of Boston shaped our political sensibility",
+          "relevanceScore": 7,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Iran Gets a Vote in This War",
+          "url": "https://www.thebulwark.com/p/iran-gets-vote-in-this-war-thormuz-trump-hegseth-israel-strategy",
+          "pubDate": null,
+          "excerpt": "The administration doesn’t seem to have planned for that.",
+          "summary": "Strategic analysis argues the Trump administration lacks comprehensive planning for Iranian responses to military escalation. The piece examines potential Iranian countermoves and strategic vulnerabilities.",
+          "pullQuote": "Administration doesn't seem to have planned for Iranian responses",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Distracted Trump Rambles While Iran War Expands",
+          "url": "https://www.thebulwark.com/p/distracted-trump-rambles-while-iran",
+          "pubDate": null,
+          "excerpt": "Tim Miller and Sam Stein take on Trump’s latest Oval Office comments on Iran.",
+          "summary": "Commentary analyzes Trump's recent Oval Office statements about Iran amid escalating military tensions. Political analysts discuss the disconnect between presidential communication and strategic coherence.",
+          "pullQuote": "Trump rambles while Iran war expands globally",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Sen. Kennedy Tried to Humiliate This Witness… It Backfired (w/ David Bier)",
+          "url": "https://www.thebulwark.com/p/sen-kennedy-tried-to-humiliate-this",
+          "pubDate": null,
+          "excerpt": "Tim Miller talks with Cato’s David Bier about his viral clash with Senator John Kennedy—and what the exchange reveals about today’s immigration debate.",
+          "summary": "Immigration policy expert David Bier discusses his confrontational Senate hearing exchange with Senator John Kennedy that went viral. The conversation explores broader dynamics in contemporary immigration policy debates.",
+          "pullQuote": "Viral clash reveals today's immigration debate dynamics",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "finance": {
+      "category": {
+        "id": "finance",
+        "label": "Finance & Markets",
+        "icon": "",
+        "color": "#1a5c3a"
+      },
+      "items": [
+        {
+          "source": "Blockware Intelligence",
+          "category": "finance",
+          "priority": 1,
+          "title": "BTC Thrives Despite Geopolitical & Macro Uncertainty",
+          "url": "https://newsletter.blockwareintelligence.com/p/btc-thrives-despite-geopolitical",
+          "pubDate": null,
+          "excerpt": "Breaking News in Finance and Bitcoin - 3/16/2026",
+          "summary": "Bitcoin demonstrates resilience amid ongoing geopolitical tensions and macroeconomic volatility in March 2026. The cryptocurrency continues to gain value as investors seek alternatives to traditional assets during uncertain times.",
+          "pullQuote": "Bitcoin gains ground as hedge against traditional market volatility",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    }
+  },
+  "featured": {
+    "source": "Baseball America",
+    "category": "baseball",
+    "priority": 1,
+    "title": "Are College Baseball Teams Making A Mistake By Ignoring Soft-Tossing Pitchers?",
+    "url": "https://www.baseballamerica.com/stories/are-college-baseball-teams-making-a-mistake-by-ignoring-soft-tossing-pitchers/",
+    "pubDate": null,
+    "excerpt": "J.J. Cooper digs into college pitching data to see how players with slower fastballs compare to harder throwers. The post Are College Baseball Teams Making A Mistake By Ignoring Soft-Tossing Pitchers? appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+    "summary": "Data analysis reveals college teams may be overlooking effective pitchers who throw with lower velocity but achieve strong results through command and movement. The research challenges the modern emphasis on pure fastball speed in recruiting and development.",
+    "pullQuote": "Effective pitchers with lower velocity achieve results through command and movement",
+    "relevanceScore": 8,
+    "featuredCandidate": true
+  },
+  "briefing": {
+    "editorsNote": "Today's stories remind us that wisdom often lies in questioning conventional thinking and learning from overlooked perspectives.",
+    "bullets": [
+      {
+        "category": "education",
+        "text": "Learn to create reusable AI context documents that work across ChatGPT, Claude, and Gemini platforms.",
+        "icon": ""
+      },
+      {
+        "category": "baseball",
+        "text": "College scouts may be missing effective pitchers by prioritizing velocity over command and results.",
+        "icon": ""
+      },
+      {
+        "category": "tech",
+        "text": "Grace Hopper's compiler innovations from decades ago are proving prescient for today's software challenges.",
+        "icon": ""
+      },
+      {
+        "category": "politics",
+        "text": "Boston's 250-year-old Evacuation Day reveals enduring patterns in American political character and resistance.",
+        "icon": ""
+      },
+      {
+        "category": "finance",
+        "text": "Bitcoin continues gaining value as investors hedge against geopolitical tensions and economic uncertainty.",
+        "icon": ""
+      }
+    ]
+  },
+  "dateStr": "2026-03-17",
+  "generatedAt": "2026-03-17T11:01:05.630Z"
+}
