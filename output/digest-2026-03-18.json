@@ -1,0 +1,403 @@
+{
+  "meta": {
+    "digest_title": "The Andrews Family Digest",
+    "tagline": "Curated knowledge for family, learning, and development",
+    "lookback_hours": 24,
+    "max_per_category": 5,
+    "model": "claude-sonnet-4-20250514"
+  },
+  "categories": [
+    {
+      "id": "education",
+      "label": "Education & Learning",
+      "icon": "",
+      "color": "#2c5f8a"
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball & Player Development",
+      "icon": "",
+      "color": "#1a6b3a"
+    },
+    {
+      "id": "health",
+      "label": "Health, Fitness & Nutrition",
+      "icon": "",
+      "color": "#8a3a2c"
+    },
+    {
+      "id": "parenting",
+      "label": "Parenting & Family",
+      "icon": "",
+      "color": "#5a3a8a"
+    },
+    {
+      "id": "tech",
+      "label": "Technology & Tools",
+      "icon": "",
+      "color": "#3a6a8a"
+    },
+    {
+      "id": "politics",
+      "label": "Politics & Current Events",
+      "icon": "",
+      "color": "#2c4a8a"
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Markets",
+      "icon": "",
+      "color": "#1a5c3a"
+    },
+    {
+      "id": "culture",
+      "label": "Arts & Culture",
+      "icon": "",
+      "color": "#6a3a8a"
+    }
+  ],
+  "grouped": {
+    "education": {
+      "category": {
+        "id": "education",
+        "label": "Education & Learning",
+        "icon": "",
+        "color": "#2c5f8a"
+      },
+      "items": [
+        {
+          "source": "Claude Code Masterclass",
+          "category": "education",
+          "priority": 1,
+          "title": "Last Week In Claude Code #3 — /btw, /voice, 1M Context, Diagrams & Charts",
+          "url": "https://newsletter.claudecodemasterclass.com/p/last-week-in-claude-code-3-btw-voice",
+          "pubDate": null,
+          "excerpt": "Chat While Coding, Talk to Build, and Create Stunning Visuals",
+          "summary": "Claude AI has introduced new features including voice interaction capabilities, expanded context windows to 1 million tokens, and enhanced visual creation tools for coding projects. The updates focus on enabling conversational coding workflows and improved diagram generation for technical documentation.",
+          "pullQuote": "Voice interaction and million-token context windows transform coding workflows",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Growth Mindset",
+          "category": "education",
+          "priority": 2,
+          "title": "What Wasn't Being Said - Part I",
+          "url": "https://tmindset.substack.com/p/what-wasnt-being-said-part-i",
+          "pubDate": null,
+          "excerpt": "Going beyond our intuition",
+          "summary": "The article explores the importance of looking beyond initial assumptions and surface-level thinking in educational and personal development contexts. It emphasizes developing critical thinking skills that question underlying premises rather than accepting conventional wisdom.",
+          "pullQuote": "Going beyond intuition reveals hidden assumptions in learning",
+          "relevanceScore": 7,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Books Worth Reading",
+          "category": "education",
+          "priority": 2,
+          "title": "6 classic Irish books to read this St. Patrick's Day",
+          "url": "https://booksworthreading.substack.com/p/6-classic-irish-books-to-read-this",
+          "pubDate": null,
+          "excerpt": "Every year on St.",
+          "summary": "The article recommends six canonical Irish literary works as culturally enriching reading for St. Patrick's Day celebrations. The selection likely includes works from major Irish authors that would complement a liberal arts education approach.",
+          "pullQuote": "Classic Irish literature enriches cultural understanding through canonical works",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "baseball": {
+      "category": {
+        "id": "baseball",
+        "label": "Baseball & Player Development",
+        "icon": "",
+        "color": "#1a6b3a"
+      },
+      "items": [
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "2026 World Baseball Classic Schedule & Scores",
+          "url": "https://www.baseballamerica.com/stories/2026-world-baseball-classic-schedule-scores/",
+          "pubDate": null,
+          "excerpt": "Keep tabs on the 2026 World Baseball Classic with complete scores and schedule information. The post 2026 World Baseball Classic Schedule & Scores appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America provides comprehensive schedule and scoring information for the 2026 World Baseball Classic tournament. The resource offers complete tracking of games and results throughout the international competition.",
+          "pullQuote": "Complete scores and schedule information for international baseball competition",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "World Baseball Classic Finals Predictions, MLB Spring Breakout Preview & More | Hot Sheet Show",
+          "url": "https://www.baseballamerica.com/stories/world-baseball-classic-finals-predictions-mlb-spring-breakout-preview-more-hot-sheet-show/",
+          "pubDate": null,
+          "excerpt": "On this week's Hot Sheet Show, we talk about players in the WBC finals spotlight, Spring Breakout prospects to watch and the NCAA Top 25. The post World Baseball Classic Finals Predictions, MLB Spring Breakout Preview & More | Hot Sheet Show appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America's Hot Sheet Show covers World Baseball Classic finals analysis and highlights MLB Spring Breakout prospects. The episode also includes discussion of NCAA Top 25 college baseball rankings.",
+          "pullQuote": "Spring Breakout prospects and WBC finals spotlight players analyzed",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Explaining Baseball America's Week 6 NCAA Top 25",
+          "url": "https://www.baseballamerica.com/stories/explaining-baseball-americas-week-6-ncaa-top-25/",
+          "pubDate": null,
+          "excerpt": "Jacob Rudner pulls back the curtain on what went into Baseball America's Top 25 college baseball rankings. The post Explaining Baseball America’s Week 6 NCAA Top 25 appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Jacob Rudner provides detailed analysis of the methodology behind Baseball America's Week 6 college baseball rankings. The explanation reveals the evaluation criteria and decision-making process for ranking the top 25 programs.",
+          "pullQuote": "Methodology behind college baseball's top 25 rankings revealed",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Vahn Lackey, Trey Beard & More College Baseball Data Standouts From Week 5",
+          "url": "https://www.baseballamerica.com/stories/vahn-lackey-trey-beard-more-college-baseball-data-standouts-from-week-5/",
+          "pubDate": null,
+          "excerpt": "Geoff Pontes highlights his standout college baseball \"Data Points\" to identify the most impressive analytics from week 5. The post Vahn Lackey, Trey Beard & More College Baseball Data Standouts From Week 5 appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Geoff Pontes analyzes advanced analytics from Week 5 college baseball performances, highlighting statistically impressive players. The data-driven analysis identifies standout performers using modern baseball metrics and evaluation methods.",
+          "pullQuote": "Advanced analytics identify most impressive college baseball performances",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Panini's USA Baseball Stars & Stripes Cards Coming April 3",
+          "url": "https://www.baseballamerica.com/stories/paninis-usa-baseball-stars-stripes-cards-coming-april-3/",
+          "pubDate": null,
+          "excerpt": "This year's Stars & Stripes release, which features top HS and college amateurs from Team USA, features names like Roch Cholowsky & Grady Emerson. The post Panini’s USA Baseball Stars & Stripes Cards Coming April 3 appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Panini will release USA Baseball Stars & Stripes trading cards on April 3, featuring top high school and college players from Team USA. The collection includes prospects like Roch Cholowsky and Grady Emerson who represent elite amateur talent.",
+          "pullQuote": "Top high school and college Team USA players featured",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "tech": {
+      "category": {
+        "id": "tech",
+        "label": "Technology & Tools",
+        "icon": "",
+        "color": "#3a6a8a"
+      },
+      "items": [
+        {
+          "source": "Emerging AI (Opinion AI)",
+          "category": "tech",
+          "priority": 1,
+          "title": "How a Skill Graph Can Turn AI Into Your Content Team",
+          "url": "https://emergingai.substack.com/p/how-a-skill-graph-can-turn-ai-into",
+          "pubDate": null,
+          "excerpt": "A simple guide to using Obsidian, linked Markdown files, and AI agents to organize knowledge, automate work, and turn one idea into many outputs",
+          "summary": "The article presents a method for using Obsidian and linked Markdown files to create AI-powered content workflows that can transform single ideas into multiple outputs. The approach focuses on organizing knowledge systematically to enable AI agents to automate various work tasks more effectively.",
+          "pullQuote": "Turn one idea into many outputs using linked knowledge systems",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "FinStory AI",
+          "category": "tech",
+          "priority": 2,
+          "title": "AI in Finance Prices go up",
+          "url": "https://finstoryai.substack.com/p/ai-in-finance-prices-go-up",
+          "pubDate": null,
+          "excerpt": "The best investment you will make in your finance career.",
+          "summary": "The article discusses rising costs associated with AI implementation in financial services. It positions AI investment as essential for finance career advancement despite increasing expenses.",
+          "pullQuote": "Best investment you will make in your finance career",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Rob Pike's 5 Rules of Programming",
+          "url": "https://www.cs.unc.edu/~stotts/COMP590-059-f24/robsrules.html",
+          "pubDate": null,
+          "excerpt": "Article URL: https://www.cs.unc.edu/~stotts/COMP590-059-f24/robsrules.html Comments URL: https://news.ycombinator.com/item?id=47423647 Points: 21 # Comments: 2",
+          "summary": "Computer science veteran Rob Pike outlines five fundamental principles for effective programming practice. The rules emphasize simplicity, measurement, and practical problem-solving over theoretical complexity.",
+          "pullQuote": "Five fundamental principles for effective programming from veteran developer",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Kagi is contemplating the removal of the assistant from its professional tier",
+          "url": "https://kagifeedback.org/d/10116-kagi-assistant-standalone-subscription",
+          "pubDate": null,
+          "excerpt": "Article URL: https://kagifeedback.org/d/10116-kagi-assistant-standalone-subscription Comments URL: https://news.ycombinator.com/item?id=47423624 Points: 10 # Comments: 2",
+          "summary": "Privacy-focused search engine Kagi is considering removing its AI assistant feature from professional subscriptions. The company is exploring offering the assistant as a separate standalone service instead.",
+          "pullQuote": "Privacy search engine restructuring AI assistant subscription model",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Nightingale – open-source karaoke app that works with any song on your computer",
+          "url": "https://nightingale.cafe/",
+          "pubDate": null,
+          "excerpt": "Article URL: https://nightingale.cafe/ Comments URL: https://news.ycombinator.com/item?id=47422942 Points: 24 # Comments: 5",
+          "summary": "Nightingale is a free, open-source karaoke application that can process any audio file on a user's computer to create karaoke versions. The software separates vocals from music tracks automatically without requiring specialized karaoke files.",
+          "pullQuote": "Creates karaoke versions from any song on your computer automatically",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "politics": {
+      "category": {
+        "id": "politics",
+        "label": "Politics & Current Events",
+        "icon": "",
+        "color": "#2c4a8a"
+      },
+      "items": [
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "Trump Alone",
+          "url": "https://robertreich.substack.com/p/trump-alone",
+          "pubDate": null,
+          "excerpt": "A Note to America's Allies and Friends",
+          "summary": "Robert Reich addresses America's international allies regarding Trump's return to power. The piece examines how foreign partners should navigate diplomatic relations during Trump's second term.",
+          "pullQuote": "America's allies must prepare for diplomatic isolation under Trump",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "The 250th Anniversary of Adam Smith's Revolutionary Text",
+          "url": "https://robertreich.substack.com/p/the-250th-anniversary-of-adam-smiths",
+          "pubDate": null,
+          "excerpt": "The Wealth of Nations is a revolutionary text",
+          "summary": "Reich commemorates the 250th anniversary of Adam Smith's \"The Wealth of Nations\" and its enduring economic principles. The analysis connects Smith's foundational ideas to contemporary economic policy debates.",
+          "pullQuote": "Smith's revolutionary economic theories remain relevant after 250 years",
+          "relevanceScore": 7,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Support for Israel Has Collapsed Among Young Americans",
+          "url": "https://www.thebulwark.com/p/support-for-israel-has-collapsed",
+          "pubDate": null,
+          "excerpt": "Sam Stein and Rachel Janfaza take on a striking shift among young voters: support for Israel has collapsed, with just 13% of Gen Z viewing it positively.",
+          "summary": "Polling data reveals only 13% of Generation Z Americans view Israel positively, marking a dramatic generational shift. The analysis examines factors driving this collapse in support among younger voters.",
+          "pullQuote": "Only 13% of Gen Z Americans view Israel positively",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "What Pete Hegseth's Spiritual Mentor Wants for America",
+          "url": "https://www.thebulwark.com/p/douglas-wilson-pete-hegseth-moscow-idaho-theocracy-dominionism-christian-reconstruction-theonomy",
+          "pubDate": null,
+          "excerpt": "Pastor-theologian Douglas Wilson advocates theocracy, the restriction of the franchise from women and nonbelievers, and much else—and he is closer than ever to real power.",
+          "summary": "Pastor Douglas Wilson, who influences Defense Secretary nominee Pete Hegseth, advocates for theocratic governance and restricting voting rights from women and nonbelievers. The investigation reveals Wilson's proximity to potential executive power through his mentorship relationship.",
+          "pullQuote": "Wilson advocates restricting voting rights from women and nonbelievers",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "The Iran War Is Not a Just War",
+          "url": "https://www.thebulwark.com/p/the-iran-war-is-not-a-just-war-theory-trump-hegseth-israel",
+          "pubDate": null,
+          "excerpt": "Operation Epic Fury fails almost all the tests of righteous warfare.",
+          "summary": "An analysis of hypothetical military action against Iran concludes that \"Operation Epic Fury\" fails traditional just war theory criteria. The piece evaluates proposed military strategies against established ethical frameworks for righteous warfare.",
+          "pullQuote": "Proposed Iran military action fails just war theory tests",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "finance": {
+      "category": {
+        "id": "finance",
+        "label": "Finance & Markets",
+        "icon": "",
+        "color": "#1a5c3a"
+      },
+      "items": [
+        {
+          "source": "The Finance Newsletter",
+          "category": "finance",
+          "priority": 2,
+          "title": "💥 Stagflation Is Back. GDP Cut in Half. US Debt hit $38.9 Trillion. Oil Above $100. Here's What to Do.",
+          "url": "https://www.thefinancenewsletter.com/p/stagflation-market-crash",
+          "pubDate": null,
+          "excerpt": "GDP crashed to 0.7%, oil topped $100, America's debt spiral hit $38.9 trillion, and recession odds jumped to 25%. Here's What It Means for You.",
+          "summary": "U.S. GDP growth slowed dramatically to 0.7% while oil prices surged above $100 per barrel, creating stagflation conditions not seen since the 1970s. The national debt reached $38.9 trillion as recession probability estimates climbed to 25%, prompting concerns about simultaneous economic stagnation and inflation.",
+          "pullQuote": "GDP crashed to 0.7% while oil topped $100 per barrel",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        }
+      ]
+    }
+  },
+  "featured": {
+    "source": "The Growth Mindset",
+    "category": "education",
+    "priority": 2,
+    "title": "What Wasn't Being Said - Part I",
+    "url": "https://tmindset.substack.com/p/what-wasnt-being-said-part-i",
+    "pubDate": null,
+    "excerpt": "Going beyond our intuition",
+    "summary": "The article explores the importance of looking beyond initial assumptions and surface-level thinking in educational and personal development contexts. It emphasizes developing critical thinking skills that question underlying premises rather than accepting conventional wisdom.",
+    "pullQuote": "Going beyond intuition reveals hidden assumptions in learning",
+    "relevanceScore": 7,
+    "featuredCandidate": false
+  },
+  "briefing": {
+    "editorsNote": "Today's stories remind us that beneath surface headlines lie deeper truths requiring careful analysis and thoughtful preparation.",
+    "bullets": [
+      {
+        "category": "education",
+        "text": "Critical thinking means questioning the premises everyone else accepts as obvious starting points.",
+        "icon": ""
+      },
+      {
+        "category": "baseball",
+        "text": "Week 5 college baseball analytics reveal Vahn Lackey and Trey Beard as standout performers.",
+        "icon": ""
+      },
+      {
+        "category": "tech",
+        "text": "Obsidian skill graphs can transform AI agents into automated content teams for multiple outputs.",
+        "icon": ""
+      },
+      {
+        "category": "politics",
+        "text": "Adam Smith's 250-year-old economic principles still guide today's most pressing policy debates.",
+        "icon": ""
+      },
+      {
+        "category": "finance",
+        "text": "GDP crashed to 0.7% while oil hit $100, creating dangerous stagflation not seen since 1970s.",
+        "icon": ""
+      }
+    ]
+  },
+  "dateStr": "2026-03-18",
+  "generatedAt": "2026-03-18T11:01:02.826Z"
+}
