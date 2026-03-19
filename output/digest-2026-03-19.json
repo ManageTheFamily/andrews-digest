@@ -1,0 +1,390 @@
+{
+  "meta": {
+    "digest_title": "The Andrews Family Digest",
+    "tagline": "Curated knowledge for family, learning, and development",
+    "lookback_hours": 24,
+    "max_per_category": 5,
+    "model": "claude-sonnet-4-20250514"
+  },
+  "categories": [
+    {
+      "id": "education",
+      "label": "Education & Learning",
+      "icon": "",
+      "color": "#2c5f8a"
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball & Player Development",
+      "icon": "",
+      "color": "#1a6b3a"
+    },
+    {
+      "id": "health",
+      "label": "Health, Fitness & Nutrition",
+      "icon": "",
+      "color": "#8a3a2c"
+    },
+    {
+      "id": "parenting",
+      "label": "Parenting & Family",
+      "icon": "",
+      "color": "#5a3a8a"
+    },
+    {
+      "id": "tech",
+      "label": "Technology & Tools",
+      "icon": "",
+      "color": "#3a6a8a"
+    },
+    {
+      "id": "politics",
+      "label": "Politics & Current Events",
+      "icon": "",
+      "color": "#2c4a8a"
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Markets",
+      "icon": "",
+      "color": "#1a5c3a"
+    },
+    {
+      "id": "culture",
+      "label": "Arts & Culture",
+      "icon": "",
+      "color": "#6a3a8a"
+    }
+  ],
+  "grouped": {
+    "education": {
+      "category": {
+        "id": "education",
+        "label": "Education & Learning",
+        "icon": "",
+        "color": "#2c5f8a"
+      },
+      "items": [
+        {
+          "source": "Excellent AI Prompts",
+          "category": "education",
+          "priority": 1,
+          "title": "9 AI Prompts to Turn Performative Marketing Into Revenue",
+          "url": "https://excellentprompts.substack.com/p/ai-prompts-performative-marketing-revenue",
+          "pubDate": null,
+          "excerpt": "Most marketing measures activity, not outcomes. These nine AI prompts help you fix your messaging, build attribution, and recover hidden revenue.",
+          "summary": "A marketing guide offers nine AI-generated prompts designed to help businesses shift from activity-based metrics to outcome-focused revenue generation. The prompts target message optimization, attribution tracking, and identifying previously unrecognized revenue streams.",
+          "pullQuote": "Nine AI prompts help fix messaging and recover hidden revenue",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Books Worth Reading",
+          "category": "education",
+          "priority": 2,
+          "title": "This book opinion is going to get me canceled",
+          "url": "https://booksworthreading.substack.com/p/can-you-get-rich-selling-washtubs",
+          "pubDate": null,
+          "excerpt": "The column that will get me canceled.",
+          "summary": "A book reviewer presents a controversial literary opinion that they anticipate will generate significant criticism. The specific book or argument is not detailed in the available excerpt.",
+          "pullQuote": "The column that will get me canceled",
+          "relevanceScore": 1,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "baseball": {
+      "category": {
+        "id": "baseball",
+        "label": "Baseball & Player Development",
+        "icon": "",
+        "color": "#1a6b3a"
+      },
+      "items": [
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "LSU Falls Out Of The Top 25 & Rising Teams To Watch | College Podcast",
+          "url": "https://www.baseballamerica.com/stories/lsu-falls-out-of-the-top-25-rising-teams-to-watch-college-podcast/",
+          "pubDate": null,
+          "excerpt": "In this week's College Baseball Podcast, Jacob and Carlos break down LSU's stunning exit from BA's latest Top 25 poll and more. The post LSU Falls Out Of The Top 25 & Rising Teams To Watch | College Podcast appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "LSU has dropped out of Baseball America's Top 25 college rankings in a surprising development. The podcast discusses emerging teams that could challenge traditional powerhouses this season.",
+          "pullQuote": "LSU's stunning exit from BA's latest Top 25 poll",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Fantasy Baseball 2026: Rankings, Sleepers, Dynasty & More",
+          "url": "https://www.baseballamerica.com/stories/fantasy-baseball-2026-rankings-sleepers-dynasty-more/",
+          "pubDate": null,
+          "excerpt": "Presenting Baseball America's complete rundown of fantasy baseball resources for 2026, including rankings, sleepers, dynasty and more. The post Fantasy Baseball 2026: Rankings, Sleepers, Dynasty & More appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America releases comprehensive fantasy baseball resources for 2026 including player rankings and dynasty league guidance. The analysis covers sleeper picks and long-term value assessments for fantasy managers.",
+          "pullQuote": "Complete rundown of fantasy baseball resources for 2026",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "5 Players Who Could Raise Their Stock At Spring Breakout 2026",
+          "url": "https://www.baseballamerica.com/stories/10-players-who-could-raise-their-stock-at-spring-breakout-2026/",
+          "pubDate": null,
+          "excerpt": "MLB's Spring Breakout can be a springboard for prospects looking for a hot 2026 start. Here are names to keep an eye on. The post 5 Players Who Could Raise Their Stock At Spring Breakout 2026 appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "MLB's Spring Breakout showcases prospects positioned to boost their draft stock and organizational standing. Five specific players are highlighted as having significant opportunity to elevate their profiles during the event.",
+          "pullQuote": "Spring Breakout can be a springboard for prospects",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Top 10 MLB Prospects Playing In 2026 Spring Breakout",
+          "url": "https://www.baseballamerica.com/stories/top-10-mlb-prospects-playing-in-2026-spring-breakout/",
+          "pubDate": null,
+          "excerpt": "Here are the top MLB prospects to watch in this year's Spring Breakout according to the Baseball America Top 100. The post Top 10 MLB Prospects Playing In 2026 Spring Breakout appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America identifies the highest-rated prospects from their Top 100 list participating in this year's Spring Breakout event. The analysis provides scouting insights on players closest to major league readiness.",
+          "pullQuote": "Top MLB prospects to watch in Spring Breakout",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Tiered Rankings For Every 2026 MLB Spring Breakout Roster",
+          "url": "https://www.baseballamerica.com/stories/tiered-rankings-for-every-2026-mlb-spring-breakout-roster/",
+          "pubDate": null,
+          "excerpt": "From top of the class to the bottom of the barrel, here's how we view all 30 MLB Spring Breakout rosters for 2026. The post Tiered Rankings For Every 2026 MLB Spring Breakout Roster appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "All 30 MLB organizations' Spring Breakout rosters receive tiered evaluations based on prospect quality and depth. The rankings assess which teams feature the strongest developmental talent in the showcase event.",
+          "pullQuote": "How we view all 30 MLB Spring Breakout rosters",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "tech": {
+      "category": {
+        "id": "tech",
+        "label": "Technology & Tools",
+        "icon": "",
+        "color": "#3a6a8a"
+      },
+      "items": [
+        {
+          "source": "Emerging AI (Opinion AI)",
+          "category": "tech",
+          "priority": 1,
+          "title": "Why Your AI Still Starts From Zero Every Morning",
+          "url": "https://emergingai.substack.com/p/why-your-ai-still-starts-from-zero",
+          "pubDate": null,
+          "excerpt": "Anthropic’s latest Claude Code lessons reveal why Skills, gotchas, and reusable workflows are the missing layer between a smart model and an AI system that actually helps.",
+          "summary": "Anthropic's Claude Code analysis reveals that current AI systems lack persistent memory and reusable workflows, requiring users to rebuild context daily. The missing layer between smart models and truly helpful AI systems involves developing skills, workflows, and knowledge retention capabilities.",
+          "pullQuote": "Skills and reusable workflows are the missing layer for useful AI",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "2% of ICML papers desk rejected because the authors used LLM in their reviews",
+          "url": "https://blog.icml.cc/2026/03/18/on-violations-of-llm-review-policies/",
+          "pubDate": null,
+          "excerpt": "Article URL: https://blog.icml.cc/2026/03/18/on-violations-of-llm-review-policies/ Comments URL: https://news.ycombinator.com/item?id=47437101 Points: 36 # Comments: 17",
+          "summary": "The International Conference on Machine Learning desk-rejected 2% of submitted papers after detecting authors used large language models in their peer reviews. This enforcement action highlights growing concerns about AI-generated content in academic publishing and research integrity.",
+          "pullQuote": "Academic conferences now rejecting papers for AI-assisted reviews",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Eniac, the First General-Purpose Digital Computer, Turns 80",
+          "url": "https://spectrum.ieee.org/eniac-80-ieee-milestone",
+          "pubDate": null,
+          "excerpt": "Article URL: https://spectrum.ieee.org/eniac-80-ieee-milestone Comments URL: https://news.ycombinator.com/item?id=47435453 Points: 18 # Comments: 10",
+          "summary": "ENIAC, the first general-purpose digital computer, celebrates its 80th anniversary as an IEEE Milestone in engineering history. The room-sized machine, unveiled in 1946, weighed 30 tons and used 18,000 vacuum tubes to perform calculations previously done by human computers.",
+          "pullQuote": "First digital computer used 18,000 vacuum tubes and weighed 30 tons",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "What 81,000 people want from AI",
+          "url": "https://www.anthropic.com/features/81k-interviews",
+          "pubDate": null,
+          "excerpt": "Article URL: https://www.anthropic.com/features/81k-interviews Comments URL: https://news.ycombinator.com/item?id=47435156 Points: 133 # Comments: 109",
+          "summary": "Anthropic surveyed 81,000 users to understand AI usage patterns and preferences across different demographics and use cases. The research reveals widespread demand for AI assistance in creative work, research, and problem-solving, with significant variations in expectations between different user groups.",
+          "pullQuote": "81,000 users reveal what they actually want from AI assistance",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Conway's Game of Life, in real life",
+          "url": "https://lcamtuf.substack.com/p/conways-game-of-life-in-real-life",
+          "pubDate": null,
+          "excerpt": "Article URL: https://lcamtuf.substack.com/p/conways-game-of-life-in-real-life Comments URL: https://news.ycombinator.com/item?id=47434732 Points: 146 # Comments: 35",
+          "summary": "A programmer created a physical implementation of Conway's Game of Life using real-world materials and mechanical systems. The project demonstrates how mathematical concepts and computational thinking can be translated into tangible, observable phenomena outside of digital screens.",
+          "pullQuote": "Mathematical Game of Life recreated with physical mechanical systems",
+          "relevanceScore": 7,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "politics": {
+      "category": {
+        "id": "politics",
+        "label": "Politics & Current Events",
+        "icon": "",
+        "color": "#2c4a8a"
+      },
+      "items": [
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "Office Hours: Trump's Most Likely Threat to the Midterm Elections?",
+          "url": "https://robertreich.substack.com/p/office-hours-whats-trumps-biggest",
+          "pubDate": null,
+          "excerpt": "What we need to prepare for",
+          "summary": "Reich examines potential threats Trump poses to upcoming midterm elections through various political and institutional channels. The analysis focuses on preparation strategies for maintaining democratic processes.",
+          "pullQuote": "preparation strategies for maintaining democratic electoral processes",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "Rallying for the Future of Humanity and a Safe AI",
+          "url": "https://robertreich.substack.com/p/rallying-for-the-future-of-ai-and",
+          "pubDate": null,
+          "excerpt": "Countervailing powers are joining together against a corrupt and rogue regime",
+          "summary": "Reich argues that coalitions of countervailing powers are organizing to address AI safety concerns and governance challenges. The piece frames AI regulation as essential for protecting democratic institutions and human welfare.",
+          "pullQuote": "coalitions organizing to address AI safety and governance challenges",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "How to Counter the GOP's AI Psyops",
+          "url": "https://www.thebulwark.com/p/how-to-counter-gop-republican-ai-psyops-deepfakes-talarico",
+          "pubDate": null,
+          "excerpt": "Leaning into authenticity.",
+          "summary": "The article explores strategies for combating AI-generated disinformation and deepfakes in political campaigns. It emphasizes authenticity as a key defense against sophisticated digital manipulation tactics.",
+          "pullQuote": "authenticity as defense against sophisticated digital manipulation tactics",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Tulsi Gabbard: Director of National Ignorance",
+          "url": "https://www.thebulwark.com/p/tulsi-gabbard-dni-director-of-national-ignorance",
+          "pubDate": null,
+          "excerpt": "Slapped down by Trump, she says it’s not her job to assess threats to the U.S.",
+          "summary": "The piece criticizes Tulsi Gabbard's nomination as Director of National Intelligence, highlighting her stated reluctance to assess threats to U.S. security. It examines tensions between Gabbard and Trump over intelligence responsibilities.",
+          "pullQuote": "reluctance to assess threats to U.S. national security",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "About Those Women Fleeing the Misogynistic Right",
+          "url": "https://www.thebulwark.com/p/about-those-women-fleeing-the-misogynistic-right",
+          "pubDate": null,
+          "excerpt": "And the story of my own wakeup call.",
+          "summary": "The author shares a personal account of leaving conservative politics due to increasing misogyny within right-wing movements. The piece examines broader patterns of women distancing themselves from politically hostile environments.",
+          "pullQuote": "women distancing themselves from politically hostile environments",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "finance": {
+      "category": {
+        "id": "finance",
+        "label": "Finance & Markets",
+        "icon": "",
+        "color": "#1a5c3a"
+      },
+      "items": [
+        {
+          "source": "Ruben",
+          "category": "finance",
+          "priority": 2,
+          "title": "Claude Code.",
+          "url": "https://ruben.substack.com/p/claude-code",
+          "pubDate": null,
+          "excerpt": "A guide for people who don't code, and never will:",
+          "summary": "A guide introduces non-programmers to using Claude AI for coding tasks without requiring traditional programming skills. The article targets individuals who have no intention of learning to code but want to leverage AI assistance.",
+          "pullQuote": "AI coding guide for people who never intend to program",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        }
+      ]
+    }
+  },
+  "featured": {
+    "source": "Hacker News",
+    "category": "tech",
+    "priority": 3,
+    "title": "Conway's Game of Life, in real life",
+    "url": "https://lcamtuf.substack.com/p/conways-game-of-life-in-real-life",
+    "pubDate": null,
+    "excerpt": "Article URL: https://lcamtuf.substack.com/p/conways-game-of-life-in-real-life Comments URL: https://news.ycombinator.com/item?id=47434732 Points: 146 # Comments: 35",
+    "summary": "A programmer created a physical implementation of Conway's Game of Life using real-world materials and mechanical systems. The project demonstrates how mathematical concepts and computational thinking can be translated into tangible, observable phenomena outside of digital screens.",
+    "pullQuote": "Mathematical Game of Life recreated with physical mechanical systems",
+    "relevanceScore": 7,
+    "featuredCandidate": false
+  },
+  "briefing": {
+    "editorsNote": "Today's stories reveal how traditional concepts gain new life through technology, from physical programming to AI-assisted learning.",
+    "bullets": [
+      {
+        "category": "education",
+        "text": "Nine AI prompts promise to transform marketing busy work into measurable revenue streams.",
+        "icon": ""
+      },
+      {
+        "category": "baseball",
+        "text": "Five prospects could dramatically boost their draft stock at MLB's Spring Breakout showcase.",
+        "icon": ""
+      },
+      {
+        "category": "tech",
+        "text": "Someone built Conway's Game of Life with actual mechanical parts instead of code.",
+        "icon": ""
+      },
+      {
+        "category": "politics",
+        "text": "Authenticity emerges as the primary weapon against AI-generated political disinformation campaigns.",
+        "icon": ""
+      },
+      {
+        "category": "finance",
+        "text": "Claude AI now lets non-programmers write functional code without learning programming languages.",
+        "icon": ""
+      }
+    ]
+  },
+  "dateStr": "2026-03-19",
+  "generatedAt": "2026-03-19T11:01:06.470Z"
+}
