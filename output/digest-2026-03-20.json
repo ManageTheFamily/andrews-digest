@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "digest_title": "The Andrews Family Digest",
+    "tagline": "Curated knowledge for family, learning, and development",
+    "lookback_hours": 24,
+    "max_per_category": 5,
+    "model": "claude-sonnet-4-20250514"
+  },
+  "categories": [
+    {
+      "id": "education",
+      "label": "Education & Learning",
+      "icon": "",
+      "color": "#2c5f8a"
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball & Player Development",
+      "icon": "",
+      "color": "#1a6b3a"
+    },
+    {
+      "id": "health",
+      "label": "Health, Fitness & Nutrition",
+      "icon": "",
+      "color": "#8a3a2c"
+    },
+    {
+      "id": "parenting",
+      "label": "Parenting & Family",
+      "icon": "",
+      "color": "#5a3a8a"
+    },
+    {
+      "id": "tech",
+      "label": "Technology & Tools",
+      "icon": "",
+      "color": "#3a6a8a"
+    },
+    {
+      "id": "politics",
+      "label": "Politics & Current Events",
+      "icon": "",
+      "color": "#2c4a8a"
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Markets",
+      "icon": "",
+      "color": "#1a5c3a"
+    },
+    {
+      "id": "culture",
+      "label": "Arts & Culture",
+      "icon": "",
+      "color": "#6a3a8a"
+    }
+  ],
+  "grouped": {
+    "education": {
+      "category": {
+        "id": "education",
+        "label": "Education & Learning",
+        "icon": "",
+        "color": "#2c5f8a"
+      },
+      "items": [
+        {
+          "source": "Excellent AI Prompts",
+          "category": "education",
+          "priority": 1,
+          "title": "How to Think About and Get Real Work Done with Ollama",
+          "url": "https://excellentprompts.substack.com/p/local-llms-for-solopreneurs-get-real-work-done-ollama",
+          "pubDate": null,
+          "excerpt": "Three practical Ollama workflows that replace real work. Includes model picks and a prompt library.",
+          "summary": "Article outlines three practical workflows using Ollama, a local AI tool, to automate real work tasks for independent professionals. The guide includes specific model recommendations and a prompt library for immediate implementation.",
+          "pullQuote": "Three practical Ollama workflows that replace real work",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Excellent AI Prompts",
+          "category": "education",
+          "priority": 1,
+          "title": "5 AI Prompts to Protect Your Career (and Your Biology) from Difficult People",
+          "url": "https://excellentprompts.substack.com/p/ai-prompts-protect-career-biology-difficult-people",
+          "pubDate": null,
+          "excerpt": "New PNAS research links difficult relationships to accelerated biological aging.",
+          "summary": "New research published in PNAS demonstrates that difficult relationships accelerate biological aging at the cellular level. The article provides five specific AI prompts designed to help navigate challenging interpersonal situations professionally.",
+          "pullQuote": "Difficult relationships linked to accelerated biological aging",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Growth Mindset",
+          "category": "education",
+          "priority": 2,
+          "title": "What Wasn't Being Said - Part II",
+          "url": "https://tmindset.substack.com/p/what-wasnt-being-said-part-ii",
+          "pubDate": null,
+          "excerpt": "Sometimes, what solves our problem is a hidden pattern that our data misses",
+          "summary": "Analysis explores how problem-solving breakthroughs often emerge from recognizing hidden patterns that conventional data analysis overlooks. The piece examines methodologies for identifying these concealed insights in various contexts.",
+          "pullQuote": "Hidden patterns that our data misses solve problems",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "baseball": {
+      "category": {
+        "id": "baseball",
+        "label": "Baseball & Player Development",
+        "icon": "",
+        "color": "#1a6b3a"
+      },
+      "items": [
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "College Baseball Week 6: Previewing A Top 5 SEC Clash, Early NCAA Tournament Thoughts",
+          "url": "https://www.baseballamerica.com/stories/college-baseball-week-6-previewing-a-top-5-sec-clash-early-ncaa-tournament-thoughts/",
+          "pubDate": null,
+          "excerpt": "BA's Jacob Rudner checks in with the players and matchups that have his attention heading into week 6 of the college season. The post College Baseball Week 6: Previewing A Top 5 SEC Clash, Early NCAA Tournament Thoughts appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America previews key matchups and standout players in the sixth week of college baseball season. The analysis includes early projections for NCAA Tournament positioning as conference play intensifies.",
+          "pullQuote": "Key players and matchups shaping early NCAA Tournament projections",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "MiLB Opening Day 2026: Minor League Schedules, Start Times & More",
+          "url": "https://www.baseballamerica.com/stories/milb-opening-day-2026-minor-league-schedules-start-times-more/",
+          "pubDate": null,
+          "excerpt": "The various 2026 Minor League Baseball seasons will start getting underway this month. Here's everything to know. The post MiLB Opening Day 2026: Minor League Schedules, Start Times & More appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Minor League Baseball seasons across various levels begin this month with comprehensive schedule information now available. The guide provides start times and key dates for all MiLB affiliates in 2026.",
+          "pullQuote": "Complete schedule information for all Minor League Baseball levels",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Early-Season MLB Draft Risers To Know | Draft Podcast",
+          "url": "https://www.baseballamerica.com/stories/early-season-mlb-draft-risers-to-know-draft-podcast/",
+          "pubDate": null,
+          "excerpt": "On this week's Draft Podcast, we take a look at several prospects who will move up in our next 2026 rankings update. The post Early-Season MLB Draft Risers To Know | Draft Podcast appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America's Draft Podcast identifies several prospects whose early-season performance has elevated their draft stock. These players will move up significantly in the next 2026 MLB Draft rankings update.",
+          "pullQuote": "Several prospects moving up significantly in next draft rankings",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Under-The-Radar MLB Prospects We're Excited To Watch In Spring Breakout | Prospect Podcast",
+          "url": "https://www.baseballamerica.com/stories/under-the-radar-mlb-prospects-were-excited-to-watch-in-spring-breakout-prospect-podcast/",
+          "pubDate": null,
+          "excerpt": "On this week's Prospect Podcast, Geoff and J.J. dig deep into Spring Breakout rosters to highlight some unheralded names to keep an eye on. The post Under-The-Radar MLB Prospects We’re Excited To Watch In Spring Breakout | Prospect Podcast appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "The Prospect Podcast highlights lesser-known players from Spring Breakout rosters who show significant developmental potential. These unheralded prospects could emerge as future organizational standouts based on their skill sets and recent progress.",
+          "pullQuote": "Unheralded prospects who could emerge as future organizational standouts",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "2026 Baseball Cards & Collectibles: Top Prospects, Release Dates & News",
+          "url": "https://www.baseballamerica.com/stories/baseball-cards-collectibles-top-prospects-release-dates-news/",
+          "pubDate": null,
+          "excerpt": "Presenting Baseball America's complete rundown of baseball card and collectibles resources for 2026, including checklist previews, the latest news & more. The post 2026 Baseball Cards & Collectibles: Top Prospects, Release Dates & News appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America provides a comprehensive guide to 2026 baseball card releases featuring top prospects and key collectibles. The resource includes checklist previews, release schedules, and market analysis for collectors.",
+          "pullQuote": "Comprehensive guide to 2026 baseball card releases featuring prospects",
+          "relevanceScore": 1,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "tech": {
+      "category": {
+        "id": "tech",
+        "label": "Technology & Tools",
+        "icon": "",
+        "color": "#3a6a8a"
+      },
+      "items": [
+        {
+          "source": "Doomberg",
+          "category": "tech",
+          "priority": 1,
+          "title": "Project Turtle",
+          "url": "https://newsletter.doomberg.com/p/project-turtle",
+          "pubDate": null,
+          "excerpt": "As worst-case scenarios rapidly unfold, will the US move to protect home base?",
+          "summary": "Doomberg examines potential U.S. strategic responses as geopolitical worst-case scenarios accelerate. The analysis focuses on domestic protection measures and economic security considerations.",
+          "pullQuote": "worst-case scenarios rapidly unfold across multiple fronts",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Emerging AI (Opinion AI)",
+          "category": "tech",
+          "priority": 1,
+          "title": "The AI System That Builds Your Digital Team",
+          "url": "https://emergingai.substack.com/p/the-ai-system-that-builds-your-digital",
+          "pubDate": null,
+          "excerpt": "Use simple markdown files, memory, skills, and connected tools to turn one AI agent into a working system for content, email, research, and daily operations.",
+          "summary": "A new AI system converts simple markdown files into automated workflows for content creation, email management, and research tasks. The platform connects multiple AI agents with memory and specialized skills to handle daily operational needs.",
+          "pullQuote": "turn one AI agent into working system for operations",
+          "relevanceScore": 7,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Cursor Composer 2 is just Kimi K2.5 with RL",
+          "url": "https://twitter.com/fynnso/status/2034706304875602030",
+          "pubDate": null,
+          "excerpt": "Article URL: https://twitter.com/fynnso/status/2034706304875602030 Comments URL: https://news.ycombinator.com/item?id=47452404 Points: 63 # Comments: 22",
+          "summary": "A developer claims that Cursor's new Composer 2 AI coding assistant is essentially the Kimi K2.5 model enhanced with reinforcement learning. The technical comparison sparked discussion among programmers about AI model similarities in coding tools.",
+          "pullQuote": "Cursor Composer 2 is just Kimi K2.5 with RL",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Essex police pause facial recognition camera use after study finds racial bias",
+          "url": "https://www.theguardian.com/technology/2026/mar/19/essex-police-pause-facial-recognition-camera-use-study-racial-bias",
+          "pubDate": null,
+          "excerpt": "Article URL: https://www.theguardian.com/technology/2026/mar/19/essex-police-pause-facial-recognition-camera-use-study-racial-bias Comments URL: https://news.ycombinator.com/item?id=47452248 Points: 13 # Comments: 10",
+          "summary": "Essex police suspended their facial recognition camera program following research documenting significant racial bias in the technology. The study found the system disproportionately misidentified individuals from certain ethnic groups, raising civil liberties concerns.",
+          "pullQuote": "facial recognition cameras show significant racial bias patterns",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "FSFE supporters affected: Payment provider Nexi cancelled us",
+          "url": "https://fsfe.org/news/2026/news-20260316-01.en.html",
+          "pubDate": null,
+          "excerpt": "Article URL: https://fsfe.org/news/2026/news-20260316-01.en.html Comments URL: https://news.ycombinator.com/item?id=47451429 Points: 59 # Comments: 18",
+          "summary": "The Free Software Foundation Europe lost its payment processing services when provider Nexi abruptly cancelled their account. The termination affects donation processing and highlights potential vulnerabilities for organizations advocating digital rights.",
+          "pullQuote": "payment provider suddenly cancelled digital rights organization account",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "politics": {
+      "category": {
+        "id": "politics",
+        "label": "Politics & Current Events",
+        "icon": "",
+        "color": "#2c4a8a"
+      },
+      "items": [
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "The REAL Reason Trump is Trapped in Iran",
+          "url": "https://robertreich.substack.com/p/playing-it-strait",
+          "pubDate": "Fri, 20 Mar 2026 08:02:56 GMT",
+          "excerpt": "And why American consumers are up Shit's Creek",
+          "summary": "And why American consumers are up Shit's Creek",
+          "pullQuote": "",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "Get Ready for March 28, No Kings!",
+          "url": "https://robertreich.substack.com/p/get-ready-for-march-28-no-kings",
+          "pubDate": "Thu, 19 Mar 2026 18:01:54 GMT",
+          "excerpt": "And Please Share this Video",
+          "summary": "And Please Share this Video",
+          "pullQuote": "",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "“Just Measles” Left Her Sister Disabled for Life (w/ Therese Vogel)",
+          "url": "https://www.thebulwark.com/p/just-measles-left-her-sister-disabled",
+          "pubDate": "Fri, 20 Mar 2026 10:03:23 GMT",
+          "excerpt": "Sam Stein and Jonathan Cohn talk with Therese Vogel about the return of measles.",
+          "summary": "Sam Stein and Jonathan Cohn talk with Therese Vogel about the return of measles.",
+          "pullQuote": "",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "How Putin Indoctrinates Russia’s Young",
+          "url": "https://www.thebulwark.com/p/how-putin-indoctrinates-russia-young",
+          "pubDate": "Fri, 20 Mar 2026 06:42:06 GMT",
+          "excerpt": "Oscar-winning documentary shows how his propaganda works in the classroom.",
+          "summary": "Oscar-winning documentary shows how his propaganda works in the classroom.",
+          "pullQuote": "",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "How Children Learned to Hate Food",
+          "url": "https://www.thebulwark.com/p/how-children-learned-to-hate-food-picky-veit",
+          "pubDate": "Fri, 20 Mar 2026 06:40:30 GMT",
+          "excerpt": "On the origins of pickiness.",
+          "summary": "On the origins of pickiness.",
+          "pullQuote": "",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        }
+      ]
+    }
+  },
+  "featured": {
+    "source": "Emerging AI (Opinion AI)",
+    "category": "tech",
+    "priority": 1,
+    "title": "The AI System That Builds Your Digital Team",
+    "url": "https://emergingai.substack.com/p/the-ai-system-that-builds-your-digital",
+    "pubDate": null,
+    "excerpt": "Use simple markdown files, memory, skills, and connected tools to turn one AI agent into a working system for content, email, research, and daily operations.",
+    "summary": "A new AI system converts simple markdown files into automated workflows for content creation, email management, and research tasks. The platform connects multiple AI agents with memory and specialized skills to handle daily operational needs.",
+    "pullQuote": "turn one AI agent into working system for operations",
+    "relevanceScore": 7,
+    "featuredCandidate": false
+  },
+  "briefing": {
+    "editorsNote": "Today's stories reveal the hidden currents shaping our world, from breakthrough thinking to emerging talents.",
+    "bullets": [
+      {
+        "category": "education",
+        "text": "New analysis reveals how breakthrough solutions emerge from recognizing patterns conventional methods miss entirely.",
+        "icon": ""
+      },
+      {
+        "category": "baseball",
+        "text": "Several prospects are surging up 2026 MLB Draft boards after impressive early-season performances worth tracking.",
+        "icon": ""
+      },
+      {
+        "category": "tech",
+        "text": "New AI system transforms markdown files into automated workflows managing content, emails, and research tasks.",
+        "icon": ""
+      },
+      {
+        "category": "politics",
+        "text": "Trump faces complex Iranian entanglements while American consumers brace for potential economic downstream effects.",
+        "icon": ""
+      }
+    ]
+  },
+  "dateStr": "2026-03-20",
+  "generatedAt": "2026-03-20T11:01:10.147Z"
+}
