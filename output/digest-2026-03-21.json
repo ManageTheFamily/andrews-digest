@@ -1,0 +1,418 @@
+{
+  "meta": {
+    "digest_title": "The Andrews Family Digest",
+    "tagline": "Curated knowledge for family, learning, and development",
+    "lookback_hours": 24,
+    "max_per_category": 5,
+    "model": "claude-sonnet-4-20250514"
+  },
+  "categories": [
+    {
+      "id": "education",
+      "label": "Education & Learning",
+      "icon": "",
+      "color": "#2c5f8a"
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball & Player Development",
+      "icon": "",
+      "color": "#1a6b3a"
+    },
+    {
+      "id": "health",
+      "label": "Health, Fitness & Nutrition",
+      "icon": "",
+      "color": "#8a3a2c"
+    },
+    {
+      "id": "parenting",
+      "label": "Parenting & Family",
+      "icon": "",
+      "color": "#5a3a8a"
+    },
+    {
+      "id": "tech",
+      "label": "Technology & Tools",
+      "icon": "",
+      "color": "#3a6a8a"
+    },
+    {
+      "id": "politics",
+      "label": "Politics & Current Events",
+      "icon": "",
+      "color": "#2c4a8a"
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Markets",
+      "icon": "",
+      "color": "#1a5c3a"
+    },
+    {
+      "id": "culture",
+      "label": "Arts & Culture",
+      "icon": "",
+      "color": "#6a3a8a"
+    }
+  ],
+  "grouped": {
+    "education": {
+      "category": {
+        "id": "education",
+        "label": "Education & Learning",
+        "icon": "",
+        "color": "#2c5f8a"
+      },
+      "items": [
+        {
+          "source": "The Growth Mindset",
+          "category": "education",
+          "priority": 2,
+          "title": "Weekend Q&A Sessions: Productive Procrastination",
+          "url": "https://tmindset.substack.com/p/weekend-q-and-a-sessions-productive",
+          "pubDate": null,
+          "excerpt": "I'm afraid of failing and keep postponing my work",
+          "summary": "A mindset coaching article addresses fear of failure and procrastination patterns in academic and personal development contexts. The piece offers strategies for overcoming avoidance behaviors that can impede learning progress.",
+          "pullQuote": "Fear of failing drives postponement of important work",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Books Worth Reading",
+          "category": "education",
+          "priority": 2,
+          "title": "Sir Francis Bacon gives advice to Marco in Washington",
+          "url": "https://booksworthreading.substack.com/p/sir-francis-bacon-gives-advice-to",
+          "pubDate": null,
+          "excerpt": "AND: Book recommendation of the week, book looks, and more!",
+          "summary": "A literary newsletter features historical philosopher Francis Bacon's wisdom applied to contemporary situations, along with curated book recommendations. The format connects classical Enlightenment thinking with modern practical applications.",
+          "pullQuote": "Francis Bacon's wisdom applied to contemporary practical situations",
+          "relevanceScore": 7,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "baseball": {
+      "category": {
+        "id": "baseball",
+        "label": "Baseball & Player Development",
+        "icon": "",
+        "color": "#1a6b3a"
+      },
+      "items": [
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "NL Central MLB Prospects To Know For 2026 | Fantasy Podcast",
+          "url": "https://www.baseballamerica.com/stories/nl-central-mlb-prospects-to-know-for-2026-fantasy-podcast/",
+          "pubDate": null,
+          "excerpt": "On this week's Fantasy Podcast, we discuss prospects from the NL Central that should be on your fantasy baseball radar. The post NL Central MLB Prospects To Know For 2026 | Fantasy Podcast appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America's fantasy podcast highlights top prospects from the NL Central division expected to impact fantasy leagues in 2026. The discussion covers emerging talent across the Cubs, Cardinals, Brewers, Pirates, and Reds organizations.",
+          "pullQuote": "NL Central prospects positioned for fantasy baseball breakout seasons",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Dodgers' Patrick Copen On Recovery From Comebacker That Left Him Partially Blind | From Phenom To The Farm",
+          "url": "https://www.baseballamerica.com/stories/dodgers-patrick-copen-on-recovery-from-comebacker-that-left-him-partially-blind-from-phenom-to-the-farm/",
+          "pubDate": null,
+          "excerpt": "Patrick Copen's career—and life—changed when he was struck in the head by a line drive. Now, he could be a 2026 breakout pitcher for the Dodgers. The post Dodgers’ Patrick Copen On Recovery From Comebacker That Left Him Partially Blind | From Phenom To The Farm appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Dodgers pitcher Patrick Copen suffered partial blindness after being struck by a line drive to the head during his career. Despite the life-altering injury, he has recovered and could emerge as a breakout pitcher for the Dodgers in 2026.",
+          "pullQuote": "Career-threatening head injury leads to inspiring comeback story",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Is Emmanuel Rodriguez Finally Ready To Live Up To His Massive Upside?",
+          "url": "https://www.baseballamerica.com/stories/is-emmanuel-rodriguez-finally-ready-to-live-up-to-his-massive-upside/",
+          "pubDate": null,
+          "excerpt": "A standout performance in Spring Breakout has Geoff Pontes wondering: Is it time for hope to become reality for Emmanuel Rodriguez? The post Is Emmanuel Rodriguez Finally Ready To Live Up To His Massive Upside? appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Emmanuel Rodriguez delivered a standout performance at Spring Breakout, raising questions about whether he's ready to fulfill his long-anticipated potential. Baseball America's Geoff Pontes examines whether Rodriguez's recent success signals a genuine breakthrough.",
+          "pullQuote": "Spring Breakout performance suggests high-upside prospect finally arriving",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "How Will Gasparino Reshaped His Career, MLB Draft Profile At UCLA",
+          "url": "https://www.baseballamerica.com/stories/how-will-gasparino-reshaped-his-career-mlb-draft-profile-at-ucla/",
+          "pubDate": null,
+          "excerpt": "After struggling at Texas, Will Gasparino has been one of college baseball's breakout stars at UCLA so far in 2026. The post How Will Gasparino Reshaped His Career, MLB Draft Profile At UCLA appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Will Gasparino transferred to UCLA after struggling at Texas and has emerged as one of college baseball's breakout stars in 2026. His career transformation makes him a notable prospect in the upcoming MLB draft.",
+          "pullQuote": "Transfer portal move transforms struggling pitcher into draft prospect",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Shohei Ohtani, Aaron Judge Dual Gold Logoman Baseball Card Sells For $2.16 Million",
+          "url": "https://www.baseballamerica.com/stories/shohei-ohtani-aaron-judge-dual-gold-logoman-baseball-card-sells-for-2-16-million/",
+          "pubDate": null,
+          "excerpt": "The buyer and seller both remain unknown, but Topps says the card was pulled by a customer at All-Pro Sportscards in Ohio last summer. The post Shohei Ohtani, Aaron Judge Dual Gold Logoman Baseball Card Sells For $2.16 Million appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "A rare dual Gold Logoman baseball card featuring Shohei Ohtani and Aaron Judge sold for $2.16 million in a private transaction. The card was originally pulled by a customer at All-Pro Sportscards in Ohio last summer, though both buyer and seller remain anonymous.",
+          "pullQuote": "Dual superstar card breaks records at $2.16 million sale",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "health": {
+      "category": {
+        "id": "health",
+        "label": "Health, Fitness & Nutrition",
+        "icon": "",
+        "color": "#8a3a2c"
+      },
+      "items": [
+        {
+          "source": "Peter Attia MD",
+          "category": "health",
+          "priority": 1,
+          "title": "When sophisticated models meet questionable premises",
+          "url": "https://peterattiamd.com/when-sophisticated-models-meet-questionable-premises/",
+          "pubDate": null,
+          "excerpt": "Mendelian randomization is a powerful tool—but not when you’re asking genes to answer the wrong question The post When sophisticated models meet questionable premises appeared first on Peter Attia.",
+          "summary": "Dr. Peter Attia examines flaws in Mendelian randomization studies, a research method that uses genetic variants to infer causal relationships in health outcomes. The analysis highlights how sophisticated statistical tools can produce misleading conclusions when built on faulty assumptions about genetic causation.",
+          "pullQuote": "sophisticated statistical tools can produce misleading conclusions when built on faulty assumptions",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "tech": {
+      "category": {
+        "id": "tech",
+        "label": "Technology & Tools",
+        "icon": "",
+        "color": "#3a6a8a"
+      },
+      "items": [
+        {
+          "source": "Emerging AI (Opinion AI)",
+          "category": "tech",
+          "priority": 1,
+          "title": "Free Resources to Build AI Agents in 2026",
+          "url": "https://emergingai.substack.com/p/free-resources-to-build-ai-agents",
+          "pubDate": null,
+          "excerpt": "A simple guide for beginners who want to stop saving tutorials and actually build something",
+          "summary": "A beginner's guide provides free resources for building AI agents, targeting those who want to move beyond collecting tutorials to actual implementation. The guide aims to help newcomers start building functional AI applications rather than just consuming educational content.",
+          "pullQuote": "Stop saving tutorials and actually build something with AI",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "FinStory AI",
+          "category": "tech",
+          "priority": 2,
+          "title": "Join top CFOs, FP&A and Controllers mastering AI before prices go up Sunday at 6 p.m. EST",
+          "url": "https://finstoryai.substack.com/p/join-top-cfos-fp-and-a-and-controllers",
+          "pubDate": null,
+          "excerpt": "48 hours left at the current price. Here is what you get as a paid member:",
+          "summary": "A financial AI training program for executives is increasing prices in 48 hours. The program targets CFOs and financial controllers seeking to integrate AI into their professional practices.",
+          "pullQuote": "Financial executives mastering AI before price increase deadline",
+          "relevanceScore": 1,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Blocking Internet Archive Won't Stop AI, but Will Erase Web's Historical Record",
+          "url": "https://www.eff.org/deeplinks/2026/03/blocking-internet-archive-wont-stop-ai-it-will-erase-webs-historical-record",
+          "pubDate": null,
+          "excerpt": "Article URL: https://www.eff.org/deeplinks/2026/03/blocking-internet-archive-wont-stop-ai-it-will-erase-webs-historical-record Comments URL: https://news.ycombinator.com/item?id=47464818 Points: 26 # Comments: 1",
+          "summary": "The Electronic Frontier Foundation argues that blocking the Internet Archive to prevent AI training will be ineffective while destroying valuable historical web records. The organization warns that such restrictions would harm research and education without achieving their intended AI limitations.",
+          "pullQuote": "Blocking archives erases history without stopping AI development",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "FFmpeg 101 (2024)",
+          "url": "https://blogs.igalia.com/ffmpeg-101/",
+          "pubDate": null,
+          "excerpt": "Article URL: https://blogs.igalia.com/llepage/ffmpeg-101/ Comments URL: https://news.ycombinator.com/item?id=47463547 Points: 89 # Comments: 1",
+          "summary": "An introductory guide to FFmpeg, the powerful multimedia framework for processing audio and video files. The tutorial covers fundamental concepts and practical applications for converting, streaming, and manipulating media files.",
+          "pullQuote": "Essential multimedia processing tool for audio and video manipulation",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Linux Applications Programming by Example: The Fundamental APIs (2nd Edition)",
+          "url": "https://github.com/arnoldrobbins/LinuxByExample-2e",
+          "pubDate": null,
+          "excerpt": "Article URL: https://github.com/arnoldrobbins/LinuxByExample-2e Comments URL: https://news.ycombinator.com/item?id=47462483 Points: 102 # Comments: 11",
+          "summary": "The second edition of a comprehensive Linux programming book is now available on GitHub, covering fundamental system APIs through practical examples. The resource provides hands-on learning for understanding core Linux programming concepts and system-level development.",
+          "pullQuote": "Complete Linux programming guide with practical API examples",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "politics": {
+      "category": {
+        "id": "politics",
+        "label": "Politics & Current Events",
+        "icon": "",
+        "color": "#2c4a8a"
+      },
+      "items": [
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "\"He's a Piece of Shit\" | The Coffee Klatch for March 21, 2026",
+          "url": "https://robertreich.substack.com/p/hes-a-piece-of-shit-the-coffee-klatch",
+          "pubDate": null,
+          "excerpt": "With Heather Lofthouse and yours truly, Robert Reich",
+          "summary": "Robert Reich and Heather Lofthouse host their regular political commentary show featuring partisan criticism of political figures. The discussion appears to focus on personal attacks rather than substantive policy analysis.",
+          "pullQuote": "partisan commentary show featuring personal political attacks",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "'All of You Could Be Democrats' (with Anderson Clayton)",
+          "url": "https://www.thebulwark.com/p/all-of-you-could-be-democrats-with",
+          "pubDate": null,
+          "excerpt": "A lot of the young people we’ve been talking to recently in our focus groups are relatively apolitical, and many of them don’t vote.",
+          "summary": "Democratic Party strategist Anderson Clayton discusses focus group findings showing young Americans are increasingly apolitical and disengaged from voting. The conversation explores potential strategies for political parties to appeal to non-voting demographics.",
+          "pullQuote": "young Americans increasingly apolitical and disengaged from voting",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "The Global Economy Is Literally Being Choked (w/ Sal Mercogliano)",
+          "url": "https://www.thebulwark.com/p/the-global-economy-is-literally-being",
+          "pubDate": null,
+          "excerpt": "Andrew Egger and maritime history and shipping expert Sal Mercogliano take on the rapidly escalating crisis in the Strait of Hormuz—and why it’s far more dangerous for the global economy than most people realize.",
+          "summary": "Maritime expert Sal Mercogliano analyzes the escalating crisis in the Strait of Hormuz and its potential to disrupt global shipping routes. The discussion warns that economic impacts from maritime chokepoint disruptions are being underestimated by policymakers.",
+          "pullQuote": "Strait of Hormuz crisis threatens global shipping routes",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Even Trump's Cheerleaders Are Saying \"Oops\"",
+          "url": "https://www.thebulwark.com/p/even-trumps-cheerleaders-are-saying",
+          "pubDate": null,
+          "excerpt": "Tim Miller, Sarah Longwell, and JVL were live in Austin talking about Trump’s Iran war, the cascading economic fallout, and growing global instability.",
+          "summary": "Political commentators Tim Miller, Sarah Longwell, and JVL discuss growing criticism of Trump's Iran military actions and resulting economic consequences. The Austin-based panel examines how even Trump supporters are expressing concern about cascading global instability.",
+          "pullQuote": "Trump supporters expressing concern about cascading global instability",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "David Frum: A Very Bad Time for Bozos to Be in Charge",
+          "url": "https://www.thebulwark.com/p/david-frum-a-very-bad-time-for-bozos",
+          "pubDate": null,
+          "excerpt": "Watch now (39 mins) | The U.S.",
+          "summary": "Conservative commentator David Frum argues that current global crises require competent leadership rather than inexperienced or incompetent officials. The 39-minute discussion examines how leadership quality affects crisis management outcomes.",
+          "pullQuote": "global crises require competent leadership over inexperienced officials",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "finance": {
+      "category": {
+        "id": "finance",
+        "label": "Finance & Markets",
+        "icon": "",
+        "color": "#1a5c3a"
+      },
+      "items": [
+        {
+          "source": "Blockware Intelligence",
+          "category": "finance",
+          "priority": 1,
+          "title": "Blockware Intelligence Newsletter: Week 205",
+          "url": "https://newsletter.blockwareintelligence.com/p/blockware-intelligence-newsletter-d11",
+          "pubDate": null,
+          "excerpt": "Bitcoin on-chain analysis, mining analysis, macro analysis; overview of 3/16/26 - 3/20/26",
+          "summary": "Blockware Intelligence provides weekly analysis covering Bitcoin on-chain metrics, mining operations, and macroeconomic factors for the week of March 16-20, 2026. The newsletter offers technical analysis of cryptocurrency markets and mining industry trends for investors and traders.",
+          "pullQuote": "Bitcoin on-chain analysis reveals mining and macro trends",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        }
+      ]
+    }
+  },
+  "featured": {
+    "source": "Books Worth Reading",
+    "category": "education",
+    "priority": 2,
+    "title": "Sir Francis Bacon gives advice to Marco in Washington",
+    "url": "https://booksworthreading.substack.com/p/sir-francis-bacon-gives-advice-to",
+    "pubDate": null,
+    "excerpt": "AND: Book recommendation of the week, book looks, and more!",
+    "summary": "A literary newsletter features historical philosopher Francis Bacon's wisdom applied to contemporary situations, along with curated book recommendations. The format connects classical Enlightenment thinking with modern practical applications.",
+    "pullQuote": "Francis Bacon's wisdom applied to contemporary practical situations",
+    "relevanceScore": 7,
+    "featuredCandidate": false
+  },
+  "briefing": {
+    "editorsNote": "Today's stories remind us that wisdom, resilience, and careful thinking matter more than sophisticated tools or flashy promises.",
+    "bullets": [
+      {
+        "category": "education",
+        "text": "Classical wisdom meets modern problems as Francis Bacon's philosophy guides contemporary decision-making and book choices.",
+        "icon": ""
+      },
+      {
+        "category": "baseball",
+        "text": "Dodgers pitcher Patrick Copen overcomes partial blindness from line drive injury, eyeing 2026 breakout season.",
+        "icon": ""
+      },
+      {
+        "category": "health",
+        "text": "Dr. Peter Attia exposes how fancy genetic studies can mislead when built on shaky assumptions.",
+        "icon": ""
+      },
+      {
+        "category": "tech",
+        "text": "Blocking Internet Archive to stop AI training would destroy web history without actually limiting AI.",
+        "icon": ""
+      },
+      {
+        "category": "politics",
+        "text": "Maritime expert warns policymakers are underestimating economic risks from Strait of Hormuz shipping disruptions.",
+        "icon": ""
+      },
+      {
+        "category": "finance",
+        "text": "Weekly Bitcoin analysis covers on-chain metrics, mining trends, and macro factors for March 16-20 period.",
+        "icon": ""
+      }
+    ]
+  },
+  "dateStr": "2026-03-21",
+  "generatedAt": "2026-03-21T11:01:19.808Z"
+}
