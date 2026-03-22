@@ -1,0 +1,366 @@
+{
+  "meta": {
+    "digest_title": "The Andrews Family Digest",
+    "tagline": "Curated knowledge for family, learning, and development",
+    "lookback_hours": 24,
+    "max_per_category": 5,
+    "model": "claude-sonnet-4-20250514"
+  },
+  "categories": [
+    {
+      "id": "education",
+      "label": "Education & Learning",
+      "icon": "",
+      "color": "#2c5f8a"
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball & Player Development",
+      "icon": "",
+      "color": "#1a6b3a"
+    },
+    {
+      "id": "health",
+      "label": "Health, Fitness & Nutrition",
+      "icon": "",
+      "color": "#8a3a2c"
+    },
+    {
+      "id": "parenting",
+      "label": "Parenting & Family",
+      "icon": "",
+      "color": "#5a3a8a"
+    },
+    {
+      "id": "tech",
+      "label": "Technology & Tools",
+      "icon": "",
+      "color": "#3a6a8a"
+    },
+    {
+      "id": "politics",
+      "label": "Politics & Current Events",
+      "icon": "",
+      "color": "#2c4a8a"
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Markets",
+      "icon": "",
+      "color": "#1a5c3a"
+    },
+    {
+      "id": "culture",
+      "label": "Arts & Culture",
+      "icon": "",
+      "color": "#6a3a8a"
+    }
+  ],
+  "grouped": {
+    "education": {
+      "category": {
+        "id": "education",
+        "label": "Education & Learning",
+        "icon": "",
+        "color": "#2c5f8a"
+      },
+      "items": [
+        {
+          "source": "Excellent AI Prompts",
+          "category": "education",
+          "priority": 1,
+          "title": "8 AI Prompts That Replace 18 Hours of Vacation Planning",
+          "url": "https://excellentprompts.substack.com/p/vacation-planning",
+          "pubDate": null,
+          "excerpt": "8 AI prompts that replace 18 hours of vacation research. Find cheaper destinations, optimize flights, and plan like a local in one 45-minute session.",
+          "summary": "A collection of AI prompts claims to compress vacation planning research from 18 hours into a 45-minute session. The system covers destination comparison, flight optimization, and local planning strategies for busy families.",
+          "pullQuote": "compress vacation planning research from 18 hours into 45 minutes",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "baseball": {
+      "category": {
+        "id": "baseball",
+        "label": "Baseball & Player Development",
+        "icon": "",
+        "color": "#1a6b3a"
+      },
+      "items": [
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "After Firing Paul Mainieri, What's Next For South Carolina Baseball?",
+          "url": "https://www.baseballamerica.com/stories/after-firing-paul-mainieri-whats-next-for-south-carolina-baseball/",
+          "pubDate": null,
+          "excerpt": "Examining how South Carolina baseball could navigate its next coaching search and how the job stacks up in the SEC. The post After Firing Paul Mainieri, What’s Next For South Carolina Baseball? appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America analyzes South Carolina's coaching search process following Paul Mainieri's dismissal after a 40-40 record. The article examines how the program compares to other SEC coaching opportunities in the current market.",
+          "pullQuote": "How the job stacks up in the competitive SEC coaching landscape",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "South Carolina Fires Head Coach Paul Mainieri",
+          "url": "https://www.baseballamerica.com/stories/south-carolina-fires-head-coach-paul-mainieri/",
+          "pubDate": null,
+          "excerpt": "Mainieri went 40-40 overall and just 6-28 in SEC play across a season and a half with the Gamecocks. The post South Carolina Fires Head Coach Paul Mainieri appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "South Carolina dismissed head coach Paul Mainieri after compiling a 40-40 overall record and 6-28 SEC mark over one and a half seasons. The firing reflects the program's struggles to compete at the SEC level under his leadership.",
+          "pullQuote": "Just 6-28 in SEC play across season and a half",
+          "relevanceScore": 1,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Alabama's Tyler Fay No-Hits Florida, Mason Edwards' Dominance Continues | College Baseball Recap",
+          "url": "https://www.baseballamerica.com/stories/alabamas-tyler-fay-no-hits-florida-mason-edwards-dominance-continues-college-baseball-recap/",
+          "pubDate": null,
+          "excerpt": "BA's Jacob Rudner recaps the top storylines and players to know from an action-packed Friday night of college baseball. The post Alabama’s Tyler Fay No-Hits Florida, Mason Edwards’ Dominance Continues | College Baseball Recap appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Alabama pitcher Tyler Fay threw a no-hitter against Florida in Friday night's SEC action. The recap also highlights Mason Edwards' continued pitching dominance and other top performances from college baseball's Friday slate.",
+          "pullQuote": "Tyler Fay no-hits Florida in dominant SEC pitching performance",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "MLB Spring Breakout 2026: Top Prospects, Pitches & Performances From Friday's Games",
+          "url": "https://www.baseballamerica.com/stories/mlb-spring-breakout-2026-top-prospects-pitches-performances-from-thursdays-games/",
+          "pubDate": null,
+          "excerpt": "Baseball America is on hand for every 2026 MLB Spring Breakout Game. Here are the top prospects and plays we've seen so far. The post MLB Spring Breakout 2026: Top Prospects, Pitches & Performances From Friday’s Games appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America provides comprehensive coverage of the 2026 MLB Spring Breakout showcase featuring top amateur prospects. The report highlights standout pitching performances and identifies key players to watch in the high school and college draft classes.",
+          "pullQuote": "Top prospects and elite pitching performances from 2026 showcase",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "health": {
+      "category": {
+        "id": "health",
+        "label": "Health, Fitness & Nutrition",
+        "icon": "",
+        "color": "#8a3a2c"
+      },
+      "items": [
+        {
+          "source": "Schizophonic Music",
+          "category": "health",
+          "priority": 3,
+          "title": "The Dialogue w/ John Oliver 3/18/26 : Human Rights... and their absence in 2026",
+          "url": "https://schizophonicmusic.substack.com/p/the-dialogue-w-john-oliver-31826",
+          "pubDate": null,
+          "excerpt": "A recording from John Oliver 🇨🇦🇬🇱🇩🇰🇳🇴🇨🇺🇵🇸🇺🇦☮️ and Shane Yirak's live video",
+          "summary": "A podcast episode features John Oliver discussing human rights issues in a speculative 2026 context. The content appears to focus on political and social commentary rather than health, fitness, or nutrition topics.",
+          "pullQuote": "Human rights discussion in speculative 2026 political context",
+          "relevanceScore": 1,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Schizophonic Music",
+          "category": "health",
+          "priority": 3,
+          "title": "Universal Declaration of Human Rights Revisited",
+          "url": "https://schizophonicmusic.substack.com/p/universal-declaration-of-human-rights",
+          "pubDate": null,
+          "excerpt": "Revisited by John Oliver for Shane Yirak’s podcast “The Dialogue with John Oliver”",
+          "summary": "John Oliver revisits the Universal Declaration of Human Rights in a podcast format with Shane Yirak. The discussion centers on political and social rights rather than health or fitness applications.",
+          "pullQuote": "Universal Declaration revisited through contemporary political lens",
+          "relevanceScore": 1,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "tech": {
+      "category": {
+        "id": "tech",
+        "label": "Technology & Tools",
+        "icon": "",
+        "color": "#3a6a8a"
+      },
+      "items": [
+        {
+          "source": "Doomberg",
+          "category": "tech",
+          "priority": 1,
+          "title": "Island Hopping",
+          "url": "https://newsletter.doomberg.com/p/island-hopping",
+          "pubDate": null,
+          "excerpt": "Does the path to China’s control over Taipei run through Havana?",
+          "summary": "The article examines potential geopolitical connections between China's influence in Cuba and broader strategic positioning regarding Taiwan. It explores how Caribbean geopolitics might factor into larger Pacific tensions.",
+          "pullQuote": "China's Caribbean positioning may signal broader Pacific ambitions",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "FinStory AI",
+          "category": "tech",
+          "priority": 2,
+          "title": "I turned a napkin sketch into a board-ready CFO report with Google AI Design tool",
+          "url": "https://finstoryai.substack.com/p/i-turned-a-napkin-sketch-into-a-board",
+          "pubDate": null,
+          "excerpt": "Google just launched a free AI design tool called Stitch. I tested it on real financials. Here is what finance teams need to know.",
+          "summary": "Google's new free AI design tool called Stitch can convert hand-drawn sketches into professional financial presentations and reports. The tool was tested on real financial data and demonstrated practical applications for business teams creating visual content.",
+          "pullQuote": "Free AI tool transforms hand sketches into professional presentations",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "politics": {
+      "category": {
+        "id": "politics",
+        "label": "Politics & Current Events",
+        "icon": "",
+        "color": "#2c4a8a"
+      },
+      "items": [
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "Sunday thought: America Belongs to US",
+          "url": "https://robertreich.substack.com/p/sunday-thought-no-kings-next-saturday",
+          "pubDate": null,
+          "excerpt": "Next Saturday, No Kings 3",
+          "summary": "Former Labor Secretary Robert Reich discusses democratic principles and citizen engagement in his weekly commentary. The piece appears to focus on collective ownership of American democratic institutions.",
+          "pullQuote": "America belongs to its citizens, not political elites",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "MAGA Isn't a Majority—So Why Is It Winning? (w/ Dan Cantor)",
+          "url": "https://www.thebulwark.com/p/maga-isnt-a-majorityso-why-is-it",
+          "pubDate": null,
+          "excerpt": "Why do small factions end up with outsized power in American politics?",
+          "summary": "Political analyst Dan Cantor examines how minority political factions gain disproportionate influence in American governance. The discussion explores structural factors that allow small, organized groups to wield outsized power despite lacking majority support.",
+          "pullQuote": "Small factions end up with outsized power in American politics",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Trump Celebrates Robert Mueller's Death",
+          "url": "https://www.thebulwark.com/p/trump-celebrates-robert-muellers",
+          "pubDate": null,
+          "excerpt": "Robert Mueller, the former FBI director and special counsel who led the Russia investigation, has died at 81.",
+          "summary": "Former FBI Director and Special Counsel Robert Mueller has died at age 81 after leading the Russia investigation. Trump publicly celebrated Mueller's death, marking a continued pattern of antagonistic responses to the former prosecutor.",
+          "pullQuote": "Former FBI director and Russia investigation leader dies at 81",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Tim and Adam Kinzinger Play a Little Game",
+          "url": "https://www.thebulwark.com/p/tim-and-adam-kinzinger-play-a-little",
+          "pubDate": null,
+          "excerpt": "Tim Miller and Adam Kinzinger were live in Austin, talking about the escalating Iran war, why it’s already going badly, and how Trump’s “peace candidate” promise unraveled into a costly conflict.",
+          "summary": "Political commentators Tim Miller and Adam Kinzinger discussed escalating tensions with Iran during a live Austin event. They analyzed how Trump's campaign promises of being a \"peace candidate\" have quickly deteriorated into costly military conflict.",
+          "pullQuote": "Trump's peace candidate promise unraveled into costly Iran conflict",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Deep in the Heart of Texas, Live!",
+          "url": "https://www.thebulwark.com/p/deep-in-the-heart-of-texas-live",
+          "pubDate": null,
+          "excerpt": "What You Missed This Week From The Bulwark",
+          "summary": "The Bulwark presents a weekly roundup of political commentary and analysis from their Texas-based live event. The compilation covers major political developments and commentary from the past week.",
+          "pullQuote": "Weekly political roundup from Texas live commentary event",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "finance": {
+      "category": {
+        "id": "finance",
+        "label": "Finance & Markets",
+        "icon": "",
+        "color": "#1a5c3a"
+      },
+      "items": [
+        {
+          "source": "Ruben",
+          "category": "finance",
+          "priority": 2,
+          "title": "Search.",
+          "url": "https://ruben.substack.com/p/grok-420",
+          "pubDate": null,
+          "excerpt": "The best AI to search is not Perplexity anymore:",
+          "summary": "A tech analyst claims that Grok has surpassed Perplexity as the superior AI search tool. The article appears to evaluate different AI search platforms for effectiveness and accuracy.",
+          "pullQuote": "Grok has overtaken Perplexity as the best AI search option",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        }
+      ]
+    }
+  },
+  "featured": {
+    "source": "Baseball America",
+    "category": "baseball",
+    "priority": 1,
+    "title": "MLB Spring Breakout 2026: Top Prospects, Pitches & Performances From Friday's Games",
+    "url": "https://www.baseballamerica.com/stories/mlb-spring-breakout-2026-top-prospects-pitches-performances-from-thursdays-games/",
+    "pubDate": null,
+    "excerpt": "Baseball America is on hand for every 2026 MLB Spring Breakout Game. Here are the top prospects and plays we've seen so far. The post MLB Spring Breakout 2026: Top Prospects, Pitches & Performances From Friday’s Games appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+    "summary": "Baseball America provides comprehensive coverage of the 2026 MLB Spring Breakout showcase featuring top amateur prospects. The report highlights standout pitching performances and identifies key players to watch in the high school and college draft classes.",
+    "pullQuote": "Top prospects and elite pitching performances from 2026 showcase",
+    "relevanceScore": 6,
+    "featuredCandidate": false
+  },
+  "briefing": {
+    "editorsNote": "Today brings practical AI breakthroughs, baseball talent showcases, and reminders that innovation often starts with simple sketches.",
+    "bullets": [
+      {
+        "category": "education",
+        "text": "New AI prompts promise to slash family vacation planning time from 18 hours to 45 minutes.",
+        "icon": ""
+      },
+      {
+        "category": "baseball",
+        "text": "MLB's 2026 Spring Breakout showcased top high school and college prospects in Friday's games.",
+        "icon": ""
+      },
+      {
+        "category": "health",
+        "text": "John Oliver's podcast explores human rights challenges in a speculative 2026 political landscape.",
+        "icon": ""
+      },
+      {
+        "category": "tech",
+        "text": "Google's free Stitch AI tool transforms napkin sketches into professional CFO-ready financial reports.",
+        "icon": ""
+      },
+      {
+        "category": "politics",
+        "text": "Analyst Dan Cantor explains how organized minority factions gain outsized power despite lacking majority support.",
+        "icon": ""
+      },
+      {
+        "category": "finance",
+        "text": "Tech review claims Grok now outperforms Perplexity as the leading AI-powered search platform.",
+        "icon": ""
+      }
+    ]
+  },
+  "dateStr": "2026-03-22",
+  "generatedAt": "2026-03-22T11:01:07.529Z"
+}
