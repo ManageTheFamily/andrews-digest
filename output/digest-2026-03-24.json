@@ -1,0 +1,362 @@
+{
+  "meta": {
+    "digest_title": "The Andrews Family Digest",
+    "tagline": "Curated knowledge for family, learning, and development",
+    "lookback_hours": 24,
+    "max_per_category": 5,
+    "model": "claude-sonnet-4-20250514"
+  },
+  "categories": [
+    {
+      "id": "education",
+      "label": "Education & Learning",
+      "icon": "",
+      "color": "#2c5f8a"
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball & Player Development",
+      "icon": "",
+      "color": "#1a6b3a"
+    },
+    {
+      "id": "health",
+      "label": "Health, Fitness & Nutrition",
+      "icon": "",
+      "color": "#8a3a2c"
+    },
+    {
+      "id": "parenting",
+      "label": "Parenting & Family",
+      "icon": "",
+      "color": "#5a3a8a"
+    },
+    {
+      "id": "tech",
+      "label": "Technology & Tools",
+      "icon": "",
+      "color": "#3a6a8a"
+    },
+    {
+      "id": "politics",
+      "label": "Politics & Current Events",
+      "icon": "",
+      "color": "#2c4a8a"
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Markets",
+      "icon": "",
+      "color": "#1a5c3a"
+    },
+    {
+      "id": "culture",
+      "label": "Arts & Culture",
+      "icon": "",
+      "color": "#6a3a8a"
+    }
+  ],
+  "grouped": {
+    "baseball": {
+      "category": {
+        "id": "baseball",
+        "label": "Baseball & Player Development",
+        "icon": "",
+        "color": "#1a6b3a"
+      },
+      "items": [
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Tracking Every Top 100 Prospect's Opening Day Assignment For 2026",
+          "url": "https://www.baseballamerica.com/stories/tracking-every-top-100-prospects-opening-day-assignment-for-2026/",
+          "pubDate": null,
+          "excerpt": "Baseball America is tracking the Opening Day assignments for all Top 100 Prospects to start the 2026 season. The post Tracking Every Top 100 Prospect’s Opening Day Assignment For 2026 appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America is monitoring the minor league assignments for all 100 top prospects entering the 2026 season. The tracking provides insight into organizational development timelines and player advancement through professional baseball's farm systems.",
+          "pullQuote": "Top prospects' assignments reveal organizational development strategies",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Who Will Be MLB's Next Top Pitching Prospect?",
+          "url": "https://www.baseballamerica.com/stories/who-will-be-mlbs-next-top-pitching-prospect/",
+          "pubDate": null,
+          "excerpt": "BA staff weighs in on who could ascend to the top pitching prospect in MLB after the current wave of arms graduates this season. The post Who Will Be MLB’s Next Top Pitching Prospect? appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America analysts identify emerging pitching prospects positioned to become the sport's next elite arms as current top prospects graduate to the majors. The evaluation examines developmental trajectories and skill progression among minor league pitchers.",
+          "pullQuote": "Current wave of elite pitching prospects creates succession opportunities",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Top 10 MLB Storylines We're Watching For 2026",
+          "url": "https://www.baseballamerica.com/stories/top-10-mlb-storylines-were-watching-for-2026/",
+          "pubDate": null,
+          "excerpt": "From a potential Dodgers three-peat to a looming lockout, here are the key MLB storylines we'll be monitoring during the 2026 season. The post Top 10 MLB Storylines We’re Watching For 2026 appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America identifies key MLB storylines for 2026, including the Dodgers' pursuit of a third consecutive championship and potential labor negotiations. The analysis covers competitive dynamics and structural issues facing professional baseball.",
+          "pullQuote": "Dodgers three-peat attempt headlines 2026 season storylines",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "MLB Teams With The Most Division Titles Since 1995",
+          "url": "https://www.baseballamerica.com/stories/mlb-teams-with-the-most-division-titles-since-1995/",
+          "pubDate": null,
+          "excerpt": "Over 30 full seasons of six-division play, certain MLB teams have emerged as the standout teams in their divisions. We count down the teams with the most division titles. The post MLB Teams With The Most Division Titles Since 1995 appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "A statistical analysis reveals which MLB franchises have dominated their divisions over 30 seasons of six-division play since 1995. The data highlights organizational consistency and competitive advantages in sustained success.",
+          "pullQuote": "Thirty seasons reveal sustained organizational excellence patterns",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Scouting Every NL West No. 1 Prospect For 2026",
+          "url": "https://www.baseballamerica.com/stories/scouting-every-nl-west-no-1-prospect-for-2026/",
+          "pubDate": null,
+          "excerpt": "Baseball America takes an in-depth look at the top prospects from around the NL West. The post Scouting Every NL West No. 1 Prospect For 2026 appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America provides detailed scouting reports on the top prospect from each NL West organization for 2026. The analysis examines tools, development timelines, and projection for future major league impact.",
+          "pullQuote": "NL West top prospects showcase diverse skill sets",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "health": {
+      "category": {
+        "id": "health",
+        "label": "Health, Fitness & Nutrition",
+        "icon": "",
+        "color": "#8a3a2c"
+      },
+      "items": [
+        {
+          "source": "Bernard Baars",
+          "category": "health",
+          "priority": 2,
+          "title": "Consciousness & the Brain Mini-Courses 🧠",
+          "url": "https://bernardbaars.substack.com/p/consciousness-and-the-brain-mini",
+          "pubDate": null,
+          "excerpt": "Short. Focused. Narrated and hosted by Bernard Baars. Produced by Nat Geld. Plus, some of the world’s leading scientists will join us. Got consciousness? 🥛",
+          "summary": "Neuroscientist Bernard Baars is launching short, focused educational courses on consciousness and brain function. The courses will be narrated by Baars and feature contributions from leading scientists in the field.",
+          "pullQuote": "Short focused courses on consciousness hosted by leading brain scientists",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Bernard Baars",
+          "category": "health",
+          "priority": 2,
+          "title": "AMA #5. Consciousness & Working Memory",
+          "url": "https://bernardbaars.substack.com/p/ama-1-consciousness-and-working-memory",
+          "pubDate": null,
+          "excerpt": "From Andrew Guilao",
+          "summary": "This appears to be an Ask Me Anything session focused on the relationship between consciousness and working memory. The session addresses questions from readers about cognitive function and brain mechanisms.",
+          "pullQuote": "Exploring the connection between consciousness and working memory function",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "tech": {
+      "category": {
+        "id": "tech",
+        "label": "Technology & Tools",
+        "icon": "",
+        "color": "#3a6a8a"
+      },
+      "items": [
+        {
+          "source": "Emerging AI (Opinion AI)",
+          "category": "tech",
+          "priority": 1,
+          "title": "ChatGPT vs Claude: Is It Worth Switching?",
+          "url": "https://emergingai.substack.com/p/chatgpt-vs-claude-is-it-worth-switching",
+          "pubDate": null,
+          "excerpt": "A clear guide to who should switch, why it matters, and how to start",
+          "summary": "A comparative analysis examines the differences between ChatGPT and Claude AI assistants to help users determine which platform better suits their needs. The guide provides practical switching recommendations based on specific use cases and feature comparisons.",
+          "pullQuote": "Clear guide to who should switch and why it matters",
+          "relevanceScore": 7,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Microsoft's \"Fix\" for Windows 11: Flowers After the Beating",
+          "url": "https://www.sambent.com/microsofts-plan-to-fix-windows-11-is-gaslighting/",
+          "pubDate": null,
+          "excerpt": "Article URL: https://www.sambent.com/microsofts-plan-to-fix-windows-11-is-gaslighting/ Comments URL: https://news.ycombinator.com/item?id=47500335 Points: 78 # Comments: 47",
+          "summary": "A critical analysis argues that Microsoft's proposed improvements to Windows 11 constitute inadequate responses to fundamental user experience problems. The piece characterizes the company's approach as gaslighting users rather than addressing core system issues.",
+          "pullQuote": "Microsoft's plan to fix Windows 11 is gaslighting",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Opera: Rewind The Web to 1996 (Opera at 30)",
+          "url": "https://www.web-rewind.com",
+          "pubDate": null,
+          "excerpt": "Article URL: https://www.web-rewind.com Comments URL: https://news.ycombinator.com/item?id=47499721 Points: 50 # Comments: 30",
+          "summary": "Opera browser celebrates its 30th anniversary with an interactive experience that recreates the web browsing environment of 1996. The nostalgic project demonstrates how dramatically web technology and user interfaces have evolved over three decades.",
+          "pullQuote": "Interactive experience recreates 1996 web browsing environment",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Show HN: ProofShot – Give AI coding agents eyes to verify the UI they build",
+          "url": "https://proofshot.argil.io/",
+          "pubDate": null,
+          "excerpt": "I use AI agents to build UI features daily. The thing that kept annoying me: the agent writes code but never sees what it actually looks like in the browser. It can’t tell if the layout is broken or if the console is throwing errors. So I built a CLI that lets the agent open a browser, interact with the page, record what happens, and collect any errors. Then it bundles everything — video, screensh",
+          "summary": "A new CLI tool enables AI coding agents to visually verify user interfaces they create by opening browsers, interacting with pages, and recording results. The system captures video, screenshots, and console errors to help AI agents identify and fix layout problems they previously couldn't detect.",
+          "pullQuote": "AI agents can now see what they build in browsers",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Ripgrep is faster than grep, ag, git grep, ucg, pt, sift (2016)",
+          "url": "https://burntsushi.net/ripgrep/",
+          "pubDate": null,
+          "excerpt": "Article URL: https://burntsushi.net/ripgrep/ Comments URL: https://news.ycombinator.com/item?id=47499245 Points: 42 # Comments: 19",
+          "summary": "Ripgrep, a command-line search tool, demonstrates superior performance compared to traditional text search utilities like grep and git grep. Benchmarks show significant speed improvements for searching through large codebases and file systems.",
+          "pullQuote": "Command-line search tool outperforms traditional grep utilities significantly",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "politics": {
+      "category": {
+        "id": "politics",
+        "label": "Politics & Current Events",
+        "icon": "",
+        "color": "#2c4a8a"
+      },
+      "items": [
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "A Report You Need to Read",
+          "url": "https://robertreich.substack.com/p/a-report-you-need-to-read",
+          "pubDate": null,
+          "excerpt": "Friends,",
+          "summary": "Robert Reich references an unspecified report that he considers essential reading. The article provides minimal context with only a brief greeting to readers.",
+          "pullQuote": "Essential report lacks specific details or actionable content",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "The 2026 Midterms Are Critical. But 2032 Could Be Existential.",
+          "url": "https://www.thebulwark.com/p/2026-midterms-are-critical-but-2032-could-be-existential",
+          "pubDate": null,
+          "excerpt": "If Democrats don’t lock in key strategic successes soon, after the next census they could face a long stretch in the wilderness.",
+          "summary": "Democrats face potential long-term political wilderness if they don't achieve key strategic victories before the next census. The 2032 election cycle could determine whether the party remains viable for an extended period.",
+          "pullQuote": "Long-term political viability hinges on pre-census strategic victories",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "The Hidden Risks of Trump's Threats Against Iran's Power Plants",
+          "url": "https://www.thebulwark.com/p/hidden-risks-of-trumps-threats-iran-power-plants-military-chain-command-illegal-unlawful-orders-war-crimes",
+          "pubDate": null,
+          "excerpt": "It’s not just about Iran. It’s about us.",
+          "summary": "Trump's threats to target Iranian power infrastructure raise concerns about military chain of command and potential war crimes implications. The analysis suggests these threats pose risks to American military and legal institutions beyond the immediate foreign policy concerns.",
+          "pullQuote": "Military chain of command faces potential illegal order scenarios",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Why Tech Titans Love Trump and Hate 'Introspection'",
+          "url": "https://www.thebulwark.com/p/why-tech-titans-love-trump-and-hate-introspection-andreessen-elon-musk-david-sacks-you-can-just-do-things",
+          "pubDate": null,
+          "excerpt": "Silicon Valley’s “builders” love the president who’s destroying everything.",
+          "summary": "Silicon Valley leaders including Andreessen, Musk, and Sacks embrace Trump's anti-regulatory approach under the philosophy of \"you can just do things.\" The article examines how tech entrepreneurs' \"builder\" mentality aligns with Trump's destructive governance style.",
+          "pullQuote": "Builder mentality paradoxically embraces destructive governance approach",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "This Is How the GOP Starts to Crack",
+          "url": "https://www.thebulwark.com/p/this-is-how-the-gop-starts-to-crack",
+          "pubDate": null,
+          "excerpt": "Tim Miller was on Deadline: White House to take on the political fallout from Trump’s Iran war, warning that the real backlash hasn’t shown up in polling yet as rising costs start to hit voters.",
+          "summary": "Political analyst Tim Miller argues that Republican support may fracture as economic costs from Trump's Iran policy begin affecting voters directly. Current polling hasn't yet captured the potential backlash as rising costs hit household budgets.",
+          "pullQuote": "Rising costs from Iran policy could fracture Republican support",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    }
+  },
+  "featured": {
+    "source": "Emerging AI (Opinion AI)",
+    "category": "tech",
+    "priority": 1,
+    "title": "ChatGPT vs Claude: Is It Worth Switching?",
+    "url": "https://emergingai.substack.com/p/chatgpt-vs-claude-is-it-worth-switching",
+    "pubDate": null,
+    "excerpt": "A clear guide to who should switch, why it matters, and how to start",
+    "summary": "A comparative analysis examines the differences between ChatGPT and Claude AI assistants to help users determine which platform better suits their needs. The guide provides practical switching recommendations based on specific use cases and feature comparisons.",
+    "pullQuote": "Clear guide to who should switch and why it matters",
+    "relevanceScore": 7,
+    "featuredCandidate": false
+  },
+  "briefing": {
+    "editorsNote": "Today brings decisions about tools we use, games we follow, minds we develop, and futures we shape.",
+    "bullets": [
+      {
+        "category": "baseball",
+        "text": "Baseball America scouts minor league arms ready to fill the pipeline as top prospects graduate.",
+        "icon": ""
+      },
+      {
+        "category": "health",
+        "text": "Latest AMA explores how consciousness and working memory interact in our daily cognitive performance.",
+        "icon": ""
+      },
+      {
+        "category": "tech",
+        "text": "New analysis helps families decide whether switching from ChatGPT to Claude AI is worthwhile.",
+        "icon": ""
+      },
+      {
+        "category": "politics",
+        "text": "Democrats face strategic crossroads with 2026 midterms potentially determining their 2032 election viability.",
+        "icon": ""
+      }
+    ]
+  },
+  "dateStr": "2026-03-24",
+  "generatedAt": "2026-03-24T11:01:06.074Z"
+}
