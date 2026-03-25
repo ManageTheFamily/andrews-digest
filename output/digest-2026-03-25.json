@@ -1,0 +1,379 @@
+{
+  "meta": {
+    "digest_title": "The Andrews Family Digest",
+    "tagline": "Curated knowledge for family, learning, and development",
+    "lookback_hours": 24,
+    "max_per_category": 5,
+    "model": "claude-sonnet-4-20250514"
+  },
+  "categories": [
+    {
+      "id": "education",
+      "label": "Education & Learning",
+      "icon": "",
+      "color": "#2c5f8a"
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball & Player Development",
+      "icon": "",
+      "color": "#1a6b3a"
+    },
+    {
+      "id": "health",
+      "label": "Health, Fitness & Nutrition",
+      "icon": "",
+      "color": "#8a3a2c"
+    },
+    {
+      "id": "parenting",
+      "label": "Parenting & Family",
+      "icon": "",
+      "color": "#5a3a8a"
+    },
+    {
+      "id": "tech",
+      "label": "Technology & Tools",
+      "icon": "",
+      "color": "#3a6a8a"
+    },
+    {
+      "id": "politics",
+      "label": "Politics & Current Events",
+      "icon": "",
+      "color": "#2c4a8a"
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Markets",
+      "icon": "",
+      "color": "#1a5c3a"
+    },
+    {
+      "id": "culture",
+      "label": "Arts & Culture",
+      "icon": "",
+      "color": "#6a3a8a"
+    }
+  ],
+  "grouped": {
+    "education": {
+      "category": {
+        "id": "education",
+        "label": "Education & Learning",
+        "icon": "",
+        "color": "#2c5f8a"
+      },
+      "items": [
+        {
+          "source": "Excellent AI Prompts",
+          "category": "education",
+          "priority": 1,
+          "title": "9 New Immediately Useful NotebookLM Prompts for Content Creator Businesses",
+          "url": "https://excellentprompts.substack.com/p/new-immediately-useful-notebooklm-prompts",
+          "pubDate": null,
+          "excerpt": "NotebookLM got a massive overhaul. Nine new prompts for building a business from scratch, getting your first client, and systematizing everything. Free tool, real results.",
+          "summary": "Google's NotebookLM received a major update with nine new AI prompts designed to help content creators build businesses systematically. The prompts cover client acquisition strategies and business systematization processes using the free AI tool.",
+          "pullQuote": "Free AI tool provides systematic prompts for building businesses from scratch",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Growth Mindset",
+          "category": "education",
+          "priority": 2,
+          "title": "The Versatile Mind - Part I",
+          "url": "https://tmindset.substack.com/p/the-versatile-mind-part-i",
+          "pubDate": null,
+          "excerpt": "Leveraging the secrets of the polymath to solve our problems today",
+          "summary": "This article explores how polymathic thinking—the ability to excel across multiple disciplines—can be applied to solve contemporary problems. The piece examines historical examples of versatile thinkers and their methods for developing broad intellectual capabilities.",
+          "pullQuote": "Polymathic thinking methods can be systematically developed across multiple disciplines",
+          "relevanceScore": 7,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "baseball": {
+      "category": {
+        "id": "baseball",
+        "label": "Baseball & Player Development",
+        "icon": "",
+        "color": "#1a6b3a"
+      },
+      "items": [
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Miguel Sime Jr. Joins, Spring Breakout Recap & More | Hot Sheet Show",
+          "url": "https://www.baseballamerica.com/stories/miguel-sime-jr-joins-spring-breakout-recap-more-hot-sheet-show/",
+          "pubDate": null,
+          "excerpt": "On this week's Hot Sheet Show, Nationals pitching prospect Miguel Sime Jr. joins to discuss his spring, plus we talk Spring Breakout & more. The post Miguel Sime Jr. Joins, Spring Breakout Recap & More | Hot Sheet Show appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Nationals pitching prospect Miguel Sime Jr. discusses his spring training progress on Baseball America's Hot Sheet Show. The episode also covers the Spring Breakout showcase event and other prospect development topics.",
+          "pullQuote": "Pitching prospect discusses spring training development insights",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Explaining Baseball America's Week 7 NCAA Top 25",
+          "url": "https://www.baseballamerica.com/stories/explaining-baseball-americas-week-7-ncaa-top-25/",
+          "pubDate": null,
+          "excerpt": "Jacob Rudner pulls back the curtain on what went into Baseball America's Top 25 college baseball rankings this week. The post Explaining Baseball America’s Week 7 NCAA Top 25 appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Jacob Rudner breaks down the methodology and reasoning behind Baseball America's latest college baseball rankings. The analysis reveals what factors evaluators prioritize when assessing team performance.",
+          "pullQuote": "Ranking methodology reveals key evaluation factors for teams",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Kevin McGonigle Makes Tigers' 2026 Opening Day MLB Roster",
+          "url": "https://www.baseballamerica.com/stories/kevin-mcgonigle-makes-tigers-2026-opening-day-mlb-roster/",
+          "pubDate": null,
+          "excerpt": "Kevin McGonigle, ranked No. 2 on Baseball America's Top 100 Prospects list, will skip over Triple-A to make his MLB debut with the Tigers. The post Kevin McGonigle Makes Tigers’ 2026 Opening Day MLB Roster appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Top prospect Kevin McGonigle, ranked No. 2 on Baseball America's Top 100 list, will bypass Triple-A entirely to make his MLB debut with Detroit. The accelerated promotion highlights exceptional development trajectory for elite prospects.",
+          "pullQuote": "No. 2 prospect skips Triple-A for direct MLB promotion",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Tracking Every Top 100 Prospect's Opening Day Assignment For 2026",
+          "url": "https://www.baseballamerica.com/stories/tracking-every-top-100-prospects-opening-day-assignment-for-2026/",
+          "pubDate": null,
+          "excerpt": "Baseball America is tracking the Opening Day assignments for all Top 100 Prospects to start the 2026 season. The post Tracking Every Top 100 Prospect’s Opening Day Assignment For 2026 appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America provides comprehensive tracking of where all Top 100 prospects are assigned to begin the 2026 season. The data reveals organizational development strategies and promotion patterns for elite talent.",
+          "pullQuote": "Complete prospect assignment data reveals development patterns",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "What College Baseball Coaches Look For In Recruiting & More | Future Projection",
+          "url": "https://www.baseballamerica.com/stories/what-college-baseball-coaches-look-for-in-recruiting-more-future-projection/",
+          "pubDate": null,
+          "excerpt": "In this week's Future Projection mailbag, Ben and Carlos answer more listener questions about college recruiting, Giants shortstops and more. The post What College Baseball Coaches Look For In Recruiting & More | Future Projection appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America experts answer listener questions about college baseball recruiting criteria and evaluation methods. The discussion covers what coaches prioritize when identifying and recruiting prospective players.",
+          "pullQuote": "College coaches reveal key recruiting evaluation criteria",
+          "relevanceScore": 8,
+          "featuredCandidate": true
+        }
+      ]
+    },
+    "health": {
+      "category": {
+        "id": "health",
+        "label": "Health, Fitness & Nutrition",
+        "icon": "",
+        "color": "#8a3a2c"
+      },
+      "items": [
+        {
+          "source": "Bernard Baars",
+          "category": "health",
+          "priority": 2,
+          "title": "Your Stream of Consciousness: Wm James, Creativity & the Science of the Conscious Mind",
+          "url": "https://bernardbaars.substack.com/p/your-stream-of-consciousness-wm-james",
+          "pubDate": null,
+          "excerpt": "Before fMRI, there was William James, watching the mind fly like a bird from branch to branch. Mini-Course #1 begins here. 🕊️ | Narrated video lesson with Bernard Baars & Nat Geld",
+          "summary": "Consciousness researcher Bernard Baars explores William James's foundational insights into how the mind processes information and creativity flows. The educational content examines the science behind conscious awareness and its implications for learning and cognitive development.",
+          "pullQuote": "Mind flies like a bird from branch to branch",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "tech": {
+      "category": {
+        "id": "tech",
+        "label": "Technology & Tools",
+        "icon": "",
+        "color": "#3a6a8a"
+      },
+      "items": [
+        {
+          "source": "Doomberg",
+          "category": "tech",
+          "priority": 1,
+          "title": "House of Pain",
+          "url": "https://newsletter.doomberg.com/p/house-of-pain",
+          "pubDate": null,
+          "excerpt": "On wars and winning them.",
+          "summary": "Doomberg discusses strategic approaches to warfare and competitive dynamics. The analysis focuses on tactical considerations for achieving victory in conflict situations.",
+          "pullQuote": "Strategic approaches to warfare and competitive victory dynamics",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Emerging AI (Opinion AI)",
+          "category": "tech",
+          "priority": 1,
+          "title": "How to Use Claude Cowork for Real Work",
+          "url": "https://emergingai.substack.com/p/how-to-use-claude-cowork-for-real",
+          "pubDate": null,
+          "excerpt": "Learn how to set up Claude Cowork, add context, connect tools, and turn it into a practical assistant for research, writing, organization, and daily work.",
+          "summary": "A practical guide explains how to configure Claude's collaborative workspace feature for research, writing, and organizational tasks. The tutorial covers setup procedures, context integration, and tool connections for maximizing productivity in professional environments.",
+          "pullQuote": "Turn Claude into a practical assistant for research and writing",
+          "relevanceScore": 7,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "politics": {
+      "category": {
+        "id": "politics",
+        "label": "Politics & Current Events",
+        "icon": "",
+        "color": "#2c4a8a"
+      },
+      "items": [
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "Trump's Graft, Insider's Grift",
+          "url": "https://robertreich.substack.com/p/trading-on-trump",
+          "pubDate": null,
+          "excerpt": "There’s a word for this, and it’s not pretty",
+          "summary": "Robert Reich examines allegations of financial impropriety and conflicts of interest surrounding Trump's business dealings. The analysis focuses on patterns of insider trading and potential corruption in political office.",
+          "pullQuote": "financial impropriety and conflicts of interest in political office",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "Please don't thank me",
+          "url": "https://robertreich.substack.com/p/please-dont-thank-me",
+          "pubDate": null,
+          "excerpt": "I thank YOU",
+          "summary": "Reich reflects on his role as a political commentator and expresses gratitude to his readers. The piece appears to be a personal message acknowledging audience engagement and support.",
+          "pullQuote": "personal reflection on political commentary and audience engagement",
+          "relevanceScore": 1,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "This Trump Pick Couldn't Stop Talking about Boobs and Hooters",
+          "url": "https://www.thebulwark.com/p/this-trump-pick-couldnt-stop-talking",
+          "pubDate": null,
+          "excerpt": "Sam Stein, Joe Perticone, and Will Sommer give their takes on the bizarre rise and abrupt fall of Nick Adams, the self-styled “alpha male” known for his tweets about boobs, Hooters, and American exceptionalism.",
+          "summary": "Nick Adams, a potential Trump administration appointee, withdrew from consideration after scrutiny of his social media posts about inappropriate topics. The episode highlights the vetting challenges facing the incoming administration's personnel decisions.",
+          "pullQuote": "vetting challenges facing incoming administration's personnel decisions",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "A Blue Horizon in Wisconsin?",
+          "url": "https://www.thebulwark.com/p/a-blue-horizon-in-wisconsin-midterms-state-legislature-supreme-court-governor",
+          "pubDate": null,
+          "excerpt": "By the end of this year, it is possible we will see Democratic dominion over the state legislature, governor’s office, and Supreme Court.",
+          "summary": "Wisconsin Democrats are positioned to potentially control all three branches of state government by year's end. The shift would represent a significant political realignment in a key swing state.",
+          "pullQuote": "Democrats positioned to control all three branches of government",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Trump's Sick Compulsion to Insult the Dead",
+          "url": "https://www.thebulwark.com/p/trump-sick-compulsion-insult-dead-robert-mueller",
+          "pubDate": null,
+          "excerpt": "Perverse yet predictable, his badmouthing of Robert Mueller is the latest in a long line of cruel posthumous humiliations.",
+          "summary": "Trump continues his pattern of making disparaging comments about deceased public figures, most recently targeting former Special Counsel Robert Mueller. The behavior reflects a consistent approach to posthumous political attacks.",
+          "pullQuote": "consistent pattern of disparaging comments about deceased figures",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "finance": {
+      "category": {
+        "id": "finance",
+        "label": "Finance & Markets",
+        "icon": "",
+        "color": "#1a5c3a"
+      },
+      "items": [
+        {
+          "source": "Ruben",
+          "category": "finance",
+          "priority": 2,
+          "title": "Claude is now YOUR computer.",
+          "url": "https://ruben.substack.com/p/claude-computer",
+          "pubDate": null,
+          "excerpt": "How to setup Claude so it uses your computer (for you):",
+          "summary": "A guide explains how to configure Claude AI to directly control and operate functions on a user's computer. The setup allows the AI assistant to perform tasks autonomously on the user's behalf through computer interface control.",
+          "pullQuote": "Claude AI can now directly control your computer functions",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        }
+      ]
+    }
+  },
+  "featured": {
+    "source": "Baseball America",
+    "category": "baseball",
+    "priority": 1,
+    "title": "What College Baseball Coaches Look For In Recruiting & More | Future Projection",
+    "url": "https://www.baseballamerica.com/stories/what-college-baseball-coaches-look-for-in-recruiting-more-future-projection/",
+    "pubDate": null,
+    "excerpt": "In this week's Future Projection mailbag, Ben and Carlos answer more listener questions about college recruiting, Giants shortstops and more. The post What College Baseball Coaches Look For In Recruiting & More | Future Projection appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+    "summary": "Baseball America experts answer listener questions about college baseball recruiting criteria and evaluation methods. The discussion covers what coaches prioritize when identifying and recruiting prospective players.",
+    "pullQuote": "College coaches reveal key recruiting evaluation criteria",
+    "relevanceScore": 8,
+    "featuredCandidate": true
+  },
+  "briefing": {
+    "editorsNote": "Today's digest celebrates the mind's potential—from polymathic thinking to baseball recruitment to AI collaboration transforming how we learn and work.",
+    "bullets": [
+      {
+        "category": "education",
+        "text": "Discover how history's greatest polymaths developed versatile thinking skills to tackle multiple disciplines simultaneously.",
+        "icon": ""
+      },
+      {
+        "category": "baseball",
+        "text": "Baseball America reveals the specific criteria college coaches use when evaluating and recruiting prospective players.",
+        "icon": ""
+      },
+      {
+        "category": "health",
+        "text": "William James's consciousness research offers new insights into how creativity flows through our stream of awareness.",
+        "icon": ""
+      },
+      {
+        "category": "tech",
+        "text": "Configure Claude's collaborative workspace to streamline your research, writing, and organizational tasks with proper setup.",
+        "icon": ""
+      },
+      {
+        "category": "politics",
+        "text": "Robert Reich analyzes Trump's alleged financial conflicts and patterns of insider dealings during political office.",
+        "icon": ""
+      },
+      {
+        "category": "finance",
+        "text": "New setup allows Claude AI to directly control computer functions and perform autonomous tasks.",
+        "icon": ""
+      }
+    ]
+  },
+  "dateStr": "2026-03-25",
+  "generatedAt": "2026-03-25T11:01:01.734Z"
+}
