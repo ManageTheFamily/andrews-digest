@@ -1,0 +1,362 @@
+{
+  "meta": {
+    "digest_title": "The Andrews Family Digest",
+    "tagline": "Curated knowledge for family, learning, and development",
+    "lookback_hours": 24,
+    "max_per_category": 5,
+    "model": "claude-sonnet-4-20250514"
+  },
+  "categories": [
+    {
+      "id": "education",
+      "label": "Education & Learning",
+      "icon": "",
+      "color": "#2c5f8a"
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball & Player Development",
+      "icon": "",
+      "color": "#1a6b3a"
+    },
+    {
+      "id": "health",
+      "label": "Health, Fitness & Nutrition",
+      "icon": "",
+      "color": "#8a3a2c"
+    },
+    {
+      "id": "parenting",
+      "label": "Parenting & Family",
+      "icon": "",
+      "color": "#5a3a8a"
+    },
+    {
+      "id": "tech",
+      "label": "Technology & Tools",
+      "icon": "",
+      "color": "#3a6a8a"
+    },
+    {
+      "id": "politics",
+      "label": "Politics & Current Events",
+      "icon": "",
+      "color": "#2c4a8a"
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Markets",
+      "icon": "",
+      "color": "#1a5c3a"
+    },
+    {
+      "id": "culture",
+      "label": "Arts & Culture",
+      "icon": "",
+      "color": "#6a3a8a"
+    }
+  ],
+  "grouped": {
+    "education": {
+      "category": {
+        "id": "education",
+        "label": "Education & Learning",
+        "icon": "",
+        "color": "#2c5f8a"
+      },
+      "items": [
+        {
+          "source": "Excellent AI Prompts",
+          "category": "education",
+          "priority": 1,
+          "title": "3 AI Prompts to Turn Claude Into Your Personal Memory Coach (Using a 2,500-Year-Old Trick)",
+          "url": "https://excellentprompts.substack.com/p/memory-palace",
+          "pubDate": null,
+          "excerpt": "Use Claude to build a memory palace. Copy-paste prompts for vivid imagery, spaced repetition, and automated review quizzes.",
+          "summary": "The article provides copy-paste AI prompts that use the ancient memory palace technique to help students build vivid mental associations for memorization. The approach combines classical mnemonic methods with modern AI tools to create personalized spaced repetition and automated review systems.",
+          "pullQuote": "Ancient memory palace technique enhanced with AI-powered spaced repetition",
+          "relevanceScore": 8,
+          "featuredCandidate": true
+        },
+        {
+          "source": "Books Worth Reading",
+          "category": "education",
+          "priority": 2,
+          "title": "How America Forgot Its First Black Literary Star",
+          "url": "https://booksworthreading.substack.com/p/how-america-forgot-its-first-black",
+          "pubDate": null,
+          "excerpt": "Is it because her opinions don't fit the narrative?",
+          "summary": "The piece examines how a pioneering Black literary figure has been largely erased from American literary history. The author suggests this erasure may stem from the writer's opinions not aligning with contemporary narratives about Black literature and history.",
+          "pullQuote": "Literary erasure when opinions don't fit contemporary narratives",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "baseball": {
+      "category": {
+        "id": "baseball",
+        "label": "Baseball & Player Development",
+        "icon": "",
+        "color": "#1a6b3a"
+      },
+      "items": [
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "The 2026 MLB Rookie Class Could Be One Of The Best Ever",
+          "url": "https://www.baseballamerica.com/stories/the-2026-mlb-rookie-class-could-be-one-of-the-best-ever/",
+          "pubDate": null,
+          "excerpt": "Loaded with Top 100 Prospects, the 2026 rookie class looks like one of the best this century. The post The 2026 MLB Rookie Class Could Be One Of The Best Ever appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "The 2026 MLB rookie class features an unusually high concentration of Top 100 prospects making their debuts. Baseball America analysts project this cohort could rank among the strongest rookie classes of the 21st century based on prospect depth and talent quality.",
+          "pullQuote": "2026 rookie class looks like one of the best this century",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "2026 Fantasy Baseball Dynasty Risers For Every National League Team",
+          "url": "https://www.baseballamerica.com/stories/2026-fantasy-baseball-dynasty-risers-for-every-national-league-team/",
+          "pubDate": null,
+          "excerpt": "Dylan White highlights dynasty fantasy baseball prospects in the NL we're expecting to rise up rankings in 2026. The post 2026 Fantasy Baseball Dynasty Risers For Every National League Team appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Dylan White identifies National League prospects expected to climb prospect rankings significantly during the 2026 season. The analysis focuses on dynasty fantasy baseball implications but provides broader insight into emerging talent evaluation.",
+          "pullQuote": "dynasty fantasy baseball prospects we're expecting to rise up rankings",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "All 19 Potential PPI-Eligible MLB Rookies Who Made 2026 Opening Day Rosters",
+          "url": "https://www.baseballamerica.com/stories/all-19-potential-ppi-eligible-mlb-rookies-who-made-2026-opening-day-rosters/",
+          "pubDate": null,
+          "excerpt": "MLB Opening Day is here. And here are the all the PPI-hopeful prospects who made the cut for big league rosters to start 2026. The post All 19 Potential PPI-Eligible MLB Rookies Who Made 2026 Opening Day Rosters appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Nineteen prospects with Prospect Promotion Incentive eligibility secured spots on Opening Day MLB rosters for 2026. This represents a significant number of top prospects bypassing typical minor league development timelines to reach the majors.",
+          "pullQuote": "all the PPI-hopeful prospects who made the cut for big league rosters",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Tracking Every Top 100 Prospect's Opening Day Assignment For 2026",
+          "url": "https://www.baseballamerica.com/stories/tracking-every-top-100-prospects-opening-day-assignment-for-2026/",
+          "pubDate": null,
+          "excerpt": "Baseball America is tracking the Opening Day assignments for all Top 100 Prospects to start the 2026 season. The post Tracking Every Top 100 Prospect’s Opening Day Assignment For 2026 appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America provides comprehensive tracking of all Top 100 prospects' 2026 season assignments across MLB and minor league levels. The tracker offers insight into organizational development timelines and prospect advancement patterns.",
+          "pullQuote": "tracking the Opening Day assignments for all Top 100 Prospects",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "What Went Wrong At South Carolina & Why This Week's NCAA Top 25 Is So Important | College Podcast",
+          "url": "https://www.baseballamerica.com/stories/what-went-wrong-at-south-carolina-why-this-weeks-ncaa-top-25-is-so-important-college-podcast/",
+          "pubDate": null,
+          "excerpt": "In this week's College Baseball Podcast, Jacob and J.J. talk about South Carolina's coaching change and a big week for the Top 25. The post What Went Wrong At South Carolina & Why This Week’s NCAA Top 25 Is So Important | College Podcast appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America's college podcast examines South Carolina's recent coaching change and analyzes factors behind the program's struggles. The discussion also covers the significance of current NCAA Top 25 rankings for postseason tournament positioning.",
+          "pullQuote": "South Carolina's coaching change and a big week for the Top 25",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "tech": {
+      "category": {
+        "id": "tech",
+        "label": "Technology & Tools",
+        "icon": "",
+        "color": "#3a6a8a"
+      },
+      "items": [
+        {
+          "source": "Emerging AI (Opinion AI)",
+          "category": "tech",
+          "priority": 1,
+          "title": "What Is Claude Computer Use? How to Control Your Desktop with AI",
+          "url": "https://emergingai.substack.com/p/what-is-claude-computer-use-how-to",
+          "pubDate": null,
+          "excerpt": "What it is, how to turn it on, what to ask it to do, and how to use it without making a mess",
+          "summary": "Claude's new Computer Use feature allows the AI to directly control desktop applications, browsers, and operating system functions through visual interface recognition. The capability enables automated workflows but requires careful setup to avoid unintended system modifications.",
+          "pullQuote": "AI can now directly control your desktop applications and workflows",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Show HN: Relay – The open-source Claude Cowork for OpenClaw",
+          "url": "https://github.com/SeventeenLabs/relay",
+          "pubDate": null,
+          "excerpt": "Article URL: https://github.com/SeventeenLabs/relay Comments URL: https://news.ycombinator.com/item?id=47528683 Points: 7 # Comments: 2",
+          "summary": "Relay is an open-source project that provides collaborative AI workspace functionality similar to Claude's enterprise features. The GitHub repository has minimal community engagement with only 7 points and 2 comments on Hacker News.",
+          "pullQuote": "Open-source alternative to Claude's collaborative AI workspace tools",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Swift 6.3",
+          "url": "https://www.swift.org/blog/swift-6.3-released/",
+          "pubDate": null,
+          "excerpt": "Article URL: https://www.swift.org/blog/swift-6.3-released/ Comments URL: https://news.ycombinator.com/item?id=47527590 Points: 69 # Comments: 19",
+          "summary": "Apple released Swift 6.3, the latest version of its programming language, with new features and improvements for developers. The release has generated moderate community interest with 69 points and 19 comments on Hacker News.",
+          "pullQuote": "Latest Swift programming language version brings developer improvements",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Ashby (YC W19) Is Hiring Engineers Who Make Product Decisions",
+          "url": "https://www.ashbyhq.com/careers?ashby_jid=c3c7125d-7883-4dff-a2bf-f5a55de4a364&utm_source=hn",
+          "pubDate": null,
+          "excerpt": "Article URL: https://www.ashbyhq.com/careers?ashby_jid=c3c7125d-7883-4dff-a2bf-f5a55de4a364&utm_source=hn Comments URL: https://news.ycombinator.com/item?id=47527399 Points: 0 # Comments: 0",
+          "summary": "Y Combinator-backed recruiting platform Ashby is seeking engineers with product decision-making authority for their technical team. The job posting has received no engagement on Hacker News with zero points and comments.",
+          "pullQuote": "Engineers sought who can make independent product decisions",
+          "relevanceScore": 1,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Government agencies buy commercial data about Americans in bulk",
+          "url": "https://www.npr.org/2026/03/25/nx-s1-5752369/ice-surveillance-data-brokers-congress-anthropic",
+          "pubDate": null,
+          "excerpt": "Article URL: https://www.npr.org/2026/03/25/nx-s1-5752369/ice-surveillance-data-brokers-congress-anthropic Comments URL: https://news.ycombinator.com/item?id=47527130 Points: 63 # Comments: 28",
+          "summary": "Federal agencies including ICE purchase large datasets about American citizens from commercial data brokers, bypassing traditional warrant requirements. The practice raises significant privacy concerns and has prompted congressional scrutiny of government surveillance methods.",
+          "pullQuote": "Government bypasses warrants by purchasing citizen data from brokers",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "politics": {
+      "category": {
+        "id": "politics",
+        "label": "Politics & Current Events",
+        "icon": "",
+        "color": "#2c4a8a"
+      },
+      "items": [
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "How Do We Protect Children from Becoming Addicted to Social Media?",
+          "url": "https://robertreich.substack.com/p/how-do-we-protect-children-from-becoming",
+          "pubDate": null,
+          "excerpt": "Liability judgments and warning labels are not enough",
+          "summary": "Robert Reich argues that current approaches like liability judgments and warning labels are insufficient to protect children from social media addiction. The piece examines policy solutions needed to address the growing crisis of youth digital dependency.",
+          "pullQuote": "Liability judgments and warning labels are not enough",
+          "relevanceScore": 8,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "Flying Already Sucks. Trump Just Made it Even Worse.",
+          "url": "https://robertreich.substack.com/p/flying-already-sucks-trump-just-made",
+          "pubDate": null,
+          "excerpt": "How did he manage it?",
+          "summary": "Reich analyzes recent changes to aviation policy under Trump that he argues will further degrade the flying experience for passengers. The piece examines regulatory rollbacks affecting airline service quality and passenger protections.",
+          "pullQuote": "Trump just made flying even worse",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Is Putin Getting Nervous?",
+          "url": "https://www.thebulwark.com/p/is-putin-getting-nervous-russia",
+          "pubDate": null,
+          "excerpt": "A Putin stooge goes rogue, the war effort flounders, Russians grumble over dead cows and dead phone signals. What’s going on?",
+          "summary": "The analysis examines signs of instability in Putin's regime, including defections by loyalists and growing domestic unrest over infrastructure failures. Russian citizens increasingly express frustration over basic services while the war effort shows signs of strain.",
+          "pullQuote": "Russians grumble over dead cows and dead phone signals",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "The Narrative Crisis of Modern Baseball",
+          "url": "https://www.thebulwark.com/p/the-narrative-crisis-of-modern-baseball-opening-day-2026",
+          "pubDate": null,
+          "excerpt": "In the age of sabermetric optimization, can baseball still tell a human story?",
+          "summary": "The piece explores how sabermetric optimization and analytical approaches have changed baseball's storytelling and fan engagement. It questions whether the sport can maintain its human drama and narrative appeal in an era dominated by statistical analysis.",
+          "pullQuote": "Can baseball still tell a human story in optimization age",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Tim Miller: Florida Just Shocked Everyone",
+          "url": "https://www.thebulwark.com/p/tim-miller-florida-just-shocked-everyone",
+          "pubDate": null,
+          "excerpt": "Tim Miller was on with Katy Tur to take on a surprising shift in Florida politics after Democrats flip a seat in Trump’s own backyard.",
+          "summary": "Democrats flipped a legislative seat in Florida, marking a surprising political shift in what has been considered solidly Trump territory. The electoral upset occurred in Trump's own backyard, signaling potential changes in the state's political landscape.",
+          "pullQuote": "Democrats flip seat in Trump's own backyard",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        }
+      ]
+    }
+  },
+  "featured": {
+    "source": "Excellent AI Prompts",
+    "category": "education",
+    "priority": 1,
+    "title": "3 AI Prompts to Turn Claude Into Your Personal Memory Coach (Using a 2,500-Year-Old Trick)",
+    "url": "https://excellentprompts.substack.com/p/memory-palace",
+    "pubDate": null,
+    "excerpt": "Use Claude to build a memory palace. Copy-paste prompts for vivid imagery, spaced repetition, and automated review quizzes.",
+    "summary": "The article provides copy-paste AI prompts that use the ancient memory palace technique to help students build vivid mental associations for memorization. The approach combines classical mnemonic methods with modern AI tools to create personalized spaced repetition and automated review systems.",
+    "pullQuote": "Ancient memory palace technique enhanced with AI-powered spaced repetition",
+    "relevanceScore": 8,
+    "featuredCandidate": true
+  },
+  "briefing": {
+    "editorsNote": "Today's digest bridges ancient wisdom with modern challenges, from memory techniques to protecting our children's minds.",
+    "bullets": [
+      {
+        "category": "education",
+        "text": "Ancient Greek memory palaces meet AI coaching to revolutionize how students memorize information effectively.",
+        "icon": ""
+      },
+      {
+        "category": "baseball",
+        "text": "Baseball's 2026 rookie class promises exceptional talent depth that could define the sport's next decade.",
+        "icon": ""
+      },
+      {
+        "category": "tech",
+        "text": "Claude AI now controls desktop computers directly, automating workflows while requiring careful security considerations.",
+        "icon": ""
+      },
+      {
+        "category": "politics",
+        "text": "Warning labels won't solve youth social media addiction; stronger policy interventions are desperately needed.",
+        "icon": ""
+      }
+    ]
+  },
+  "dateStr": "2026-03-26",
+  "generatedAt": "2026-03-26T11:00:58.283Z"
+}
