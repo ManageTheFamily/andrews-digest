@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "digest_title": "The Andrews Family Digest",
+    "tagline": "Curated knowledge for family, learning, and development",
+    "lookback_hours": 24,
+    "max_per_category": 5,
+    "model": "claude-sonnet-4-20250514"
+  },
+  "categories": [
+    {
+      "id": "education",
+      "label": "Education & Learning",
+      "icon": "",
+      "color": "#2c5f8a"
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball & Player Development",
+      "icon": "",
+      "color": "#1a6b3a"
+    },
+    {
+      "id": "health",
+      "label": "Health, Fitness & Nutrition",
+      "icon": "",
+      "color": "#8a3a2c"
+    },
+    {
+      "id": "parenting",
+      "label": "Parenting & Family",
+      "icon": "",
+      "color": "#5a3a8a"
+    },
+    {
+      "id": "tech",
+      "label": "Technology & Tools",
+      "icon": "",
+      "color": "#3a6a8a"
+    },
+    {
+      "id": "politics",
+      "label": "Politics & Current Events",
+      "icon": "",
+      "color": "#2c4a8a"
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Markets",
+      "icon": "",
+      "color": "#1a5c3a"
+    },
+    {
+      "id": "culture",
+      "label": "Arts & Culture",
+      "icon": "",
+      "color": "#6a3a8a"
+    }
+  ],
+  "grouped": {
+    "education": {
+      "category": {
+        "id": "education",
+        "label": "Education & Learning",
+        "icon": "",
+        "color": "#2c5f8a"
+      },
+      "items": [
+        {
+          "source": "Excellent AI Prompts",
+          "category": "education",
+          "priority": 1,
+          "title": "5 Local Apps AI Can Build for You That Add Value to Your Daily Life",
+          "url": "https://excellentprompts.substack.com/p/local-apps-ai-can-build-for-you",
+          "pubDate": null,
+          "excerpt": "AI can build personal apps that fit your life, not the other way around. 5 copy-paste prompts to build a dashboard, meal planner, budget tracker, and more.",
+          "summary": "The article provides five copy-paste AI prompts for building personalized applications including dashboards, meal planners, and budget trackers. These apps can be customized to fit specific family needs rather than forcing users to adapt to generic solutions.",
+          "pullQuote": "AI can build personal apps that fit your life, not the other way around",
+          "relevanceScore": 6,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Excellent AI Prompts",
+          "category": "education",
+          "priority": 1,
+          "title": "Jan.AI: The No-Code Way to Run AI on Your Own Machine (5 AI Prompts)",
+          "url": "https://excellentprompts.substack.com/p/janai-the-no-code-way-to-run-ai-on",
+          "pubDate": null,
+          "excerpt": "How to keep your client data, your strategy, and your half-formed ideas off someone else’s servers",
+          "summary": "Jan.AI allows users to run AI applications locally on their own computers without sending data to external servers. The platform offers a no-code solution for families and professionals concerned about data privacy and security.",
+          "pullQuote": "Keep your client data and half-formed ideas off someone else's servers",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Growth Mindset",
+          "category": "education",
+          "priority": 2,
+          "title": "The Versatile Mind - Part II",
+          "url": "https://tmindset.substack.com/p/the-versatile-mind-part-ii",
+          "pubDate": null,
+          "excerpt": "Tools to help the modern knowledge worker in real-time",
+          "summary": "The article presents tools and strategies designed to help modern knowledge workers adapt and perform effectively in real-time situations. It focuses on developing cognitive flexibility and practical skills for information processing and decision-making.",
+          "pullQuote": "Tools to help the modern knowledge worker in real-time",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "baseball": {
+      "category": {
+        "id": "baseball",
+        "label": "Baseball & Player Development",
+        "icon": "",
+        "color": "#1a6b3a"
+      },
+      "items": [
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "9 Key Risers To Know From The March 2026 Dynasty 500 Rankings Update",
+          "url": "https://www.baseballamerica.com/stories/9-key-risers-to-know-from-the-march-2026-dynasty-500-rankings-update/",
+          "pubDate": null,
+          "excerpt": "On the heels of our latest Dynasty 500 update, Geoff Pontes digs into the new rankings to highlight key risers to know. The post 9 Key Risers To Know From The March 2026 Dynasty 500 Rankings Update appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America highlights nine prospects who have significantly climbed their Dynasty 500 rankings in the latest March update. The analysis identifies emerging talent and development patterns that have elevated these players' long-term fantasy value.",
+          "pullQuote": "Key risers showcase development patterns elevating long-term prospect value",
+          "relevanceScore": 3,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "MLB Draft Prospects Making Moves For 2026 | Draft Podcast",
+          "url": "https://www.baseballamerica.com/stories/mlb-draft-prospects-making-moves-for-2026-draft-podcast/",
+          "pubDate": null,
+          "excerpt": "On this week's Draft Podcast, we dig into our new top 300 draft board update to highlight the biggest risers and fallers. The post MLB Draft Prospects Making Moves For 2026 | Draft Podcast appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America's Draft Podcast examines the biggest risers and fallers in their updated top 300 draft board for 2026. The discussion covers prospect movement and evaluation changes as the draft cycle progresses.",
+          "pullQuote": "Updated top 300 draft board reveals biggest prospect movement",
+          "relevanceScore": 2,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Fantasy Baseball 2026: Rankings, Sleepers, Dynasty & More",
+          "url": "https://www.baseballamerica.com/stories/fantasy-baseball-2026-rankings-sleepers-dynasty-more/",
+          "pubDate": null,
+          "excerpt": "Presenting Baseball America's complete rundown of fantasy baseball resources for 2026, including rankings, sleepers, dynasty and more. The post Fantasy Baseball 2026: Rankings, Sleepers, Dynasty & More appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America provides comprehensive fantasy baseball resources for 2026, including player rankings and dynasty league guidance. The compilation covers sleeper picks and strategic insights for fantasy managers across different league formats.",
+          "pullQuote": "Comprehensive fantasy resources include rankings and sleeper picks",
+          "relevanceScore": 1,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Breaking Down Rising Pitching Prospects & New 2026 MLB Draft Rankings | Future Projection",
+          "url": "https://www.baseballamerica.com/stories/breaking-down-rising-pitching-prospects-new-2026-mlb-draft-rankings-future-projection/",
+          "pubDate": null,
+          "excerpt": "In this week's Future Projection, Ben and Carlos discuss pitchers who have caught their eye and break down the new 2026 draft board. The post Breaking Down Rising Pitching Prospects & New 2026 MLB Draft Rankings | Future Projection appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America's Future Projection podcast analyzes emerging pitching prospects and breaks down their updated 2026 draft board. The discussion focuses on pitchers who have impressed evaluators and changed their draft positioning.",
+          "pullQuote": "Rising pitching prospects showcase impressive development catching evaluators' attention",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Baseball America",
+          "category": "baseball",
+          "priority": 1,
+          "title": "Top 500 Fantasy Baseball Dynasty Rankings For 2026",
+          "url": "https://www.baseballamerica.com/stories/top-500-fantasy-baseball-dynasty-rankings-for-2026/",
+          "pubDate": null,
+          "excerpt": "With the season officially here, Baseball America presents a March update to our Top 500 dynasty rankings for fantasy baseball managers. The post Top 500 Fantasy Baseball Dynasty Rankings For 2026 appeared first on College Baseball, MLB Draft, Prospects - Baseball America.",
+          "summary": "Baseball America releases their March update to the Top 500 dynasty rankings for fantasy baseball managers. The comprehensive rankings provide long-term player valuations as the 2026 season begins.",
+          "pullQuote": "March dynasty rankings update provides comprehensive long-term player valuations",
+          "relevanceScore": 1,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "health": {
+      "category": {
+        "id": "health",
+        "label": "Health, Fitness & Nutrition",
+        "icon": "",
+        "color": "#8a3a2c"
+      },
+      "items": [
+        {
+          "source": "Bernard Baars",
+          "category": "health",
+          "priority": 2,
+          "title": "#23 — Global Workspace Theory (GWT) and Prefrontal Cortex: Recent Developments (Baars et al., 2021)",
+          "url": "https://bernardbaars.substack.com/p/23-global-workspace-theory-gwt-and",
+          "pubDate": null,
+          "excerpt": "A wide range of experimental and theoretical studies in the field of consciousness emphasize the complex and rapid interactivity of numerous regions and connectivities in the cerebral cortex.",
+          "summary": "New research on Global Workspace Theory explores how different brain regions rapidly communicate to create conscious awareness, with emphasis on prefrontal cortex connectivity. The findings provide insights into how conscious attention and cognitive control emerge from complex neural network interactions.",
+          "pullQuote": "Rapid interactivity of numerous brain regions creates conscious awareness",
+          "relevanceScore": 4,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "tech": {
+      "category": {
+        "id": "tech",
+        "label": "Technology & Tools",
+        "icon": "",
+        "color": "#3a6a8a"
+      },
+      "items": [
+        {
+          "source": "Doomberg",
+          "category": "tech",
+          "priority": 1,
+          "title": "Rearguard Action",
+          "url": "https://newsletter.doomberg.com/p/rearguard-action",
+          "pubDate": "Fri, 27 Mar 2026 09:02:30 GMT",
+          "excerpt": "Revisiting the Korean question.",
+          "summary": "Revisiting the Korean question.",
+          "pullQuote": "",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "FinStory AI",
+          "category": "tech",
+          "priority": 2,
+          "title": "How to visualize a P&L with Claude and build a CFO report",
+          "url": "https://finstoryai.substack.com/p/how-to-visualize-a-p-and-l-with-claude",
+          "pubDate": "Fri, 27 Mar 2026 12:36:23 GMT",
+          "excerpt": "Controllers and FP&A always struggled with storytelling. That excuse just ran out.",
+          "summary": "Controllers and FP&A always struggled with storytelling. That excuse just ran out.",
+          "pullQuote": "",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Author of Red Mars calls 'bullshit' on emigrating to the planet",
+          "url": "https://www.newscientist.com/article/2520312-author-of-red-mars-calls-bullshit-on-emigrating-to-the-planet/",
+          "pubDate": "Fri, 27 Mar 2026 14:15:45 +0000",
+          "excerpt": "Article URL: https://www.newscientist.com/article/2520312-author-of-red-mars-calls-bullshit-on-emigrating-to-the-planet/ Comments URL: https://news.ycombinator.com/item?id=47542916 Points: 8 # Comments: 0",
+          "summary": "Article URL: https://www.newscientist.com/article/2520312-author-of-red-mars-calls-bullshit-on-emigrating-to-the-planet/ Comments URL: https://news.ycombinator.com/item?id=47542916 Points: 8 # Comment",
+          "pullQuote": "",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Hong Kong Police Can Now Demand Phone Passwords Under New Security Rules",
+          "url": "https://www.gadgetreview.com/hong-kong-police-can-now-demand-phone-passwords-under-new-security-rules",
+          "pubDate": "Fri, 27 Mar 2026 13:57:36 +0000",
+          "excerpt": "Article URL: https://www.gadgetreview.com/hong-kong-police-can-now-demand-phone-passwords-under-new-security-rules Comments URL: https://news.ycombinator.com/item?id=47542722 Points: 30 # Comments: 13",
+          "summary": "Article URL: https://www.gadgetreview.com/hong-kong-police-can-now-demand-phone-passwords-under-new-security-rules Comments URL: https://news.ycombinator.com/item?id=47542722 Points: 30 # Comments: 13",
+          "pullQuote": "",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Hacker News",
+          "category": "tech",
+          "priority": 3,
+          "title": "Installing a Let's Encrypt TLS Certificate on a Brother Printer with Certbot",
+          "url": "https://owltec.ca/Other/Installing+a+Let%27s+Encrypt+TLS+certificate+on+a+Brother+printer+automatically+with+Certbot+(%26+Cloudflare)",
+          "pubDate": "Fri, 27 Mar 2026 13:49:51 +0000",
+          "excerpt": "Article URL: https://owltec.ca/Other/Installing+a+Let%27s+Encrypt+TLS+certificate+on+a+Brother+printer+automatically+with+Certbot+(%26+Cloudflare) Comments URL: https://news.ycombinator.com/item?id=47542644 Points: 3 # Comments: 0",
+          "summary": "Article URL: https://owltec.ca/Other/Installing+a+Let%27s+Encrypt+TLS+certificate+on+a+Brother+printer+automatically+with+Certbot+(%26+Cloudflare) Comments URL: https://news.ycombinator.com/item?id=47",
+          "pullQuote": "",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        }
+      ]
+    },
+    "politics": {
+      "category": {
+        "id": "politics",
+        "label": "Politics & Current Events",
+        "icon": "",
+        "color": "#2c4a8a"
+      },
+      "items": [
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "Office Hours: Will You Protest Tomorrow?",
+          "url": "https://robertreich.substack.com/p/office-hours-dee",
+          "pubDate": "Fri, 27 Mar 2026 08:02:58 GMT",
+          "excerpt": "And why or why not?",
+          "summary": "And why or why not?",
+          "pullQuote": "",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "The Catastrophe of Trump’s War",
+          "url": "https://robertreich.substack.com/p/the-catastrophe-of-trumps-war",
+          "pubDate": "Thu, 26 Mar 2026 20:42:37 GMT",
+          "excerpt": "And Its Mounting Costs",
+          "summary": "And Its Mounting Costs",
+          "pullQuote": "",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "Robert Reich",
+          "category": "politics",
+          "priority": 1,
+          "title": "Why Are the Wealthy Pouring So Much of Their Wealth into Politics?",
+          "url": "https://robertreich.substack.com/p/why-are-the-wealthy-pouring-so-much",
+          "pubDate": "Thu, 26 Mar 2026 15:02:41 GMT",
+          "excerpt": "It’s simple logic, and the logic holds a deeper lesson — and some good news",
+          "summary": "It’s simple logic, and the logic holds a deeper lesson — and some good news",
+          "pullQuote": "",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Why the ICE Raid in ‘The Pitt’ Matters",
+          "url": "https://www.thebulwark.com/p/why-the-ice-raid-in-the-pitt-matters-hbo",
+          "pubDate": "Fri, 27 Mar 2026 14:40:19 GMT",
+          "excerpt": "The popular HBO show took on masked federal agents causing chaos for hospital patients and personnel.",
+          "summary": "The popular HBO show took on masked federal agents causing chaos for hospital patients and personnel.",
+          "pullQuote": "",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        },
+        {
+          "source": "The Bulwark",
+          "category": "politics",
+          "priority": 1,
+          "title": "Two More Giant Ls for Trump",
+          "url": "https://www.thebulwark.com/p/two-more-giant-ls-for-trump-iran-war-hormuz-oil-polls-senate-dhs-tsa-ice-funding-dod-pentagon-anthropic-ai-court",
+          "pubDate": "Fri, 27 Mar 2026 13:29:34 GMT",
+          "excerpt": "In Iran, in the Senate, and in court, the losses are piling up.",
+          "summary": "In Iran, in the Senate, and in court, the losses are piling up.",
+          "pullQuote": "",
+          "relevanceScore": 5,
+          "featuredCandidate": false
+        }
+      ]
+    }
+  },
+  "featured": {
+    "source": "Excellent AI Prompts",
+    "category": "education",
+    "priority": 1,
+    "title": "5 Local Apps AI Can Build for You That Add Value to Your Daily Life",
+    "url": "https://excellentprompts.substack.com/p/local-apps-ai-can-build-for-you",
+    "pubDate": null,
+    "excerpt": "AI can build personal apps that fit your life, not the other way around. 5 copy-paste prompts to build a dashboard, meal planner, budget tracker, and more.",
+    "summary": "The article provides five copy-paste AI prompts for building personalized applications including dashboards, meal planners, and budget trackers. These apps can be customized to fit specific family needs rather than forcing users to adapt to generic solutions.",
+    "pullQuote": "AI can build personal apps that fit your life, not the other way around",
+    "relevanceScore": 6,
+    "featuredCandidate": false
+  },
+  "briefing": null,
+  "dateStr": "2026-03-27",
+  "generatedAt": "2026-03-27T14:52:39.861Z"
+}
